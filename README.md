@@ -1,12 +1,13 @@
 # למידת חיזוק — מטלת בית
 ## שיטות מדיניות עם פעולה רציפה (Policy Methods with Continuous Action)
 
-טל פיסקוס
-fiskust@biu.ac.il
 
 **תאריך הגשה אחרון:** 17/06/2026
-העבודה יכולה להיעשות בזוגות.
-
+בחרנו ב:
+אלגוריתם : TD3
+סביבות: 
+InvertedPendulum
+Half Cheetah
 ---
 
 ### מטרה
@@ -16,6 +17,8 @@ fiskust@biu.ac.il
 ### תיאור המטלה
 עליכם לממש את הסוכן (agent) מאפס ב-PyTorch ולאמן אותו על **שתי** סביבות MuJoCo שייבחרו מתוך הגיליון (spreadsheet) הבא:
 [גיליון אלגוריתמים וסביבות (Algorithm and Environment spreadsheet)]
+
+https://gymnasium.farama.org/environments/mujoco/
 
 בגיליון זה:
 * כתבו את תעודות הזהות שלכם בשורה של האלגוריתם שבחרתם, במקום פנוי.
