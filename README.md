@@ -5,7 +5,7 @@
 בחרנו ב:
 אלגוריתם : TD3
 סביבות: 
-InvertedPendulum
+InvertedPendulum, 
 Half Cheetah
 ---
 
