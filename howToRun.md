@@ -57,20 +57,3 @@ python record_video.py --env HalfCheetah-v4 \
 
 
 
-
-
-
-
-
-Hyperparameters (vs. paper)
-
-| Parameter | Paper | This code | Note |
-|---|---|---|---|
-| LR (actor/critic) | 1e-3 | 3e-4 | changed |
-| Hidden dim | 400/300 | 256/256 | changed |
-| Batch size | 100 | 256 | changed |
-| τ (soft update) | 0.005 | 0.005 | same |
-| Policy noise σ | 0.2 | 0.2 | same |
-| Policy delay d | 2 | 2 | same |
-| Discount γ | 0.99 | 0.99 | same |
-
