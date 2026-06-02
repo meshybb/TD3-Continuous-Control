@@ -32,7 +32,7 @@ ENV_DEFAULTS = {
 
 
 # --------------------------------------------------------------------------- #
-#  Evaluation                                                                  #
+#  Evaluation                                                                 #
 # --------------------------------------------------------------------------- #
 def evaluate_policy(
     policy: TD3,
@@ -55,7 +55,7 @@ def evaluate_policy(
 
 
 # --------------------------------------------------------------------------- #
-#  Single training run                                                         #
+#  Single training run                                                        #
 # --------------------------------------------------------------------------- #
 def train_td3(
     env_name:        str,
@@ -106,6 +106,9 @@ def train_td3(
 
     eval_rewards = []
     eval_steps   = []
+    
+    # --- ADDED: Track best evaluation reward for checkpointing ---
+    best_eval_reward = -float("inf")
 
     state, _ = env.reset(seed=seed)
     ep_reward = ep_steps = ep_num = 0
@@ -158,19 +161,29 @@ def train_td3(
                 f"elapsed={elapsed:.1f}min ***"
             )
 
+            # --- ADDED: Checkpointing during evaluation ---
+            os.makedirs(save_dir, exist_ok=True)
+            
+            # 1. Save the latest model (overwrites previous to save space)
+            ckpt_path = os.path.join(save_dir, f"{env_name}_run{run_id+1}_seed{seed}.pt")
+            policy.save(ckpt_path)
+            
+            # 2. Save the best model seen so far
+            if avg_r > best_eval_reward:
+                best_eval_reward = avg_r
+                best_ckpt_path = os.path.join(save_dir, f"{env_name}_run{run_id+1}_seed{seed}_best.pt")
+                policy.save(best_ckpt_path)
+                print(f"  [Checkpoint] Saved new best model (Reward: {avg_r:.2f})")
+            # ----------------------------------------------
+
     env.close()
 
-    # Persist policy checkpoint
-    os.makedirs(save_dir, exist_ok=True)
-    ckpt = os.path.join(save_dir, f"{env_name}_run{run_id+1}_seed{seed}.pt")
-    policy.save(ckpt)
-    print(f"  Checkpoint → {ckpt}")
-
+    # The final model is already saved during the last evaluation step.
     return eval_rewards, eval_steps, policy
 
 
 # --------------------------------------------------------------------------- #
-#  Multi-run experiment                                                        #
+#  Multi-run experiment                                                       #
 # --------------------------------------------------------------------------- #
 def run_experiment(env_name, seeds, save_dir="results", **kwargs):
     all_rewards = []
@@ -213,7 +226,7 @@ def run_experiment(env_name, seeds, save_dir="results", **kwargs):
 
 
 # --------------------------------------------------------------------------- #
-#  Plotting                                                                    #
+#  Plotting                                                                   #
 # --------------------------------------------------------------------------- #
 def plot_results(all_rewards, all_steps, env_name, save_dir):
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -242,7 +255,7 @@ def plot_results(all_rewards, all_steps, env_name, save_dir):
 
 
 # --------------------------------------------------------------------------- #
-#  Entry point                                                                 #
+#  Entry point                                                                #
 # --------------------------------------------------------------------------- #
 def main():
     parser = argparse.ArgumentParser(description="Train TD3 on a MuJoCo v4 environment")
