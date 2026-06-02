@@ -2,13 +2,12 @@
 #SBATCH --job-name=td3_halfcheetah
 #SBATCH --output=logs/halfcheetah_%j.out
 #SBATCH --error=logs/halfcheetah_%j.err
-#SBATCH --partition=L4-12h
+#SBATCH --partition=A100-4h
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
-#SBATCH --time=11:00:00
 #SBATCH --requeue
-#SBATCH --mail-user=meshybb@gmail.com
+#SBATCH --mail-user=orli.d.p@gmail.com
 #SBATCH --mail-type=END,FAIL
 #SBATCH --signal=B:SIGUSR1@120
 

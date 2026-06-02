@@ -6,9 +6,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
-#SBATCH --time=03:30:00
 #SBATCH --requeue
-#SBATCH --mail-user=meshybb@gmail.com
+#SBATCH --mail-user=orli.d.p@gmail.com
 #SBATCH --mail-type=END,FAIL
 #SBATCH --signal=B:SIGUSR1@120
 
