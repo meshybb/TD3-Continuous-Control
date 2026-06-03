@@ -7,7 +7,7 @@ Hyperparameters (vs. paper)
 |---|---|---|---|
 | LR (actor/critic) | 1e-3 | 3e-4 | changed |
 | Hidden dim | 400/300 | 256/256 | changed |
-| Batch size | 100 | 256 | changed |
+| Batch size | 100 | 512 | changed |
 | τ (soft update) | 0.005 | 0.005 | same |
 | Policy noise σ | 0.2 | 0.2 | same |
 | Noise clip c | 0.5 | 0.5 | same |
