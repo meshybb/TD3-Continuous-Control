@@ -14,5 +14,5 @@ Hyperparameters (vs. paper)
 | Policy delay d | 2 | 2 | same |
 | Exploration noise | 0.1 | 0.1 | same |
 | Discount γ | 0.99 | 0.99 | same |
-| Start timesteps | 10,000 | 5,000 (InvPend) / 10,000 (HalfCheetah) | changed for InvPend |
+| Start timesteps | 10,000 | 1,000 (InvertedPendulum) / 10,000 (HalfCheetah) | changed for InvertedPendulum |
 | Max timesteps | 1,000,000 | 1,000,000 (InvPend) / 3,000,000 (HalfCheetah) | changed for HalfCheetah |
