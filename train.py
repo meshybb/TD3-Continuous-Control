@@ -1,16 +1,16 @@
 """
-Training script for TD3 on MuJoCo environments.
+Training script for TD3 on MuJoCo environments (Single Seed, Slurm Array ready).
 
 Usage:
-  python train.py --env InvertedPendulum-v4
-  python train.py --env HalfCheetah-v4 --max_timesteps 3000000
-  python train.py --env InvertedPendulum-v4 --num_runs 3 --eval_episodes 10
+  python train.py --env InvertedPendulum-v4 --seed 42
+  python train.py --env HalfCheetah-v4 --max_timesteps 3000000 --seed 55 --resume
 """
 
 import argparse
 import json
 import os
 import time
+import pickle # For saving replay buffer state
 
 import matplotlib
 matplotlib.use("Agg")
@@ -21,25 +21,12 @@ import gymnasium as gym
 
 from td3_agent import TD3, ReplayBuffer
 
-
-# --------------------------------------------------------------------------- #
-#  Environment-specific defaults (deliberately differ from the paper)         #
-# --------------------------------------------------------------------------- #
 ENV_DEFAULTS = {
     "InvertedPendulum-v4": {"max_timesteps": 1_000_000, "start_timesteps": 5_000},
     "HalfCheetah-v4":      {"max_timesteps": 3_000_000, "start_timesteps": 10_000},
 }
 
-
-# --------------------------------------------------------------------------- #
-#  Evaluation                                                                 #
-# --------------------------------------------------------------------------- #
-def evaluate_policy(
-    policy: TD3,
-    env_name: str,
-    seed: int,
-    eval_episodes: int = 10,
-) -> float:
+def evaluate_policy(policy: TD3, env_name: str, seed: int, eval_episodes: int = 10) -> float:
     """Run deterministic (no exploration noise) evaluation episodes."""
     env = gym.make(env_name)
     total = 0.0
@@ -53,31 +40,26 @@ def evaluate_policy(
     env.close()
     return total / eval_episodes
 
-
-# --------------------------------------------------------------------------- #
-#  Single training run                                                        #
-# --------------------------------------------------------------------------- #
-def train_td3(
+def train_td3_single_run(
     env_name:        str,
     seed:            int,
-    max_timesteps:   int   = 1_000_000,
-    start_timesteps: int   = 10_000,
-    eval_freq:       int   = 10_000,
-    batch_size:      int   = 256,
-    discount:        float = 0.99,
-    tau:             float = 0.005,
-    policy_noise:    float = 0.2,
-    noise_clip:      float = 0.5,
-    policy_freq:     int   = 2,
-    expl_noise:      float = 0.1,
-    actor_lr:        float = 3e-4,
-    critic_lr:       float = 3e-4,
-    hidden_dim:      int   = 256,
-    eval_episodes:   int   = 10,
-    save_dir:        str   = "results",
-    run_id:          int   = 0,
+    max_timesteps:   int,
+    start_timesteps: int,
+    eval_freq:       int,
+    batch_size:      int,
+    discount:        float,
+    tau:             float,
+    policy_noise:    float,
+    noise_clip:      float,
+    policy_freq:     int,
+    expl_noise:      float,
+    actor_lr:        float,
+    critic_lr:       float,
+    hidden_dim:      int,
+    eval_episodes:   int,
+    save_dir:        str,
+    resume:          bool = False
 ):
-    """Train a TD3 agent for one run and return the evaluation history."""
     env = gym.make(env_name)
     env.action_space.seed(seed)
     torch.manual_seed(seed)
@@ -88,7 +70,6 @@ def train_td3(
     action_dim = env.action_space.shape[0]
     max_action = float(env.action_space.high[0])
 
-    # Hyperparameters: policy_noise and noise_clip are fractions of max_action
     policy = TD3(
         state_dim    = state_dim,
         action_dim   = action_dim,
@@ -106,31 +87,63 @@ def train_td3(
 
     eval_rewards = []
     eval_steps   = []
-    
-    # --- ADDED: Track best evaluation reward for checkpointing ---
     best_eval_reward = -float("inf")
+    start_t = 1
+
+    # --- Real Resume Logic ---
+    state_file = os.path.join(save_dir, f"{env_name}_seed{seed}_state.pt")
+    if resume and os.path.exists(state_file):
+        print(f"Loading checkpoint from {state_file}...")
+        checkpoint = torch.load(state_file, weights_only=False)
+        
+        # Load Networks
+        policy.actor.load_state_dict(checkpoint['actor_state_dict'])
+        policy.critic.load_state_dict(checkpoint['critic_state_dict'])
+        policy.actor_target.load_state_dict(checkpoint['actor_target_state_dict'])
+        policy.critic_target.load_state_dict(checkpoint['critic_target_state_dict'])
+        
+        # Load Optimizers (Fixed variable names)
+        policy.actor_opt.load_state_dict(checkpoint['actor_optimizer_state_dict'])
+        policy.critic_opt.load_state_dict(checkpoint['critic_optimizer_state_dict'])
+        
+        start_t = checkpoint['step'] + 1
+        eval_rewards = checkpoint['eval_rewards']
+        eval_steps = checkpoint['eval_steps']
+        best_eval_reward = checkpoint.get('best_eval_reward', -float("inf"))
+        
+        # Load Replay Buffer
+        buffer_file = os.path.join(save_dir, f"{env_name}_seed{seed}_buffer.pkl")
+        if os.path.exists(buffer_file):
+             with open(buffer_file, 'rb') as f:
+                 loaded_buffer = pickle.load(f)
+                 replay_buffer.states = loaded_buffer['states']
+                 replay_buffer.actions = loaded_buffer['actions']
+                 replay_buffer.next_states = loaded_buffer['next_states']
+                 replay_buffer.rewards = loaded_buffer['rewards']
+                 replay_buffer.dones = loaded_buffer['dones']
+                 replay_buffer.ptr = loaded_buffer['ptr']
+                 replay_buffer.size = loaded_buffer['size']
+                 print(f"Replay buffer loaded (size: {replay_buffer.size}). Resuming from step {start_t}.")
+        else:
+             print("Warning: Checkpoint found but replay buffer missing. Starting with empty buffer.")
+    # --------------------------------
 
     state, _ = env.reset(seed=seed)
     ep_reward = ep_steps = ep_num = 0
     t0 = time.time()
 
-    for t in range(1, max_timesteps + 1):
+    for t in range(start_t, max_timesteps + 1):
         ep_steps += 1
 
-        # Select action: random warm-up, then policy + Gaussian noise
         if t <= start_timesteps:
             action = env.action_space.sample()
         else:
             noise  = np.random.normal(0, max_action * expl_noise, size=action_dim)
-            action = (policy.select_action(np.array(state)) + noise).clip(
-                -max_action, max_action
-            )
+            action = (policy.select_action(np.array(state)) + noise).clip(-max_action, max_action)
 
         next_state, reward, terminated, truncated, _ = env.step(action)
         ep_reward += reward
 
-        # done_bool = 1 only on true termination, not time-limit truncation.
-        # This ensures we correctly bootstrap through timeout boundaries.
         done_bool = float(terminated)
         replay_buffer.add(state, action, next_state, reward, done_bool)
         state = next_state
@@ -139,167 +152,107 @@ def train_td3(
             policy.train(replay_buffer, batch_size)
 
         if terminated or truncated:
-            print(
-                f"[{env_name}] run={run_id+1} seed={seed:3d} "
-                f"t={t:>9,}  ep={ep_num+1:>4}  "
-                f"ep_reward={ep_reward:>9.2f}  ep_steps={ep_steps}"
-            )
+            print(f"[{env_name}] seed={seed:3d} t={t:>9,}  ep={ep_num+1:>4}  ep_reward={ep_reward:>9.2f}  ep_steps={ep_steps}")
             state, _ = env.reset()
             ep_reward = ep_steps = 0
             ep_num += 1
 
-        # Evaluate every eval_freq steps (no exploration noise)
         if t % eval_freq == 0:
             avg_r   = evaluate_policy(policy, env_name, seed, eval_episodes)
             elapsed = (time.time() - t0) / 60.0
             eval_rewards.append(avg_r)
             eval_steps.append(t)
-            print(
-                f"  *** Eval  t={t:>9,}  "
-                f"avg_reward={avg_r:>9.2f}  "
-                f"({eval_episodes} eps)  "
-                f"elapsed={elapsed:.1f}min ***"
-            )
+            print(f"  *** Eval  t={t:>9,}  avg_reward={avg_r:>9.2f}  ({eval_episodes} eps)  elapsed={elapsed:.1f}min ***")
 
-            # --- ADDED: Checkpointing during evaluation ---
             os.makedirs(save_dir, exist_ok=True)
             
-            # 1. Save the latest model (overwrites previous to save space)
-            ckpt_path = os.path.join(save_dir, f"{env_name}_run{run_id+1}_seed{seed}.pt")
+            # Save Policy Network (.pt)
+            ckpt_path = os.path.join(save_dir, f"{env_name}_seed{seed}.pt")
             policy.save(ckpt_path)
             
-            # 2. Save the best model seen so far
+            # Save Best Policy Network
             if avg_r > best_eval_reward:
                 best_eval_reward = avg_r
-                best_ckpt_path = os.path.join(save_dir, f"{env_name}_run{run_id+1}_seed{seed}_best.pt")
+                best_ckpt_path = os.path.join(save_dir, f"{env_name}_seed{seed}_best.pt")
                 policy.save(best_ckpt_path)
-                print(f"  [Checkpoint] Saved new best model (Reward: {avg_r:.2f})")
-            # ----------------------------------------------
+
+            # --- Save Full State Checkpoint for Resuming ---
+            torch.save({
+                'step': t,
+                'actor_state_dict': policy.actor.state_dict(),
+                'critic_state_dict': policy.critic.state_dict(),
+                'actor_target_state_dict': policy.actor_target.state_dict(),
+                'critic_target_state_dict': policy.critic_target.state_dict(),
+                'actor_optimizer_state_dict': policy.actor_opt.state_dict(), # Fixed variable name
+                'critic_optimizer_state_dict': policy.critic_opt.state_dict(), # Fixed variable name
+                'eval_rewards': eval_rewards,
+                'eval_steps': eval_steps,
+                'best_eval_reward': best_eval_reward
+            }, state_file)
+            
+            # Save Replay Buffer
+            buffer_file = os.path.join(save_dir, f"{env_name}_seed{seed}_buffer.pkl")
+            with open(buffer_file, 'wb') as f:
+                pickle.dump({
+                    'states': replay_buffer.states,
+                    'actions': replay_buffer.actions,
+                    'next_states': replay_buffer.next_states,
+                    'rewards': replay_buffer.rewards,
+                    'dones': replay_buffer.dones,
+                    'ptr': replay_buffer.ptr,
+                    'size': replay_buffer.size
+                }, f)
+            # -----------------------------------------------------
 
     env.close()
 
-    # The final model is already saved during the last evaluation step.
-    return eval_rewards, eval_steps, policy
+    # Save final results JSON for THIS seed
+    results_out = {
+        "env": args.env,
+        "seed": seed,
+        "final_reward": eval_rewards[-1] if eval_rewards else -float("inf"),
+        "eval_rewards": eval_rewards,
+        "eval_steps": eval_steps,
+    }
+    rpath = os.path.join(save_dir, f"{env_name}_seed{seed}_results.json")
+    with open(rpath, "w") as f:
+        json.dump(results_out, f, indent=2)
 
-
-# --------------------------------------------------------------------------- #
-#  Multi-run experiment                                                       #
-# --------------------------------------------------------------------------- #
-def run_experiment(env_name, seeds, save_dir="results", **kwargs):
-    all_rewards = []
-    all_steps   = None
-    best_policy = None
-    best_final  = -float("inf")
-
-    for run_id, seed in enumerate(seeds):
-        sep = "=" * 72
-        print(f"\n{sep}")
-        print(f"  {env_name}  |  Run {run_id+1}/{len(seeds)}  |  Seed {seed}")
-        print(sep)
-
-        rewards, steps, policy = train_td3(
-            env_name = env_name,
-            seed     = seed,
-            save_dir = save_dir,
-            run_id   = run_id,
-            **kwargs,
-        )
-        all_rewards.append(rewards)
-        if all_steps is None:
-            all_steps = steps
-
-        final = rewards[-1] if rewards else -float("inf")
-        if final > best_final:
-            best_final, best_policy = final, policy
-
-        print(f"\n  Run {run_id+1} final eval reward: {final:.2f}")
-
-    finals = [r[-1] for r in all_rewards]
-    sep = "=" * 72
-    print(f"\n{sep}")
-    print(f"  {env_name}  |  Summary over {len(seeds)} runs")
-    print(f"  Final rewards: {[f'{r:.1f}' for r in finals]}")
-    print(f"  Mean ± Std   : {np.mean(finals):.2f} ± {np.std(finals):.2f}")
-    print(sep)
-
-    return all_rewards, all_steps, best_policy, finals
-
-
-# --------------------------------------------------------------------------- #
-#  Plotting                                                                   #
-# --------------------------------------------------------------------------- #
-def plot_results(all_rewards, all_steps, env_name, save_dir):
-    fig, ax = plt.subplots(figsize=(10, 6))
-    colors  = ["royalblue", "darkorange", "forestgreen"]
-
-    for i, rewards in enumerate(all_rewards):
-        ax.plot(all_steps, rewards, color=colors[i % len(colors)],
-                linewidth=1.5, label=f"Run {i+1}", alpha=0.9)
-
-    if len(all_rewards) > 1:
-        mean_r = np.mean(all_rewards, axis=0)
-        ax.plot(all_steps, mean_r, color="crimson", linewidth=2.5,
-                linestyle="--", label="Mean")
-
-    ax.set_xlabel("Training Steps",    fontsize=13)
-    ax.set_ylabel("Evaluation Reward", fontsize=13)
-    ax.set_title(f"TD3 — {env_name}",  fontsize=14)
-    ax.legend(fontsize=11)
-    ax.grid(True, alpha=0.3)
-    fig.tight_layout()
-
-    path = os.path.join(save_dir, f"{env_name}_learning_curves.png")
-    fig.savefig(path, dpi=150)
-    plt.close(fig)
-    print(f"Plot saved → {path}")
-
-
-# --------------------------------------------------------------------------- #
-#  Entry point                                                                #
-# --------------------------------------------------------------------------- #
 def main():
+    global args
     parser = argparse.ArgumentParser(description="Train TD3 on a MuJoCo v4 environment")
 
-    parser.add_argument("--env",             default="InvertedPendulum-v4",
-                        help="Gymnasium MuJoCo environment ID (v4)")
-    parser.add_argument("--max_timesteps",   type=int,   default=None,
-                        help="Total env.step() calls (default: env-specific)")
-    parser.add_argument("--start_timesteps", type=int,   default=None,
-                        help="Random warm-up steps before policy is used")
+    parser.add_argument("--env",             default="InvertedPendulum-v4")
+    parser.add_argument("--max_timesteps",   type=int,   default=None)
+    parser.add_argument("--start_timesteps", type=int,   default=None)
     parser.add_argument("--eval_freq",       type=int,   default=10_000)
     parser.add_argument("--eval_episodes",   type=int,   default=10)
     parser.add_argument("--batch_size",      type=int,   default=256)
     parser.add_argument("--discount",        type=float, default=0.99)
     parser.add_argument("--tau",             type=float, default=0.005)
-    parser.add_argument("--policy_noise",    type=float, default=0.2,
-                        help="Target policy noise std (as fraction of max_action)")
-    parser.add_argument("--noise_clip",      type=float, default=0.5,
-                        help="Target policy noise clip (as fraction of max_action)")
+    parser.add_argument("--policy_noise",    type=float, default=0.2)
+    parser.add_argument("--noise_clip",      type=float, default=0.5)
     parser.add_argument("--policy_freq",     type=int,   default=2)
-    parser.add_argument("--expl_noise",      type=float, default=0.1,
-                        help="Exploration noise std (as fraction of max_action)")
+    parser.add_argument("--expl_noise",      type=float, default=0.1)
     parser.add_argument("--actor_lr",        type=float, default=3e-4)
     parser.add_argument("--critic_lr",       type=float, default=3e-4)
     parser.add_argument("--hidden_dim",      type=int,   default=256)
-    parser.add_argument("--num_runs",        type=int,   default=3)
+    parser.add_argument("--seed",            type=int,   required=True)
     parser.add_argument("--save_dir",        default="results")
+    parser.add_argument("--resume",          action="store_true", help="Resume from checkpoint if exists")
     args = parser.parse_args()
 
-    # Fill env-specific defaults when not provided on the command line
-    defaults = ENV_DEFAULTS.get(
-        args.env, {"max_timesteps": 1_000_000, "start_timesteps": 10_000}
-    )
+    # Fill env-specific defaults
+    defaults = ENV_DEFAULTS.get(args.env, {"max_timesteps": 1_000_000, "start_timesteps": 10_000})
     if args.max_timesteps   is None: args.max_timesteps   = defaults["max_timesteps"]
     if args.start_timesteps is None: args.start_timesteps = defaults["start_timesteps"]
 
-    # Seeds are spread out to ensure diverse coverage
-    seeds = [42 + i * 13 for i in range(args.num_runs)]
-
-    hyperparams = dict(
+    train_td3_single_run(
+        env_name        = args.env,
+        seed            = args.seed,
         max_timesteps   = args.max_timesteps,
         start_timesteps = args.start_timesteps,
         eval_freq       = args.eval_freq,
-        eval_episodes   = args.eval_episodes,
         batch_size      = args.batch_size,
         discount        = args.discount,
         tau             = args.tau,
@@ -310,40 +263,10 @@ def main():
         actor_lr        = args.actor_lr,
         critic_lr       = args.critic_lr,
         hidden_dim      = args.hidden_dim,
+        eval_episodes   = args.eval_episodes,
+        save_dir        = args.save_dir,
+        resume          = args.resume
     )
-
-    print("\nHyperparameters:")
-    for k, v in hyperparams.items():
-        print(f"  {k:20s} = {v}")
-    print(f"  {'seeds':20s} = {seeds}")
-    print()
-
-    all_rewards, all_steps, best_policy, finals = run_experiment(
-        env_name = args.env,
-        seeds    = seeds,
-        save_dir = args.save_dir,
-        **hyperparams,
-    )
-
-    os.makedirs(args.save_dir, exist_ok=True)
-    plot_results(all_rewards, all_steps, args.env, args.save_dir)
-
-    # Save full results to JSON for later analysis / report
-    results_out = {
-        "env":             args.env,
-        "seeds":           seeds,
-        "final_rewards":   finals,
-        "mean":            float(np.mean(finals)),
-        "std":             float(np.std(finals)),
-        "all_rewards":     all_rewards,
-        "all_steps":       all_steps,
-        "hyperparameters": hyperparams,
-    }
-    rpath = os.path.join(args.save_dir, f"{args.env}_results.json")
-    with open(rpath, "w") as f:
-        json.dump(results_out, f, indent=2)
-    print(f"Full results saved → {rpath}")
-
 
 if __name__ == "__main__":
     main()

@@ -4,13 +4,18 @@ Record video of a trained TD3 agent.
 Requires ffmpeg to be installed (conda install ffmpeg  OR  apt install ffmpeg).
 
 Usage:
-  python record_video.py --env InvertedPendulum-v4 \\
-      --ckpt results/InvertedPendulum-v4_run1_seed42.pt \\
+  python record_video.py --env InvertedPendulum-v4 \
+      --ckpt results/InvertedPendulum-v4_run1_seed42.pt \
       --episodes 3 --out_dir videos
 """
 
 import argparse
 import os
+
+# --- הפתרון לשרתים ללא מסך (Headless Rendering) ---
+# אנחנו אומרים ל-MuJoCo להשתמש במרנדר שלא דורש תצוגה פיזית.
+os.environ["MUJOCO_GL"] = "egl" 
+# ---------------------------------------------------
 
 import numpy as np
 import gymnasium as gym

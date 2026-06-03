@@ -1,0 +1,963 @@
+Host: dsiasaf01
+Job ID: 16635168, Array Task ID: 0
+Seed for this run: 42
+CUDA_VISIBLE_DEVICES: 0
+Start: Tue Jun  2 10:44:33 PM IDT 2026
+Tue Jun  2 22:44:33 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:81:00.0 Off |                    0 |
+| N/A   35C    P0             62W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading checkpoint from results/HalfCheetah-v4_seed42_state.pt...
+Replay buffer loaded (size: 1000000). Resuming from step 2150001.
+[HalfCheetah-v4] seed= 42 t=2,151,000  ep=   1  ep_reward= 10507.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,152,000  ep=   2  ep_reward= 10601.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,153,000  ep=   3  ep_reward= 10741.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,154,000  ep=   4  ep_reward= 10894.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,155,000  ep=   5  ep_reward= 10654.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,156,000  ep=   6  ep_reward= 10705.89  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,157,000  ep=   7  ep_reward= 10443.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,158,000  ep=   8  ep_reward= 10650.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,159,000  ep=   9  ep_reward= 10491.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,160,000  ep=  10  ep_reward= 10834.77  ep_steps=1000
+  *** Eval  t=2,160,000  avg_reward= 11509.10  (10 eps)  elapsed=0.7min ***
+[HalfCheetah-v4] seed= 42 t=2,161,000  ep=  11  ep_reward= 10907.95  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,162,000  ep=  12  ep_reward= 10668.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,163,000  ep=  13  ep_reward= 10826.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,164,000  ep=  14  ep_reward= 10614.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,165,000  ep=  15  ep_reward= 10800.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,166,000  ep=  16  ep_reward= 10445.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,167,000  ep=  17  ep_reward= 10873.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,168,000  ep=  18  ep_reward= 10368.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,169,000  ep=  19  ep_reward= 10718.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,170,000  ep=  20  ep_reward= 10668.42  ep_steps=1000
+  *** Eval  t=2,170,000  avg_reward= 11493.75  (10 eps)  elapsed=1.5min ***
+[HalfCheetah-v4] seed= 42 t=2,171,000  ep=  21  ep_reward= 10753.40  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,172,000  ep=  22  ep_reward= 10354.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,173,000  ep=  23  ep_reward= 10539.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,174,000  ep=  24  ep_reward= 10854.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,175,000  ep=  25  ep_reward= 10769.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,176,000  ep=  26  ep_reward= 10841.61  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,177,000  ep=  27  ep_reward= 10787.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,178,000  ep=  28  ep_reward= 10675.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,179,000  ep=  29  ep_reward= 10673.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,180,000  ep=  30  ep_reward= 10784.86  ep_steps=1000
+  *** Eval  t=2,180,000  avg_reward= 11572.74  (10 eps)  elapsed=2.2min ***
+[HalfCheetah-v4] seed= 42 t=2,181,000  ep=  31  ep_reward= 10738.69  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,182,000  ep=  32  ep_reward= 10596.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,183,000  ep=  33  ep_reward= 11039.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,184,000  ep=  34  ep_reward= 10650.93  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,185,000  ep=  35  ep_reward= 10914.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,186,000  ep=  36  ep_reward= 10680.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,187,000  ep=  37  ep_reward= 10610.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,188,000  ep=  38  ep_reward= 10644.67  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,189,000  ep=  39  ep_reward= 10935.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,190,000  ep=  40  ep_reward= 10803.25  ep_steps=1000
+  *** Eval  t=2,190,000  avg_reward= 11425.69  (10 eps)  elapsed=2.9min ***
+[HalfCheetah-v4] seed= 42 t=2,191,000  ep=  41  ep_reward= 10711.47  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,192,000  ep=  42  ep_reward= 10667.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,193,000  ep=  43  ep_reward= 10676.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,194,000  ep=  44  ep_reward= 10573.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,195,000  ep=  45  ep_reward= 10506.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,196,000  ep=  46  ep_reward= 10923.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,197,000  ep=  47  ep_reward= 10703.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,198,000  ep=  48  ep_reward= 10784.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,199,000  ep=  49  ep_reward= 10769.04  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,200,000  ep=  50  ep_reward= 10837.22  ep_steps=1000
+  *** Eval  t=2,200,000  avg_reward= 11484.50  (10 eps)  elapsed=3.7min ***
+[HalfCheetah-v4] seed= 42 t=2,201,000  ep=  51  ep_reward= 10557.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,202,000  ep=  52  ep_reward= 10586.69  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,203,000  ep=  53  ep_reward= 10972.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,204,000  ep=  54  ep_reward= 10716.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,205,000  ep=  55  ep_reward= 10835.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,206,000  ep=  56  ep_reward= 10787.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,207,000  ep=  57  ep_reward= 10941.67  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,208,000  ep=  58  ep_reward= 10474.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,209,000  ep=  59  ep_reward= 10855.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,210,000  ep=  60  ep_reward= 10188.98  ep_steps=1000
+  *** Eval  t=2,210,000  avg_reward= 11542.50  (10 eps)  elapsed=4.4min ***
+[HalfCheetah-v4] seed= 42 t=2,211,000  ep=  61  ep_reward= 11000.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,212,000  ep=  62  ep_reward= 10700.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,213,000  ep=  63  ep_reward= 11109.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,214,000  ep=  64  ep_reward= 10805.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,215,000  ep=  65  ep_reward= 10911.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,216,000  ep=  66  ep_reward= 10818.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,217,000  ep=  67  ep_reward= 10742.79  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,218,000  ep=  68  ep_reward= 10894.84  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,219,000  ep=  69  ep_reward= 10690.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,220,000  ep=  70  ep_reward= 10780.76  ep_steps=1000
+  *** Eval  t=2,220,000  avg_reward= 11534.59  (10 eps)  elapsed=5.2min ***
+[HalfCheetah-v4] seed= 42 t=2,221,000  ep=  71  ep_reward= 10843.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,222,000  ep=  72  ep_reward= 10746.40  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,223,000  ep=  73  ep_reward= 10748.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,224,000  ep=  74  ep_reward= 10775.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,225,000  ep=  75  ep_reward= 10578.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,226,000  ep=  76  ep_reward= 10472.33  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,227,000  ep=  77  ep_reward= 10697.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,228,000  ep=  78  ep_reward= 10948.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,229,000  ep=  79  ep_reward= 10907.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,230,000  ep=  80  ep_reward= 10705.57  ep_steps=1000
+  *** Eval  t=2,230,000  avg_reward= 11667.73  (10 eps)  elapsed=5.9min ***
+[HalfCheetah-v4] seed= 42 t=2,231,000  ep=  81  ep_reward= 10791.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,232,000  ep=  82  ep_reward= 10790.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,233,000  ep=  83  ep_reward= 10864.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,234,000  ep=  84  ep_reward= 10889.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,235,000  ep=  85  ep_reward= 11031.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,236,000  ep=  86  ep_reward= 10499.67  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,237,000  ep=  87  ep_reward= 10627.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,238,000  ep=  88  ep_reward= 10059.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,239,000  ep=  89  ep_reward= 10985.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,240,000  ep=  90  ep_reward= 10641.75  ep_steps=1000
+  *** Eval  t=2,240,000  avg_reward= 10560.25  (10 eps)  elapsed=6.6min ***
+[HalfCheetah-v4] seed= 42 t=2,241,000  ep=  91  ep_reward= 10864.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,242,000  ep=  92  ep_reward= 11098.76  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,243,000  ep=  93  ep_reward= 10947.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,244,000  ep=  94  ep_reward= 10505.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,245,000  ep=  95  ep_reward= 10909.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,246,000  ep=  96  ep_reward= 10763.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,247,000  ep=  97  ep_reward= 10883.33  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,248,000  ep=  98  ep_reward= 10812.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,249,000  ep=  99  ep_reward= 10793.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,250,000  ep= 100  ep_reward= 10646.64  ep_steps=1000
+  *** Eval  t=2,250,000  avg_reward= 11642.20  (10 eps)  elapsed=7.3min ***
+[HalfCheetah-v4] seed= 42 t=2,251,000  ep= 101  ep_reward= 10867.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,252,000  ep= 102  ep_reward= 10712.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,253,000  ep= 103  ep_reward= 10769.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,254,000  ep= 104  ep_reward= 10673.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,255,000  ep= 105  ep_reward= 10666.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,256,000  ep= 106  ep_reward= 10835.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,257,000  ep= 107  ep_reward= 10769.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,258,000  ep= 108  ep_reward= 10852.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,259,000  ep= 109  ep_reward= 10751.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,260,000  ep= 110  ep_reward= 10404.79  ep_steps=1000
+  *** Eval  t=2,260,000  avg_reward= 11587.00  (10 eps)  elapsed=8.1min ***
+[HalfCheetah-v4] seed= 42 t=2,261,000  ep= 111  ep_reward= 10656.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,262,000  ep= 112  ep_reward= 10297.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,263,000  ep= 113  ep_reward= 10928.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,264,000  ep= 114  ep_reward= 11061.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,265,000  ep= 115  ep_reward= 10958.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,266,000  ep= 116  ep_reward= 10920.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,267,000  ep= 117  ep_reward= 11062.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,268,000  ep= 118  ep_reward= 10696.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,269,000  ep= 119  ep_reward= 11001.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,270,000  ep= 120  ep_reward= 10432.96  ep_steps=1000
+  *** Eval  t=2,270,000  avg_reward= 11628.33  (10 eps)  elapsed=8.8min ***
+[HalfCheetah-v4] seed= 42 t=2,271,000  ep= 121  ep_reward= 10579.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,272,000  ep= 122  ep_reward= 10922.74  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,273,000  ep= 123  ep_reward= 10999.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,274,000  ep= 124  ep_reward= 10834.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,275,000  ep= 125  ep_reward= 10860.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,276,000  ep= 126  ep_reward= 10416.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,277,000  ep= 127  ep_reward= 10683.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,278,000  ep= 128  ep_reward= 10810.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,279,000  ep= 129  ep_reward= 10926.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,280,000  ep= 130  ep_reward= 10537.65  ep_steps=1000
+  *** Eval  t=2,280,000  avg_reward= 11744.94  (10 eps)  elapsed=9.5min ***
+[HalfCheetah-v4] seed= 42 t=2,281,000  ep= 131  ep_reward= 10168.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,282,000  ep= 132  ep_reward= 10872.79  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,283,000  ep= 133  ep_reward= 11107.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,284,000  ep= 134  ep_reward= 10914.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,285,000  ep= 135  ep_reward= 11012.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,286,000  ep= 136  ep_reward= 11013.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,287,000  ep= 137  ep_reward= 10829.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,288,000  ep= 138  ep_reward= 10646.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,289,000  ep= 139  ep_reward= 10686.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,290,000  ep= 140  ep_reward= 10822.99  ep_steps=1000
+  *** Eval  t=2,290,000  avg_reward= 11747.09  (10 eps)  elapsed=10.3min ***
+[HalfCheetah-v4] seed= 42 t=2,291,000  ep= 141  ep_reward= 10803.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,292,000  ep= 142  ep_reward= 11066.79  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,293,000  ep= 143  ep_reward=   612.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,294,000  ep= 144  ep_reward= 11118.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,295,000  ep= 145  ep_reward= 10847.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,296,000  ep= 146  ep_reward= 10798.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,297,000  ep= 147  ep_reward= 10878.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,298,000  ep= 148  ep_reward= 10728.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,299,000  ep= 149  ep_reward= 10856.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,300,000  ep= 150  ep_reward= 10707.24  ep_steps=1000
+  *** Eval  t=2,300,000  avg_reward= 11701.39  (10 eps)  elapsed=11.0min ***
+[HalfCheetah-v4] seed= 42 t=2,301,000  ep= 151  ep_reward= 10873.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,302,000  ep= 152  ep_reward= 10848.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,303,000  ep= 153  ep_reward= 10879.73  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,304,000  ep= 154  ep_reward= 11048.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,305,000  ep= 155  ep_reward= 11019.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,306,000  ep= 156  ep_reward= 11075.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,307,000  ep= 157  ep_reward= 10906.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,308,000  ep= 158  ep_reward= 10935.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,309,000  ep= 159  ep_reward= 10986.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,310,000  ep= 160  ep_reward= 10768.14  ep_steps=1000
+  *** Eval  t=2,310,000  avg_reward= 11681.41  (10 eps)  elapsed=11.7min ***
+[HalfCheetah-v4] seed= 42 t=2,311,000  ep= 161  ep_reward= 10819.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,312,000  ep= 162  ep_reward= 10737.11  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,313,000  ep= 163  ep_reward= 11201.69  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,314,000  ep= 164  ep_reward=  3112.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,315,000  ep= 165  ep_reward= 10642.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,316,000  ep= 166  ep_reward= 10875.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,317,000  ep= 167  ep_reward= 10774.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,318,000  ep= 168  ep_reward= 10888.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,319,000  ep= 169  ep_reward= 10728.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,320,000  ep= 170  ep_reward= 10935.83  ep_steps=1000
+  *** Eval  t=2,320,000  avg_reward= 11452.59  (10 eps)  elapsed=12.5min ***
+[HalfCheetah-v4] seed= 42 t=2,321,000  ep= 171  ep_reward= 11200.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,322,000  ep= 172  ep_reward= 10748.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,323,000  ep= 173  ep_reward= 10579.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,324,000  ep= 174  ep_reward= 11034.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,325,000  ep= 175  ep_reward= 10995.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,326,000  ep= 176  ep_reward= 11170.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,327,000  ep= 177  ep_reward= 11108.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,328,000  ep= 178  ep_reward= 10789.46  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,329,000  ep= 179  ep_reward= 10885.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,330,000  ep= 180  ep_reward= 10932.50  ep_steps=1000
+  *** Eval  t=2,330,000  avg_reward= 11794.21  (10 eps)  elapsed=13.2min ***
+[HalfCheetah-v4] seed= 42 t=2,331,000  ep= 181  ep_reward= 11138.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,332,000  ep= 182  ep_reward= 11219.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,333,000  ep= 183  ep_reward= 11017.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,334,000  ep= 184  ep_reward= 11038.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,335,000  ep= 185  ep_reward= 11051.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,336,000  ep= 186  ep_reward= 11072.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,337,000  ep= 187  ep_reward= 10900.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,338,000  ep= 188  ep_reward= 11063.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,339,000  ep= 189  ep_reward= 10823.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,340,000  ep= 190  ep_reward= 11134.37  ep_steps=1000
+  *** Eval  t=2,340,000  avg_reward= 11823.69  (10 eps)  elapsed=13.9min ***
+[HalfCheetah-v4] seed= 42 t=2,341,000  ep= 191  ep_reward= 10719.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,342,000  ep= 192  ep_reward= 11025.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,343,000  ep= 193  ep_reward= 10617.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,344,000  ep= 194  ep_reward= 10812.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,345,000  ep= 195  ep_reward= 11236.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,346,000  ep= 196  ep_reward= 10861.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,347,000  ep= 197  ep_reward= 11041.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,348,000  ep= 198  ep_reward= 11102.71  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,349,000  ep= 199  ep_reward= 10904.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,350,000  ep= 200  ep_reward= 11084.11  ep_steps=1000
+  *** Eval  t=2,350,000  avg_reward= 11742.38  (10 eps)  elapsed=14.7min ***
+[HalfCheetah-v4] seed= 42 t=2,351,000  ep= 201  ep_reward= 10826.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,352,000  ep= 202  ep_reward= 10808.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,353,000  ep= 203  ep_reward= 11105.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,354,000  ep= 204  ep_reward= 10642.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,355,000  ep= 205  ep_reward= 10954.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,356,000  ep= 206  ep_reward= 10797.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,357,000  ep= 207  ep_reward= 11131.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,358,000  ep= 208  ep_reward= 11015.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,359,000  ep= 209  ep_reward= 10891.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,360,000  ep= 210  ep_reward= 11196.52  ep_steps=1000
+  *** Eval  t=2,360,000  avg_reward= 11658.31  (10 eps)  elapsed=15.4min ***
+[HalfCheetah-v4] seed= 42 t=2,361,000  ep= 211  ep_reward= 10956.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,362,000  ep= 212  ep_reward= 11087.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,363,000  ep= 213  ep_reward= 11059.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,364,000  ep= 214  ep_reward= 11070.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,365,000  ep= 215  ep_reward= 11018.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,366,000  ep= 216  ep_reward= 10920.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,367,000  ep= 217  ep_reward= 10831.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,368,000  ep= 218  ep_reward= 11326.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,369,000  ep= 219  ep_reward= 10509.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,370,000  ep= 220  ep_reward= 11071.28  ep_steps=1000
+  *** Eval  t=2,370,000  avg_reward= 11757.23  (10 eps)  elapsed=16.1min ***
+[HalfCheetah-v4] seed= 42 t=2,371,000  ep= 221  ep_reward= 11123.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,372,000  ep= 222  ep_reward= 11093.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,373,000  ep= 223  ep_reward= 10939.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,374,000  ep= 224  ep_reward= 10861.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,375,000  ep= 225  ep_reward= 10960.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,376,000  ep= 226  ep_reward= 10998.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,377,000  ep= 227  ep_reward= 11079.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,378,000  ep= 228  ep_reward= 10948.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,379,000  ep= 229  ep_reward= 10974.95  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,380,000  ep= 230  ep_reward= 10865.34  ep_steps=1000
+  *** Eval  t=2,380,000  avg_reward= 11944.03  (10 eps)  elapsed=16.8min ***
+[HalfCheetah-v4] seed= 42 t=2,381,000  ep= 231  ep_reward= 11090.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,382,000  ep= 232  ep_reward= 10923.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,383,000  ep= 233  ep_reward= 10918.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,384,000  ep= 234  ep_reward= 11010.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,385,000  ep= 235  ep_reward= 10963.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,386,000  ep= 236  ep_reward= 11038.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,387,000  ep= 237  ep_reward= 11194.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,388,000  ep= 238  ep_reward= 11104.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,389,000  ep= 239  ep_reward= 11208.79  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,390,000  ep= 240  ep_reward= 11188.92  ep_steps=1000
+  *** Eval  t=2,390,000  avg_reward= 11875.72  (10 eps)  elapsed=17.6min ***
+[HalfCheetah-v4] seed= 42 t=2,391,000  ep= 241  ep_reward= 11148.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,392,000  ep= 242  ep_reward= 10891.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,393,000  ep= 243  ep_reward= 10818.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,394,000  ep= 244  ep_reward= 11036.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,395,000  ep= 245  ep_reward= 11251.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,396,000  ep= 246  ep_reward= 11113.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,397,000  ep= 247  ep_reward= 11017.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,398,000  ep= 248  ep_reward= 11215.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,399,000  ep= 249  ep_reward= 11164.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,400,000  ep= 250  ep_reward= 11138.51  ep_steps=1000
+  *** Eval  t=2,400,000  avg_reward= 11804.21  (10 eps)  elapsed=18.3min ***
+[HalfCheetah-v4] seed= 42 t=2,401,000  ep= 251  ep_reward= 11040.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,402,000  ep= 252  ep_reward= 10878.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,403,000  ep= 253  ep_reward= 11200.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,404,000  ep= 254  ep_reward= 11112.47  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,405,000  ep= 255  ep_reward= 11309.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,406,000  ep= 256  ep_reward= 11218.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,407,000  ep= 257  ep_reward= 10631.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,408,000  ep= 258  ep_reward= 10896.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,409,000  ep= 259  ep_reward= 11093.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,410,000  ep= 260  ep_reward= 10755.93  ep_steps=1000
+  *** Eval  t=2,410,000  avg_reward= 11839.98  (10 eps)  elapsed=19.0min ***
+[HalfCheetah-v4] seed= 42 t=2,411,000  ep= 261  ep_reward= 11015.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,412,000  ep= 262  ep_reward= 11008.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,413,000  ep= 263  ep_reward=  6356.93  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,414,000  ep= 264  ep_reward= 10871.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,415,000  ep= 265  ep_reward= 10978.74  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,416,000  ep= 266  ep_reward= 11259.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,417,000  ep= 267  ep_reward= 11082.98  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,418,000  ep= 268  ep_reward= 10640.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,419,000  ep= 269  ep_reward= 10672.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,420,000  ep= 270  ep_reward= 10882.58  ep_steps=1000
+  *** Eval  t=2,420,000  avg_reward= 11794.51  (10 eps)  elapsed=19.8min ***
+[HalfCheetah-v4] seed= 42 t=2,421,000  ep= 271  ep_reward= 11288.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,422,000  ep= 272  ep_reward= 11222.95  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,423,000  ep= 273  ep_reward= 11092.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,424,000  ep= 274  ep_reward= 11150.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,425,000  ep= 275  ep_reward= 11121.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,426,000  ep= 276  ep_reward= 11003.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,427,000  ep= 277  ep_reward= 11304.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,428,000  ep= 278  ep_reward= 11097.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,429,000  ep= 279  ep_reward= 11321.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,430,000  ep= 280  ep_reward= 10918.40  ep_steps=1000
+  *** Eval  t=2,430,000  avg_reward= 11913.82  (10 eps)  elapsed=20.5min ***
+[HalfCheetah-v4] seed= 42 t=2,431,000  ep= 281  ep_reward= 11123.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,432,000  ep= 282  ep_reward= 11183.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,433,000  ep= 283  ep_reward=  4678.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,434,000  ep= 284  ep_reward= 11063.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,435,000  ep= 285  ep_reward= 10687.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,436,000  ep= 286  ep_reward= 11132.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,437,000  ep= 287  ep_reward= 11333.84  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,438,000  ep= 288  ep_reward= 11193.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,439,000  ep= 289  ep_reward= 11323.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,440,000  ep= 290  ep_reward= 11204.77  ep_steps=1000
+  *** Eval  t=2,440,000  avg_reward= 12014.71  (10 eps)  elapsed=21.2min ***
+[HalfCheetah-v4] seed= 42 t=2,441,000  ep= 291  ep_reward= 11358.59  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,442,000  ep= 292  ep_reward= 11223.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,443,000  ep= 293  ep_reward= 11145.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,444,000  ep= 294  ep_reward= 11071.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,445,000  ep= 295  ep_reward= 11233.69  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,446,000  ep= 296  ep_reward= 11250.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,447,000  ep= 297  ep_reward=  4382.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,448,000  ep= 298  ep_reward= 11389.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,449,000  ep= 299  ep_reward= 11378.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,450,000  ep= 300  ep_reward= 11015.00  ep_steps=1000
+  *** Eval  t=2,450,000  avg_reward= 11902.04  (10 eps)  elapsed=22.0min ***
+[HalfCheetah-v4] seed= 42 t=2,451,000  ep= 301  ep_reward= 11246.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,452,000  ep= 302  ep_reward= 11202.61  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,453,000  ep= 303  ep_reward= 11087.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,454,000  ep= 304  ep_reward= 11195.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,455,000  ep= 305  ep_reward= 11398.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,456,000  ep= 306  ep_reward= 11061.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,457,000  ep= 307  ep_reward= 11103.73  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,458,000  ep= 308  ep_reward= 10946.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,459,000  ep= 309  ep_reward= 11476.98  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,460,000  ep= 310  ep_reward= 11441.82  ep_steps=1000
+  *** Eval  t=2,460,000  avg_reward= 11983.45  (10 eps)  elapsed=22.7min ***
+[HalfCheetah-v4] seed= 42 t=2,461,000  ep= 311  ep_reward= 11224.93  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,462,000  ep= 312  ep_reward= 11110.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,463,000  ep= 313  ep_reward= 11367.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,464,000  ep= 314  ep_reward= 11122.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,465,000  ep= 315  ep_reward= 11292.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,466,000  ep= 316  ep_reward= 10984.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,467,000  ep= 317  ep_reward= 11243.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,468,000  ep= 318  ep_reward= 11365.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,469,000  ep= 319  ep_reward= 11100.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,470,000  ep= 320  ep_reward= 11042.62  ep_steps=1000
+  *** Eval  t=2,470,000  avg_reward= 12016.19  (10 eps)  elapsed=23.4min ***
+[HalfCheetah-v4] seed= 42 t=2,471,000  ep= 321  ep_reward= 11212.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,472,000  ep= 322  ep_reward= 11209.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,473,000  ep= 323  ep_reward= 11214.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,474,000  ep= 324  ep_reward= 10936.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,475,000  ep= 325  ep_reward= 11016.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,476,000  ep= 326  ep_reward= 11250.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,477,000  ep= 327  ep_reward= 11126.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,478,000  ep= 328  ep_reward= 11189.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,479,000  ep= 329  ep_reward= 11115.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,480,000  ep= 330  ep_reward= 11145.49  ep_steps=1000
+  *** Eval  t=2,480,000  avg_reward= 12031.58  (10 eps)  elapsed=24.2min ***
+[HalfCheetah-v4] seed= 42 t=2,481,000  ep= 331  ep_reward= 11361.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,482,000  ep= 332  ep_reward= 11252.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,483,000  ep= 333  ep_reward= 11087.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,484,000  ep= 334  ep_reward= 10947.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,485,000  ep= 335  ep_reward= 11283.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,486,000  ep= 336  ep_reward= 11336.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,487,000  ep= 337  ep_reward= 10115.11  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,488,000  ep= 338  ep_reward=  1898.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,489,000  ep= 339  ep_reward= 11028.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,490,000  ep= 340  ep_reward= 11183.84  ep_steps=1000
+  *** Eval  t=2,490,000  avg_reward= 11979.54  (10 eps)  elapsed=24.9min ***
+[HalfCheetah-v4] seed= 42 t=2,491,000  ep= 341  ep_reward= 10930.11  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,492,000  ep= 342  ep_reward= 11326.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,493,000  ep= 343  ep_reward= 10729.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,494,000  ep= 344  ep_reward= 11060.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,495,000  ep= 345  ep_reward= 11375.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,496,000  ep= 346  ep_reward= 11247.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,497,000  ep= 347  ep_reward= 11591.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,498,000  ep= 348  ep_reward= 11189.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,499,000  ep= 349  ep_reward= 11244.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,500,000  ep= 350  ep_reward= 11069.13  ep_steps=1000
+  *** Eval  t=2,500,000  avg_reward= 11852.36  (10 eps)  elapsed=25.6min ***
+[HalfCheetah-v4] seed= 42 t=2,501,000  ep= 351  ep_reward= 11064.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,502,000  ep= 352  ep_reward= 11127.76  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,503,000  ep= 353  ep_reward= 10827.89  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,504,000  ep= 354  ep_reward= 11286.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,505,000  ep= 355  ep_reward= 11574.67  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,506,000  ep= 356  ep_reward= 11116.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,507,000  ep= 357  ep_reward= 10921.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,508,000  ep= 358  ep_reward= 11288.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,509,000  ep= 359  ep_reward= 10697.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,510,000  ep= 360  ep_reward= 11362.31  ep_steps=1000
+  *** Eval  t=2,510,000  avg_reward= 11990.62  (10 eps)  elapsed=26.4min ***
+[HalfCheetah-v4] seed= 42 t=2,511,000  ep= 361  ep_reward= 11135.46  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,512,000  ep= 362  ep_reward= 11481.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,513,000  ep= 363  ep_reward= 10322.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,514,000  ep= 364  ep_reward= 11067.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,515,000  ep= 365  ep_reward= 11227.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,516,000  ep= 366  ep_reward= 11207.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,517,000  ep= 367  ep_reward= 10927.59  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,518,000  ep= 368  ep_reward= 11194.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,519,000  ep= 369  ep_reward= 11122.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,520,000  ep= 370  ep_reward= 11488.40  ep_steps=1000
+  *** Eval  t=2,520,000  avg_reward= 11947.90  (10 eps)  elapsed=27.1min ***
+[HalfCheetah-v4] seed= 42 t=2,521,000  ep= 371  ep_reward= 11351.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,522,000  ep= 372  ep_reward= 11271.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,523,000  ep= 373  ep_reward= 11162.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,524,000  ep= 374  ep_reward= 11103.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,525,000  ep= 375  ep_reward= 11266.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,526,000  ep= 376  ep_reward= 10789.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,527,000  ep= 377  ep_reward= 11331.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,528,000  ep= 378  ep_reward= 11029.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,529,000  ep= 379  ep_reward=  2482.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,530,000  ep= 380  ep_reward= 11089.32  ep_steps=1000
+  *** Eval  t=2,530,000  avg_reward= 12053.52  (10 eps)  elapsed=27.8min ***
+[HalfCheetah-v4] seed= 42 t=2,531,000  ep= 381  ep_reward= 11097.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,532,000  ep= 382  ep_reward= 11300.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,533,000  ep= 383  ep_reward= 11246.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,534,000  ep= 384  ep_reward= 11295.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,535,000  ep= 385  ep_reward= 11257.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,536,000  ep= 386  ep_reward= 11189.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,537,000  ep= 387  ep_reward= 10915.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,538,000  ep= 388  ep_reward= 10987.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,539,000  ep= 389  ep_reward= 10857.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,540,000  ep= 390  ep_reward= 11559.38  ep_steps=1000
+  *** Eval  t=2,540,000  avg_reward= 12119.82  (10 eps)  elapsed=28.5min ***
+[HalfCheetah-v4] seed= 42 t=2,541,000  ep= 391  ep_reward= 11358.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,542,000  ep= 392  ep_reward= 11312.40  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,543,000  ep= 393  ep_reward= 11238.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,544,000  ep= 394  ep_reward= 11301.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,545,000  ep= 395  ep_reward= 11253.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,546,000  ep= 396  ep_reward= 11027.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,547,000  ep= 397  ep_reward= 11243.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,548,000  ep= 398  ep_reward= 11252.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,549,000  ep= 399  ep_reward= 11022.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,550,000  ep= 400  ep_reward= 11203.35  ep_steps=1000
+  *** Eval  t=2,550,000  avg_reward= 11890.63  (10 eps)  elapsed=29.3min ***
+[HalfCheetah-v4] seed= 42 t=2,551,000  ep= 401  ep_reward= 11406.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,552,000  ep= 402  ep_reward= 11364.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,553,000  ep= 403  ep_reward= 11317.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,554,000  ep= 404  ep_reward= 11015.76  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,555,000  ep= 405  ep_reward= 11215.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,556,000  ep= 406  ep_reward= 11325.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,557,000  ep= 407  ep_reward= 11282.92  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,558,000  ep= 408  ep_reward= 11147.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,559,000  ep= 409  ep_reward= 11485.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,560,000  ep= 410  ep_reward= 10890.08  ep_steps=1000
+  *** Eval  t=2,560,000  avg_reward= 11978.03  (10 eps)  elapsed=30.0min ***
+[HalfCheetah-v4] seed= 42 t=2,561,000  ep= 411  ep_reward= 10651.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,562,000  ep= 412  ep_reward= 10848.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,563,000  ep= 413  ep_reward= 11227.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,564,000  ep= 414  ep_reward= 11527.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,565,000  ep= 415  ep_reward= 11412.10  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,566,000  ep= 416  ep_reward= 11045.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,567,000  ep= 417  ep_reward= 11392.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,568,000  ep= 418  ep_reward= 11105.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,569,000  ep= 419  ep_reward= 11014.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,570,000  ep= 420  ep_reward= 11306.83  ep_steps=1000
+  *** Eval  t=2,570,000  avg_reward= 12037.18  (10 eps)  elapsed=30.7min ***
+[HalfCheetah-v4] seed= 42 t=2,571,000  ep= 421  ep_reward= 11264.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,572,000  ep= 422  ep_reward= 11176.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,573,000  ep= 423  ep_reward= 11180.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,574,000  ep= 424  ep_reward= 11341.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,575,000  ep= 425  ep_reward= 11553.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,576,000  ep= 426  ep_reward= 11200.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,577,000  ep= 427  ep_reward= 10937.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,578,000  ep= 428  ep_reward= 11406.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,579,000  ep= 429  ep_reward= 11158.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,580,000  ep= 430  ep_reward= 11154.32  ep_steps=1000
+  *** Eval  t=2,580,000  avg_reward= 12341.41  (10 eps)  elapsed=31.5min ***
+[HalfCheetah-v4] seed= 42 t=2,581,000  ep= 431  ep_reward= 10933.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,582,000  ep= 432  ep_reward= 11078.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,583,000  ep= 433  ep_reward= 11275.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,584,000  ep= 434  ep_reward= 11052.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,585,000  ep= 435  ep_reward= 11407.74  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,586,000  ep= 436  ep_reward= 11197.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,587,000  ep= 437  ep_reward= 11668.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,588,000  ep= 438  ep_reward= 11128.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,589,000  ep= 439  ep_reward= 11340.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,590,000  ep= 440  ep_reward=  7540.17  ep_steps=1000
+  *** Eval  t=2,590,000  avg_reward= 12363.74  (10 eps)  elapsed=32.2min ***
+[HalfCheetah-v4] seed= 42 t=2,591,000  ep= 441  ep_reward= 11467.61  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,592,000  ep= 442  ep_reward= 11282.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,593,000  ep= 443  ep_reward= 11349.89  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,594,000  ep= 444  ep_reward= 11596.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,595,000  ep= 445  ep_reward= 11379.11  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,596,000  ep= 446  ep_reward= 11236.64  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,597,000  ep= 447  ep_reward= 10575.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,598,000  ep= 448  ep_reward= 10931.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,599,000  ep= 449  ep_reward= 11068.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,600,000  ep= 450  ep_reward= 11465.13  ep_steps=1000
+  *** Eval  t=2,600,000  avg_reward= 12231.16  (10 eps)  elapsed=32.9min ***
+[HalfCheetah-v4] seed= 42 t=2,601,000  ep= 451  ep_reward= 11674.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,602,000  ep= 452  ep_reward= 11375.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,603,000  ep= 453  ep_reward= 11488.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,604,000  ep= 454  ep_reward= 11478.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,605,000  ep= 455  ep_reward= 11301.30  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,606,000  ep= 456  ep_reward= 11308.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,607,000  ep= 457  ep_reward= 11548.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,608,000  ep= 458  ep_reward= 11089.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,609,000  ep= 459  ep_reward= 11287.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,610,000  ep= 460  ep_reward= 11937.30  ep_steps=1000
+  *** Eval  t=2,610,000  avg_reward= 12275.38  (10 eps)  elapsed=33.6min ***
+[HalfCheetah-v4] seed= 42 t=2,611,000  ep= 461  ep_reward= 11508.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,612,000  ep= 462  ep_reward= 11520.46  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,613,000  ep= 463  ep_reward= 11283.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,614,000  ep= 464  ep_reward= 11390.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,615,000  ep= 465  ep_reward= 11136.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,616,000  ep= 466  ep_reward= 11418.59  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,617,000  ep= 467  ep_reward= 11506.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,618,000  ep= 468  ep_reward= 11527.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,619,000  ep= 469  ep_reward= 11556.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,620,000  ep= 470  ep_reward= 11638.39  ep_steps=1000
+  *** Eval  t=2,620,000  avg_reward= 12296.67  (10 eps)  elapsed=34.4min ***
+[HalfCheetah-v4] seed= 42 t=2,621,000  ep= 471  ep_reward= 11509.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,622,000  ep= 472  ep_reward= 11461.52  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,623,000  ep= 473  ep_reward= 11885.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,624,000  ep= 474  ep_reward= 11398.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,625,000  ep= 475  ep_reward= 11329.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,626,000  ep= 476  ep_reward= 11284.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,627,000  ep= 477  ep_reward= 11742.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,628,000  ep= 478  ep_reward= 11391.03  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,629,000  ep= 479  ep_reward= 11492.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,630,000  ep= 480  ep_reward= 11330.65  ep_steps=1000
+  *** Eval  t=2,630,000  avg_reward= 12312.01  (10 eps)  elapsed=35.1min ***
+[HalfCheetah-v4] seed= 42 t=2,631,000  ep= 481  ep_reward= 11154.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,632,000  ep= 482  ep_reward= 11628.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,633,000  ep= 483  ep_reward= 11193.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,634,000  ep= 484  ep_reward= 11524.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,635,000  ep= 485  ep_reward= 11505.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,636,000  ep= 486  ep_reward= 11471.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,637,000  ep= 487  ep_reward=  4586.76  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,638,000  ep= 488  ep_reward= 11045.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,639,000  ep= 489  ep_reward= 11655.83  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,640,000  ep= 490  ep_reward= 11368.58  ep_steps=1000
+  *** Eval  t=2,640,000  avg_reward= 11860.13  (10 eps)  elapsed=35.8min ***
+[HalfCheetah-v4] seed= 42 t=2,641,000  ep= 491  ep_reward= 11184.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,642,000  ep= 492  ep_reward= 11307.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,643,000  ep= 493  ep_reward= 11222.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,644,000  ep= 494  ep_reward= 11058.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,645,000  ep= 495  ep_reward= 10365.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,646,000  ep= 496  ep_reward= 10803.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,647,000  ep= 497  ep_reward= 10551.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,648,000  ep= 498  ep_reward= 10902.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,649,000  ep= 499  ep_reward= 10825.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,650,000  ep= 500  ep_reward= 10847.61  ep_steps=1000
+  *** Eval  t=2,650,000  avg_reward= 11696.14  (10 eps)  elapsed=36.6min ***
+[HalfCheetah-v4] seed= 42 t=2,651,000  ep= 501  ep_reward=  9561.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,652,000  ep= 502  ep_reward= 11011.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,653,000  ep= 503  ep_reward= 10833.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,654,000  ep= 504  ep_reward= 11194.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,655,000  ep= 505  ep_reward= 10887.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,656,000  ep= 506  ep_reward= 11166.83  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,657,000  ep= 507  ep_reward=  2101.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,658,000  ep= 508  ep_reward= 11075.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,659,000  ep= 509  ep_reward= 11382.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,660,000  ep= 510  ep_reward= 10998.57  ep_steps=1000
+  *** Eval  t=2,660,000  avg_reward= 11622.03  (10 eps)  elapsed=37.3min ***
+[HalfCheetah-v4] seed= 42 t=2,661,000  ep= 511  ep_reward= 10692.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,662,000  ep= 512  ep_reward= 10785.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,663,000  ep= 513  ep_reward= 11055.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,664,000  ep= 514  ep_reward= 11024.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,665,000  ep= 515  ep_reward= 11198.47  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,666,000  ep= 516  ep_reward= 11134.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,667,000  ep= 517  ep_reward= 10968.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,668,000  ep= 518  ep_reward= 10546.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,669,000  ep= 519  ep_reward= 10901.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,670,000  ep= 520  ep_reward= 11266.86  ep_steps=1000
+  *** Eval  t=2,670,000  avg_reward= 12009.31  (10 eps)  elapsed=38.0min ***
+[HalfCheetah-v4] seed= 42 t=2,671,000  ep= 521  ep_reward= 11328.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,672,000  ep= 522  ep_reward= 11535.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,673,000  ep= 523  ep_reward= 11021.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,674,000  ep= 524  ep_reward= 11308.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,675,000  ep= 525  ep_reward= 11162.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,676,000  ep= 526  ep_reward= 11257.03  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,677,000  ep= 527  ep_reward= 11356.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,678,000  ep= 528  ep_reward= 11329.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,679,000  ep= 529  ep_reward= 10896.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,680,000  ep= 530  ep_reward= 11140.82  ep_steps=1000
+  *** Eval  t=2,680,000  avg_reward= 12140.44  (10 eps)  elapsed=38.8min ***
+[HalfCheetah-v4] seed= 42 t=2,681,000  ep= 531  ep_reward= 10975.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,682,000  ep= 532  ep_reward= 11077.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,683,000  ep= 533  ep_reward= 11492.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,684,000  ep= 534  ep_reward= 11670.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,685,000  ep= 535  ep_reward= 11086.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,686,000  ep= 536  ep_reward= 11440.29  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,687,000  ep= 537  ep_reward= 11261.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,688,000  ep= 538  ep_reward= 11489.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,689,000  ep= 539  ep_reward= 11343.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,690,000  ep= 540  ep_reward= 11381.06  ep_steps=1000
+  *** Eval  t=2,690,000  avg_reward= 12093.39  (10 eps)  elapsed=39.5min ***
+[HalfCheetah-v4] seed= 42 t=2,691,000  ep= 541  ep_reward= 11438.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,692,000  ep= 542  ep_reward= 11671.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,693,000  ep= 543  ep_reward= 11447.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,694,000  ep= 544  ep_reward= 11378.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,695,000  ep= 545  ep_reward= 10928.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,696,000  ep= 546  ep_reward= 11394.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,697,000  ep= 547  ep_reward=  3904.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,698,000  ep= 548  ep_reward= 11172.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,699,000  ep= 549  ep_reward= 11103.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,700,000  ep= 550  ep_reward= 10971.86  ep_steps=1000
+  *** Eval  t=2,700,000  avg_reward= 12136.56  (10 eps)  elapsed=40.2min ***
+[HalfCheetah-v4] seed= 42 t=2,701,000  ep= 551  ep_reward= 11152.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,702,000  ep= 552  ep_reward= 11295.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,703,000  ep= 553  ep_reward= 11399.95  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,704,000  ep= 554  ep_reward= 11589.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,705,000  ep= 555  ep_reward= 11151.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,706,000  ep= 556  ep_reward= 11014.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,707,000  ep= 557  ep_reward= 11184.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,708,000  ep= 558  ep_reward= 11646.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,709,000  ep= 559  ep_reward= 11341.61  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,710,000  ep= 560  ep_reward= 11391.81  ep_steps=1000
+  *** Eval  t=2,710,000  avg_reward= 12025.79  (10 eps)  elapsed=41.0min ***
+[HalfCheetah-v4] seed= 42 t=2,711,000  ep= 561  ep_reward= 11789.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,712,000  ep= 562  ep_reward= 10871.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,713,000  ep= 563  ep_reward= 11039.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,714,000  ep= 564  ep_reward= 11089.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,715,000  ep= 565  ep_reward= 11072.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,716,000  ep= 566  ep_reward= 11266.73  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,717,000  ep= 567  ep_reward= 11580.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,718,000  ep= 568  ep_reward= 11351.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,719,000  ep= 569  ep_reward= 11353.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,720,000  ep= 570  ep_reward= 11460.10  ep_steps=1000
+  *** Eval  t=2,720,000  avg_reward= 12349.04  (10 eps)  elapsed=41.7min ***
+[HalfCheetah-v4] seed= 42 t=2,721,000  ep= 571  ep_reward= 11252.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,722,000  ep= 572  ep_reward= 11029.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,723,000  ep= 573  ep_reward= 11386.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,724,000  ep= 574  ep_reward= 11222.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,725,000  ep= 575  ep_reward= 11266.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,726,000  ep= 576  ep_reward= 11405.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,727,000  ep= 577  ep_reward= 11117.80  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,728,000  ep= 578  ep_reward= 11449.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,729,000  ep= 579  ep_reward= 11507.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,730,000  ep= 580  ep_reward= 11446.08  ep_steps=1000
+  *** Eval  t=2,730,000  avg_reward= 12233.45  (10 eps)  elapsed=42.4min ***
+[HalfCheetah-v4] seed= 42 t=2,731,000  ep= 581  ep_reward= 11388.32  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,732,000  ep= 582  ep_reward= 11493.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,733,000  ep= 583  ep_reward= 11281.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,734,000  ep= 584  ep_reward= 11553.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,735,000  ep= 585  ep_reward= 11126.03  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,736,000  ep= 586  ep_reward= 11542.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,737,000  ep= 587  ep_reward= 11219.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,738,000  ep= 588  ep_reward= 11275.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,739,000  ep= 589  ep_reward= 11484.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,740,000  ep= 590  ep_reward= 11373.63  ep_steps=1000
+  *** Eval  t=2,740,000  avg_reward= 12198.55  (10 eps)  elapsed=43.2min ***
+[HalfCheetah-v4] seed= 42 t=2,741,000  ep= 591  ep_reward= 11494.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,742,000  ep= 592  ep_reward= 11230.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,743,000  ep= 593  ep_reward= 10985.66  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,744,000  ep= 594  ep_reward=  9965.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,745,000  ep= 595  ep_reward= 11436.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,746,000  ep= 596  ep_reward= 11680.93  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,747,000  ep= 597  ep_reward= 11192.83  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,748,000  ep= 598  ep_reward= 11147.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,749,000  ep= 599  ep_reward= 11432.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,750,000  ep= 600  ep_reward= 11823.64  ep_steps=1000
+  *** Eval  t=2,750,000  avg_reward= 11547.28  (10 eps)  elapsed=43.9min ***
+[HalfCheetah-v4] seed= 42 t=2,751,000  ep= 601  ep_reward= 11400.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,752,000  ep= 602  ep_reward= 11630.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,753,000  ep= 603  ep_reward= 11529.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,754,000  ep= 604  ep_reward= 11523.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,755,000  ep= 605  ep_reward= 11582.81  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,756,000  ep= 606  ep_reward= 11583.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,757,000  ep= 607  ep_reward= 11614.59  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,758,000  ep= 608  ep_reward= 11632.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,759,000  ep= 609  ep_reward= 11537.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,760,000  ep= 610  ep_reward= 11293.53  ep_steps=1000
+  *** Eval  t=2,760,000  avg_reward= 12320.11  (10 eps)  elapsed=44.6min ***
+[HalfCheetah-v4] seed= 42 t=2,761,000  ep= 611  ep_reward= 11360.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,762,000  ep= 612  ep_reward= 11462.11  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,763,000  ep= 613  ep_reward= 11303.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,764,000  ep= 614  ep_reward= 11185.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,765,000  ep= 615  ep_reward= 11066.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,766,000  ep= 616  ep_reward= 11706.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,767,000  ep= 617  ep_reward= 11438.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,768,000  ep= 618  ep_reward= 11372.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,769,000  ep= 619  ep_reward= 11550.30  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,770,000  ep= 620  ep_reward= 11599.89  ep_steps=1000
+  *** Eval  t=2,770,000  avg_reward= 12384.64  (10 eps)  elapsed=45.3min ***
+[HalfCheetah-v4] seed= 42 t=2,771,000  ep= 621  ep_reward= 11513.93  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,772,000  ep= 622  ep_reward= 11723.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,773,000  ep= 623  ep_reward= 11568.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,774,000  ep= 624  ep_reward= 11016.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,775,000  ep= 625  ep_reward= 11488.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,776,000  ep= 626  ep_reward= 11565.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,777,000  ep= 627  ep_reward= 11378.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,778,000  ep= 628  ep_reward= 11560.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,779,000  ep= 629  ep_reward= 11316.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,780,000  ep= 630  ep_reward= 11514.92  ep_steps=1000
+  *** Eval  t=2,780,000  avg_reward= 12054.96  (10 eps)  elapsed=46.1min ***
+[HalfCheetah-v4] seed= 42 t=2,781,000  ep= 631  ep_reward= 11456.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,782,000  ep= 632  ep_reward= 11495.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,783,000  ep= 633  ep_reward= 11451.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,784,000  ep= 634  ep_reward= 11509.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,785,000  ep= 635  ep_reward= 11136.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,786,000  ep= 636  ep_reward= 11208.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,787,000  ep= 637  ep_reward= 11541.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,788,000  ep= 638  ep_reward= 11598.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,789,000  ep= 639  ep_reward= 11509.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,790,000  ep= 640  ep_reward= 11873.32  ep_steps=1000
+  *** Eval  t=2,790,000  avg_reward= 12053.45  (10 eps)  elapsed=46.8min ***
+[HalfCheetah-v4] seed= 42 t=2,791,000  ep= 641  ep_reward= 11663.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,792,000  ep= 642  ep_reward= 11593.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,793,000  ep= 643  ep_reward= 11760.10  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,794,000  ep= 644  ep_reward= 11806.46  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,795,000  ep= 645  ep_reward= 11250.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,796,000  ep= 646  ep_reward= 11373.35  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,797,000  ep= 647  ep_reward= 11643.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,798,000  ep= 648  ep_reward= 11730.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,799,000  ep= 649  ep_reward= 11658.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,800,000  ep= 650  ep_reward= 11677.04  ep_steps=1000
+  *** Eval  t=2,800,000  avg_reward= 11581.08  (10 eps)  elapsed=47.5min ***
+[HalfCheetah-v4] seed= 42 t=2,801,000  ep= 651  ep_reward= 11727.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,802,000  ep= 652  ep_reward= 11484.74  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,803,000  ep= 653  ep_reward= 11833.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,804,000  ep= 654  ep_reward= 11755.46  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,805,000  ep= 655  ep_reward= 11239.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,806,000  ep= 656  ep_reward= 11536.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,807,000  ep= 657  ep_reward= 11375.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,808,000  ep= 658  ep_reward= 11192.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,809,000  ep= 659  ep_reward= 11496.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,810,000  ep= 660  ep_reward= 11538.80  ep_steps=1000
+  *** Eval  t=2,810,000  avg_reward= 12281.93  (10 eps)  elapsed=48.3min ***
+[HalfCheetah-v4] seed= 42 t=2,811,000  ep= 661  ep_reward= 11743.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,812,000  ep= 662  ep_reward= 11518.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,813,000  ep= 663  ep_reward= 11411.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,814,000  ep= 664  ep_reward= 11783.50  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,815,000  ep= 665  ep_reward= 11616.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,816,000  ep= 666  ep_reward= 11440.30  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,817,000  ep= 667  ep_reward= 11579.10  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,818,000  ep= 668  ep_reward= 11536.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,819,000  ep= 669  ep_reward= 11670.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,820,000  ep= 670  ep_reward= 11720.87  ep_steps=1000
+  *** Eval  t=2,820,000  avg_reward= 12211.85  (10 eps)  elapsed=49.0min ***
+[HalfCheetah-v4] seed= 42 t=2,821,000  ep= 671  ep_reward= 11833.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,822,000  ep= 672  ep_reward= 11639.71  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,823,000  ep= 673  ep_reward= 11481.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,824,000  ep= 674  ep_reward= 11738.61  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,825,000  ep= 675  ep_reward= 11573.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,826,000  ep= 676  ep_reward= 11209.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,827,000  ep= 677  ep_reward= 11359.73  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,828,000  ep= 678  ep_reward= 11758.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,829,000  ep= 679  ep_reward= 11350.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,830,000  ep= 680  ep_reward= 11340.78  ep_steps=1000
+  *** Eval  t=2,830,000  avg_reward= 12254.14  (10 eps)  elapsed=49.7min ***
+[HalfCheetah-v4] seed= 42 t=2,831,000  ep= 681  ep_reward= 11639.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,832,000  ep= 682  ep_reward= 11601.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,833,000  ep= 683  ep_reward= 11508.24  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,834,000  ep= 684  ep_reward= 11777.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,835,000  ep= 685  ep_reward= 11748.94  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,836,000  ep= 686  ep_reward= 11733.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,837,000  ep= 687  ep_reward= 11703.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,838,000  ep= 688  ep_reward= 10181.90  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,839,000  ep= 689  ep_reward= 11964.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,840,000  ep= 690  ep_reward= 11268.34  ep_steps=1000
+  *** Eval  t=2,840,000  avg_reward= 11960.36  (10 eps)  elapsed=50.5min ***
+[HalfCheetah-v4] seed= 42 t=2,841,000  ep= 691  ep_reward= 11239.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,842,000  ep= 692  ep_reward= 11474.59  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,843,000  ep= 693  ep_reward= 11437.49  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,844,000  ep= 694  ep_reward= 11534.65  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,845,000  ep= 695  ep_reward= 11480.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,846,000  ep= 696  ep_reward= 11506.56  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,847,000  ep= 697  ep_reward= 11512.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,848,000  ep= 698  ep_reward= 11780.00  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,849,000  ep= 699  ep_reward= 11780.62  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,850,000  ep= 700  ep_reward= 11367.64  ep_steps=1000
+  *** Eval  t=2,850,000  avg_reward= 12454.53  (10 eps)  elapsed=51.2min ***
+[HalfCheetah-v4] seed= 42 t=2,851,000  ep= 701  ep_reward= 11661.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,852,000  ep= 702  ep_reward= 11757.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,853,000  ep= 703  ep_reward= 11453.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,854,000  ep= 704  ep_reward= 11727.29  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,855,000  ep= 705  ep_reward= 11644.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,856,000  ep= 706  ep_reward= 11299.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,857,000  ep= 707  ep_reward= 11468.75  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,858,000  ep= 708  ep_reward= 11642.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,859,000  ep= 709  ep_reward= 11463.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,860,000  ep= 710  ep_reward= 11189.84  ep_steps=1000
+  *** Eval  t=2,860,000  avg_reward= 12489.97  (10 eps)  elapsed=51.9min ***
+[HalfCheetah-v4] seed= 42 t=2,861,000  ep= 711  ep_reward= 11600.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,862,000  ep= 712  ep_reward= 11401.30  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,863,000  ep= 713  ep_reward= 11786.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,864,000  ep= 714  ep_reward= 11517.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,865,000  ep= 715  ep_reward= 11989.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,866,000  ep= 716  ep_reward= 11501.71  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,867,000  ep= 717  ep_reward= 11591.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,868,000  ep= 718  ep_reward= 11017.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,869,000  ep= 719  ep_reward= 11763.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,870,000  ep= 720  ep_reward= 11646.07  ep_steps=1000
+  *** Eval  t=2,870,000  avg_reward= 12401.15  (10 eps)  elapsed=52.7min ***
+[HalfCheetah-v4] seed= 42 t=2,871,000  ep= 721  ep_reward= 11565.83  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,872,000  ep= 722  ep_reward= 11637.84  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,873,000  ep= 723  ep_reward= 11503.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,874,000  ep= 724  ep_reward= 11669.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,875,000  ep= 725  ep_reward= 11518.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,876,000  ep= 726  ep_reward= 11824.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,877,000  ep= 727  ep_reward= 11549.88  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,878,000  ep= 728  ep_reward= 11466.01  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,879,000  ep= 729  ep_reward= 11745.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,880,000  ep= 730  ep_reward= 11685.24  ep_steps=1000
+  *** Eval  t=2,880,000  avg_reward= 12413.42  (10 eps)  elapsed=53.4min ***
+[HalfCheetah-v4] seed= 42 t=2,881,000  ep= 731  ep_reward= 11595.33  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,882,000  ep= 732  ep_reward= 11819.22  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,883,000  ep= 733  ep_reward= 11329.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,884,000  ep= 734  ep_reward= 11583.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,885,000  ep= 735  ep_reward= 11937.96  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,886,000  ep= 736  ep_reward= 11648.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,887,000  ep= 737  ep_reward= 11536.34  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,888,000  ep= 738  ep_reward= 11751.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,889,000  ep= 739  ep_reward= 11721.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,890,000  ep= 740  ep_reward= 11644.63  ep_steps=1000
+  *** Eval  t=2,890,000  avg_reward= 12623.24  (10 eps)  elapsed=54.1min ***
+[HalfCheetah-v4] seed= 42 t=2,891,000  ep= 741  ep_reward= 11547.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,892,000  ep= 742  ep_reward= 11000.78  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,893,000  ep= 743  ep_reward= 11578.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,894,000  ep= 744  ep_reward= 11513.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,895,000  ep= 745  ep_reward= 12160.23  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,896,000  ep= 746  ep_reward= 11781.87  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,897,000  ep= 747  ep_reward= 11718.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,898,000  ep= 748  ep_reward= 11729.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,899,000  ep= 749  ep_reward= 11553.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,900,000  ep= 750  ep_reward= 11563.00  ep_steps=1000
+  *** Eval  t=2,900,000  avg_reward= 12581.47  (10 eps)  elapsed=54.8min ***
+[HalfCheetah-v4] seed= 42 t=2,901,000  ep= 751  ep_reward= 11487.43  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,902,000  ep= 752  ep_reward= 11519.79  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,903,000  ep= 753  ep_reward= 11717.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,904,000  ep= 754  ep_reward= 11616.10  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,905,000  ep= 755  ep_reward= 11789.58  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,906,000  ep= 756  ep_reward= 11530.57  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,907,000  ep= 757  ep_reward= 11510.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,908,000  ep= 758  ep_reward= 11672.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,909,000  ep= 759  ep_reward= 11948.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,910,000  ep= 760  ep_reward= 11626.60  ep_steps=1000
+  *** Eval  t=2,910,000  avg_reward= 12474.83  (10 eps)  elapsed=55.6min ***
+[HalfCheetah-v4] seed= 42 t=2,911,000  ep= 761  ep_reward= 11633.42  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,912,000  ep= 762  ep_reward= 11423.48  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,913,000  ep= 763  ep_reward= 11332.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,914,000  ep= 764  ep_reward= 11808.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,915,000  ep= 765  ep_reward= 11457.30  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,916,000  ep= 766  ep_reward= 11426.72  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,917,000  ep= 767  ep_reward= 11859.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,918,000  ep= 768  ep_reward= 11967.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,919,000  ep= 769  ep_reward= 11831.20  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,920,000  ep= 770  ep_reward= 11655.87  ep_steps=1000
+  *** Eval  t=2,920,000  avg_reward= 12422.45  (10 eps)  elapsed=56.3min ***
+[HalfCheetah-v4] seed= 42 t=2,921,000  ep= 771  ep_reward= 11745.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,922,000  ep= 772  ep_reward= 11923.45  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,923,000  ep= 773  ep_reward= 11625.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,924,000  ep= 774  ep_reward= 11662.15  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,925,000  ep= 775  ep_reward= 11587.73  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,926,000  ep= 776  ep_reward= 11534.84  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,927,000  ep= 777  ep_reward= 11702.25  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,928,000  ep= 778  ep_reward= 11889.04  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,929,000  ep= 779  ep_reward= 11920.38  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,930,000  ep= 780  ep_reward= 11936.04  ep_steps=1000
+  *** Eval  t=2,930,000  avg_reward= 12566.91  (10 eps)  elapsed=57.0min ***
+[HalfCheetah-v4] seed= 42 t=2,931,000  ep= 781  ep_reward= 11956.82  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,932,000  ep= 782  ep_reward= 11726.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,933,000  ep= 783  ep_reward= 11559.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,934,000  ep= 784  ep_reward= 11345.99  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,935,000  ep= 785  ep_reward= 11137.53  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,936,000  ep= 786  ep_reward= 11968.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,937,000  ep= 787  ep_reward= 11677.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,938,000  ep= 788  ep_reward= 11776.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,939,000  ep= 789  ep_reward= 11504.36  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,940,000  ep= 790  ep_reward= 11440.98  ep_steps=1000
+  *** Eval  t=2,940,000  avg_reward= 12626.62  (10 eps)  elapsed=57.7min ***
+[HalfCheetah-v4] seed= 42 t=2,941,000  ep= 791  ep_reward= 11726.55  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,942,000  ep= 792  ep_reward= 12060.27  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,943,000  ep= 793  ep_reward= 11758.02  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,944,000  ep= 794  ep_reward= 11651.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,945,000  ep= 795  ep_reward= 11532.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,946,000  ep= 796  ep_reward= 11841.39  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,947,000  ep= 797  ep_reward= 11858.64  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,948,000  ep= 798  ep_reward= 11509.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,949,000  ep= 799  ep_reward= 11790.12  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,950,000  ep= 800  ep_reward= 11600.15  ep_steps=1000
+  *** Eval  t=2,950,000  avg_reward= 12541.48  (10 eps)  elapsed=58.5min ***
+[HalfCheetah-v4] seed= 42 t=2,951,000  ep= 801  ep_reward= 11640.17  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,952,000  ep= 802  ep_reward= 11785.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,953,000  ep= 803  ep_reward= 11955.26  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,954,000  ep= 804  ep_reward= 11506.37  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,955,000  ep= 805  ep_reward= 11894.51  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,956,000  ep= 806  ep_reward= 11699.71  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,957,000  ep= 807  ep_reward= 11582.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,958,000  ep= 808  ep_reward= 11969.64  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,959,000  ep= 809  ep_reward= 12054.06  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,960,000  ep= 810  ep_reward= 11367.78  ep_steps=1000
+  *** Eval  t=2,960,000  avg_reward= 12720.07  (10 eps)  elapsed=59.2min ***
+[HalfCheetah-v4] seed= 42 t=2,961,000  ep= 811  ep_reward= 11938.98  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,962,000  ep= 812  ep_reward= 11940.63  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,963,000  ep= 813  ep_reward= 11901.60  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,964,000  ep= 814  ep_reward= 11674.86  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,965,000  ep= 815  ep_reward= 11548.05  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,966,000  ep= 816  ep_reward= 11809.08  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,967,000  ep= 817  ep_reward= 11727.28  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,968,000  ep= 818  ep_reward= 11811.13  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,969,000  ep= 819  ep_reward= 12037.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,970,000  ep= 820  ep_reward= 11724.58  ep_steps=1000
+  *** Eval  t=2,970,000  avg_reward= 12619.58  (10 eps)  elapsed=59.9min ***
+[HalfCheetah-v4] seed= 42 t=2,971,000  ep= 821  ep_reward= 11573.31  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,972,000  ep= 822  ep_reward= 11983.44  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,973,000  ep= 823  ep_reward= 11991.85  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,974,000  ep= 824  ep_reward= 11611.19  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,975,000  ep= 825  ep_reward= 11519.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,976,000  ep= 826  ep_reward= 11537.10  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,977,000  ep= 827  ep_reward= 11710.97  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,978,000  ep= 828  ep_reward= 11762.14  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,979,000  ep= 829  ep_reward= 11764.41  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,980,000  ep= 830  ep_reward= 12132.20  ep_steps=1000
+  *** Eval  t=2,980,000  avg_reward= 12609.15  (10 eps)  elapsed=60.7min ***
+[HalfCheetah-v4] seed= 42 t=2,981,000  ep= 831  ep_reward= 11668.64  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,982,000  ep= 832  ep_reward= 11483.74  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,983,000  ep= 833  ep_reward= 11579.18  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,984,000  ep= 834  ep_reward= 11912.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,985,000  ep= 835  ep_reward= 11432.68  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,986,000  ep= 836  ep_reward= 11751.77  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,987,000  ep= 837  ep_reward= 11744.95  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,988,000  ep= 838  ep_reward= 11840.16  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,989,000  ep= 839  ep_reward= 11927.64  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,990,000  ep= 840  ep_reward= 11735.07  ep_steps=1000
+  *** Eval  t=2,990,000  avg_reward= 12664.05  (10 eps)  elapsed=61.4min ***
+[HalfCheetah-v4] seed= 42 t=2,991,000  ep= 841  ep_reward= 11854.09  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,992,000  ep= 842  ep_reward= 11902.70  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,993,000  ep= 843  ep_reward= 11481.91  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,994,000  ep= 844  ep_reward=  7526.29  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,995,000  ep= 845  ep_reward= 12000.07  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,996,000  ep= 846  ep_reward= 11593.54  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,997,000  ep= 847  ep_reward= 11361.69  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,998,000  ep= 848  ep_reward= 11744.21  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=2,999,000  ep= 849  ep_reward= 11964.33  ep_steps=1000
+[HalfCheetah-v4] seed= 42 t=3,000,000  ep= 850  ep_reward= 11932.48  ep_steps=1000
+  *** Eval  t=3,000,000  avg_reward= 12602.26  (10 eps)  elapsed=62.1min ***
+Done: Tue Jun  2 11:46:53 PM IDT 2026
