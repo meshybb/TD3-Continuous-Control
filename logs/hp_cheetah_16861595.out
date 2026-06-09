@@ -1,0 +1,183 @@
+Host: dsiuriofir01
+Job ID: 16861595
+Start: Tue Jun  9 08:48:37 AM IDT 2026
+Tue Jun  9 08:48:37 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:CA:00.0 Off |                    0 |
+| N/A   35C    P0             45W /  300W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting Extended HP Search for HalfCheetah-v4
+
+--- Running Config 1/3: Baseline_Paper ---
+[Baseline_Paper] Step: 10000 | Avg Reward: -2.18
+[Baseline_Paper] Step: 20000 | Avg Reward: 1632.87
+[Baseline_Paper] Step: 30000 | Avg Reward: 1196.28
+[Baseline_Paper] Step: 40000 | Avg Reward: 3336.64
+[Baseline_Paper] Step: 50000 | Avg Reward: 4884.39
+[Baseline_Paper] Step: 60000 | Avg Reward: 5397.74
+[Baseline_Paper] Step: 70000 | Avg Reward: 5987.92
+[Baseline_Paper] Step: 80000 | Avg Reward: 6178.19
+[Baseline_Paper] Step: 90000 | Avg Reward: 6269.07
+[Baseline_Paper] Step: 100000 | Avg Reward: 6661.35
+[Baseline_Paper] Step: 110000 | Avg Reward: 6660.38
+[Baseline_Paper] Step: 120000 | Avg Reward: 6776.31
+[Baseline_Paper] Step: 130000 | Avg Reward: 6816.66
+[Baseline_Paper] Step: 140000 | Avg Reward: 6914.03
+[Baseline_Paper] Step: 150000 | Avg Reward: 6898.02
+[Baseline_Paper] Step: 160000 | Avg Reward: 7319.97
+[Baseline_Paper] Step: 170000 | Avg Reward: 7543.13
+[Baseline_Paper] Step: 180000 | Avg Reward: 7895.52
+[Baseline_Paper] Step: 190000 | Avg Reward: 7620.33
+[Baseline_Paper] Step: 200000 | Avg Reward: 8318.45
+[Baseline_Paper] Step: 210000 | Avg Reward: 8386.56
+[Baseline_Paper] Step: 220000 | Avg Reward: 8157.22
+[Baseline_Paper] Step: 230000 | Avg Reward: 8340.35
+[Baseline_Paper] Step: 240000 | Avg Reward: 8687.05
+[Baseline_Paper] Step: 250000 | Avg Reward: 8108.92
+[Baseline_Paper] Step: 260000 | Avg Reward: 8893.68
+[Baseline_Paper] Step: 270000 | Avg Reward: 8269.57
+[Baseline_Paper] Step: 280000 | Avg Reward: 8952.55
+[Baseline_Paper] Step: 290000 | Avg Reward: 8967.81
+[Baseline_Paper] Step: 300000 | Avg Reward: 8794.46
+[Baseline_Paper] Step: 310000 | Avg Reward: 9007.28
+[Baseline_Paper] Step: 320000 | Avg Reward: 9099.93
+[Baseline_Paper] Step: 330000 | Avg Reward: 8869.34
+[Baseline_Paper] Step: 340000 | Avg Reward: 9057.66
+[Baseline_Paper] Step: 350000 | Avg Reward: 8803.31
+[Baseline_Paper] Step: 360000 | Avg Reward: 8708.28
+[Baseline_Paper] Step: 370000 | Avg Reward: 8838.66
+[Baseline_Paper] Step: 380000 | Avg Reward: 8730.82
+[Baseline_Paper] Step: 390000 | Avg Reward: 9331.00
+[Baseline_Paper] Step: 400000 | Avg Reward: 9246.74
+[Baseline_Paper] Step: 410000 | Avg Reward: 9007.10
+[Baseline_Paper] Step: 420000 | Avg Reward: 9286.01
+[Baseline_Paper] Step: 430000 | Avg Reward: 8829.29
+[Baseline_Paper] Step: 440000 | Avg Reward: 9449.09
+[Baseline_Paper] Step: 450000 | Avg Reward: 9215.79
+[Baseline_Paper] Step: 460000 | Avg Reward: 9254.66
+[Baseline_Paper] Step: 470000 | Avg Reward: 9362.72
+[Baseline_Paper] Step: 480000 | Avg Reward: 9038.11
+[Baseline_Paper] Step: 490000 | Avg Reward: 9434.87
+[Baseline_Paper] Step: 500000 | Avg Reward: 9296.92
+
+--- Running Config 2/3: Our_Chosen_Config ---
+[Our_Chosen_Config] Step: 10000 | Avg Reward: -1.02
+[Our_Chosen_Config] Step: 20000 | Avg Reward: -282.01
+[Our_Chosen_Config] Step: 30000 | Avg Reward: 350.07
+[Our_Chosen_Config] Step: 40000 | Avg Reward: 745.53
+[Our_Chosen_Config] Step: 50000 | Avg Reward: 1247.89
+[Our_Chosen_Config] Step: 60000 | Avg Reward: 2718.91
+[Our_Chosen_Config] Step: 70000 | Avg Reward: 3106.30
+[Our_Chosen_Config] Step: 80000 | Avg Reward: 3574.73
+[Our_Chosen_Config] Step: 90000 | Avg Reward: 3483.32
+[Our_Chosen_Config] Step: 100000 | Avg Reward: 4002.06
+[Our_Chosen_Config] Step: 110000 | Avg Reward: 4510.19
+[Our_Chosen_Config] Step: 120000 | Avg Reward: 4489.74
+[Our_Chosen_Config] Step: 130000 | Avg Reward: 4737.66
+[Our_Chosen_Config] Step: 140000 | Avg Reward: 5958.34
+[Our_Chosen_Config] Step: 150000 | Avg Reward: 5918.11
+[Our_Chosen_Config] Step: 160000 | Avg Reward: 5941.82
+[Our_Chosen_Config] Step: 170000 | Avg Reward: 6348.14
+[Our_Chosen_Config] Step: 180000 | Avg Reward: 6691.15
+[Our_Chosen_Config] Step: 190000 | Avg Reward: 6702.68
+[Our_Chosen_Config] Step: 200000 | Avg Reward: 6780.22
+[Our_Chosen_Config] Step: 210000 | Avg Reward: 6971.22
+[Our_Chosen_Config] Step: 220000 | Avg Reward: 6903.52
+[Our_Chosen_Config] Step: 230000 | Avg Reward: 7039.94
+[Our_Chosen_Config] Step: 240000 | Avg Reward: 7048.65
+[Our_Chosen_Config] Step: 250000 | Avg Reward: 7131.09
+[Our_Chosen_Config] Step: 260000 | Avg Reward: 7390.36
+[Our_Chosen_Config] Step: 270000 | Avg Reward: 7356.62
+[Our_Chosen_Config] Step: 280000 | Avg Reward: 7440.49
+[Our_Chosen_Config] Step: 290000 | Avg Reward: 7617.51
+[Our_Chosen_Config] Step: 300000 | Avg Reward: 7561.36
+[Our_Chosen_Config] Step: 310000 | Avg Reward: 7676.95
+[Our_Chosen_Config] Step: 320000 | Avg Reward: 7705.80
+[Our_Chosen_Config] Step: 330000 | Avg Reward: 6961.76
+[Our_Chosen_Config] Step: 340000 | Avg Reward: 7856.24
+[Our_Chosen_Config] Step: 350000 | Avg Reward: 7835.64
+[Our_Chosen_Config] Step: 360000 | Avg Reward: 7830.50
+[Our_Chosen_Config] Step: 370000 | Avg Reward: 7838.49
+[Our_Chosen_Config] Step: 380000 | Avg Reward: 7815.63
+[Our_Chosen_Config] Step: 390000 | Avg Reward: 7831.42
+[Our_Chosen_Config] Step: 400000 | Avg Reward: 7912.77
+[Our_Chosen_Config] Step: 410000 | Avg Reward: 8089.20
+[Our_Chosen_Config] Step: 420000 | Avg Reward: 8194.15
+[Our_Chosen_Config] Step: 430000 | Avg Reward: 8071.54
+[Our_Chosen_Config] Step: 440000 | Avg Reward: 8062.39
+[Our_Chosen_Config] Step: 450000 | Avg Reward: 8202.67
+[Our_Chosen_Config] Step: 460000 | Avg Reward: 8095.35
+[Our_Chosen_Config] Step: 470000 | Avg Reward: 8542.22
+[Our_Chosen_Config] Step: 480000 | Avg Reward: 8527.23
+[Our_Chosen_Config] Step: 490000 | Avg Reward: 8491.26
+[Our_Chosen_Config] Step: 500000 | Avg Reward: 8710.99
+
+--- Running Config 3/3: Hybrid_Fast_LR_Large_Batch ---
+[Hybrid_Fast_LR_Large_Batch] Step: 10000 | Avg Reward: -2.27
+[Hybrid_Fast_LR_Large_Batch] Step: 20000 | Avg Reward: -102.51
+[Hybrid_Fast_LR_Large_Batch] Step: 30000 | Avg Reward: 449.72
+[Hybrid_Fast_LR_Large_Batch] Step: 40000 | Avg Reward: 1421.70
+[Hybrid_Fast_LR_Large_Batch] Step: 50000 | Avg Reward: 2210.36
+[Hybrid_Fast_LR_Large_Batch] Step: 60000 | Avg Reward: 2796.14
+[Hybrid_Fast_LR_Large_Batch] Step: 70000 | Avg Reward: 3548.86
+[Hybrid_Fast_LR_Large_Batch] Step: 80000 | Avg Reward: 4213.77
+[Hybrid_Fast_LR_Large_Batch] Step: 90000 | Avg Reward: 3912.10
+[Hybrid_Fast_LR_Large_Batch] Step: 100000 | Avg Reward: 4424.56
+[Hybrid_Fast_LR_Large_Batch] Step: 110000 | Avg Reward: 5234.36
+[Hybrid_Fast_LR_Large_Batch] Step: 120000 | Avg Reward: 5062.18
+[Hybrid_Fast_LR_Large_Batch] Step: 130000 | Avg Reward: 5261.97
+[Hybrid_Fast_LR_Large_Batch] Step: 140000 | Avg Reward: 5627.05
+[Hybrid_Fast_LR_Large_Batch] Step: 150000 | Avg Reward: 5718.62
+[Hybrid_Fast_LR_Large_Batch] Step: 160000 | Avg Reward: 5944.05
+[Hybrid_Fast_LR_Large_Batch] Step: 170000 | Avg Reward: 5978.62
+[Hybrid_Fast_LR_Large_Batch] Step: 180000 | Avg Reward: 6316.05
+[Hybrid_Fast_LR_Large_Batch] Step: 190000 | Avg Reward: 6309.60
+[Hybrid_Fast_LR_Large_Batch] Step: 200000 | Avg Reward: 6396.82
+[Hybrid_Fast_LR_Large_Batch] Step: 210000 | Avg Reward: 6605.52
+[Hybrid_Fast_LR_Large_Batch] Step: 220000 | Avg Reward: 6752.97
+[Hybrid_Fast_LR_Large_Batch] Step: 230000 | Avg Reward: 6880.18
+[Hybrid_Fast_LR_Large_Batch] Step: 240000 | Avg Reward: 7094.19
+[Hybrid_Fast_LR_Large_Batch] Step: 250000 | Avg Reward: 7053.83
+[Hybrid_Fast_LR_Large_Batch] Step: 260000 | Avg Reward: 6939.37
+[Hybrid_Fast_LR_Large_Batch] Step: 270000 | Avg Reward: 6953.37
+[Hybrid_Fast_LR_Large_Batch] Step: 280000 | Avg Reward: 6844.07
+[Hybrid_Fast_LR_Large_Batch] Step: 290000 | Avg Reward: 7372.19
+[Hybrid_Fast_LR_Large_Batch] Step: 300000 | Avg Reward: 7539.30
+[Hybrid_Fast_LR_Large_Batch] Step: 310000 | Avg Reward: 7326.85
+[Hybrid_Fast_LR_Large_Batch] Step: 320000 | Avg Reward: 7452.43
+[Hybrid_Fast_LR_Large_Batch] Step: 330000 | Avg Reward: 7687.68
+[Hybrid_Fast_LR_Large_Batch] Step: 340000 | Avg Reward: 7690.51
+[Hybrid_Fast_LR_Large_Batch] Step: 350000 | Avg Reward: 7845.55
+[Hybrid_Fast_LR_Large_Batch] Step: 360000 | Avg Reward: 7884.58
+[Hybrid_Fast_LR_Large_Batch] Step: 370000 | Avg Reward: 7760.13
+[Hybrid_Fast_LR_Large_Batch] Step: 380000 | Avg Reward: 7852.45
+[Hybrid_Fast_LR_Large_Batch] Step: 390000 | Avg Reward: 7999.94
+[Hybrid_Fast_LR_Large_Batch] Step: 400000 | Avg Reward: 7881.90
+[Hybrid_Fast_LR_Large_Batch] Step: 410000 | Avg Reward: 7884.18
+[Hybrid_Fast_LR_Large_Batch] Step: 420000 | Avg Reward: 8087.10
+[Hybrid_Fast_LR_Large_Batch] Step: 430000 | Avg Reward: 8289.54
+[Hybrid_Fast_LR_Large_Batch] Step: 440000 | Avg Reward: 8248.69
+[Hybrid_Fast_LR_Large_Batch] Step: 450000 | Avg Reward: 8206.60
+[Hybrid_Fast_LR_Large_Batch] Step: 460000 | Avg Reward: 8226.91
+[Hybrid_Fast_LR_Large_Batch] Step: 470000 | Avg Reward: 8130.23
+[Hybrid_Fast_LR_Large_Batch] Step: 480000 | Avg Reward: 8287.08
+[Hybrid_Fast_LR_Large_Batch] Step: 490000 | Avg Reward: 8615.38
+[Hybrid_Fast_LR_Large_Batch] Step: 500000 | Avg Reward: 8460.05
+
+Extended search complete! Results saved to hp_search_results_extended_HalfCheetah-v4.json
+Done: Tue Jun  9 10:54:36 AM IDT 2026
