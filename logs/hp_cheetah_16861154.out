@@ -1,0 +1,212 @@
+Host: dsiuriofir01
+Job ID: 16861154
+Start: Mon Jun  8 09:36:13 PM IDT 2026
+Mon Jun  8 21:36:13 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:65:00.0 Off |                    0 |
+| N/A   42C    P0             45W /  300W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting Hyperparameter Search for HalfCheetah-v4
+Total combinations: 8
+
+--- Running Experiment 1/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: -1.17
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 295.98
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 2604.65
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 3742.10
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 3092.79
+Step: 60000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 4628.23
+Step: 70000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5652.22
+Step: 80000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5807.76
+Step: 90000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5949.30
+Step: 100000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 6312.65
+Step: 110000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 6934.20
+Step: 120000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 6963.59
+Step: 130000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7329.96
+Step: 140000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7672.83
+Step: 150000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7690.72
+Step: 160000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7737.35
+Step: 170000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7877.62
+Step: 180000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7702.15
+Step: 190000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 7820.09
+Step: 200000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 8217.54
+
+--- Running Experiment 2/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: -1.26
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: -54.48
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 2376.20
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 1832.29
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3061.34
+Step: 60000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3424.71
+Step: 70000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4258.16
+Step: 80000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3895.39
+Step: 90000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4586.93
+Step: 100000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5478.10
+Step: 110000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4814.94
+Step: 120000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5893.35
+Step: 130000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5422.54
+Step: 140000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5755.38
+Step: 150000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 6387.97
+Step: 160000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 6221.74
+Step: 170000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 6128.42
+Step: 180000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 6969.89
+Step: 190000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5876.95
+Step: 200000 | Config: {'lr': 0.001, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5938.06
+
+--- Running Experiment 3/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: -0.35
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 87.87
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 294.22
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 809.35
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 1258.02
+Step: 60000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 1488.25
+Step: 70000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 2047.88
+Step: 80000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 2538.67
+Step: 90000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 2899.26
+Step: 100000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 3717.60
+Step: 110000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4265.38
+Step: 120000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4456.27
+Step: 130000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4674.11
+Step: 140000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4964.85
+Step: 150000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5571.54
+Step: 160000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5654.53
+Step: 170000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5852.14
+Step: 180000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 6127.48
+Step: 190000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 6259.36
+Step: 200000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 6759.98
+
+--- Running Experiment 4/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: -2.07
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 250.47
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 886.09
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 1711.10
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 1773.38
+Step: 60000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 2217.55
+Step: 70000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 3714.59
+Step: 80000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4190.83
+Step: 90000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4107.89
+Step: 100000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4774.47
+Step: 110000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5233.31
+Step: 120000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5223.28
+Step: 130000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5578.23
+Step: 140000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5573.66
+Step: 150000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5944.26
+Step: 160000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6059.58
+Step: 170000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6229.45
+Step: 180000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6229.36
+Step: 190000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6576.91
+Step: 200000 | Config: {'lr': 0.001, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6813.35
+
+--- Running Experiment 5/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: -0.54
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: -268.60
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 908.58
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 1647.53
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 1418.11
+Step: 60000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 2015.99
+Step: 70000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 2824.29
+Step: 80000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 3340.72
+Step: 90000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 3728.30
+Step: 100000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 3122.52
+Step: 110000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 4083.17
+Step: 120000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 4457.14
+Step: 130000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 4890.04
+Step: 140000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 4678.80
+Step: 150000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5014.20
+Step: 160000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5032.16
+Step: 170000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5323.44
+Step: 180000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5192.28
+Step: 190000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5455.29
+Step: 200000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 400} | Avg Reward: 5542.95
+
+--- Running Experiment 6/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: -1.48
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: -656.65
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: -78.41
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 1793.63
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 2476.78
+Step: 60000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3261.01
+Step: 70000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 2403.27
+Step: 80000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3968.43
+Step: 90000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4396.41
+Step: 100000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3882.71
+Step: 110000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4631.16
+Step: 120000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4243.07
+Step: 130000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4656.22
+Step: 140000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 3956.66
+Step: 150000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5120.38
+Step: 160000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5835.11
+Step: 170000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5415.26
+Step: 180000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 4983.71
+Step: 190000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 5432.50
+Step: 200000 | Config: {'lr': 0.0003, 'batch_size': 100, 'hidden_dim': 256} | Avg Reward: 6352.27
+
+--- Running Experiment 7/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: -0.94
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: -188.06
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 499.14
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 954.45
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 1335.25
+Step: 60000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 2372.17
+Step: 70000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 2689.00
+Step: 80000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 3390.98
+Step: 90000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 3865.86
+Step: 100000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4230.33
+Step: 110000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4445.18
+Step: 120000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4608.56
+Step: 130000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4500.73
+Step: 140000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5025.96
+Step: 150000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 4806.09
+Step: 160000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5202.78
+Step: 170000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5368.14
+Step: 180000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5518.66
+Step: 190000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5716.03
+Step: 200000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 400} | Avg Reward: 5807.06
+
+--- Running Experiment 8/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: -1.58
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: -78.68
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 929.11
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 1800.35
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 1761.11
+Step: 60000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 2972.92
+Step: 70000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 3465.81
+Step: 80000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 3825.00
+Step: 90000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4288.75
+Step: 100000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4496.03
+Step: 110000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4531.92
+Step: 120000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5296.07
+Step: 130000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 4831.13
+Step: 140000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5455.54
+Step: 150000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5776.54
+Step: 160000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6194.20
+Step: 170000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 5507.83
+Step: 180000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6601.69
+Step: 190000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6894.46
+Step: 200000 | Config: {'lr': 0.0003, 'batch_size': 512, 'hidden_dim': 256} | Avg Reward: 6875.37
+
+Search complete! Results saved to hp_search_results_HalfCheetah-v4.json
+Done: Mon Jun  8 11:44:02 PM IDT 2026

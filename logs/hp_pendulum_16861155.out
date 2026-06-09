@@ -1,0 +1,92 @@
+Host: dsiuriofir01
+Job ID: 16861155
+Start: Mon Jun  8 09:36:15 PM IDT 2026
+Mon Jun  8 21:36:15 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:CA:00.0 Off |                    0 |
+| N/A   43C    P0             47W /  300W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting Hyperparameter Search for InvertedPendulum-v4
+Total combinations: 8
+
+--- Running Experiment 1/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 111.50
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 86.30
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 1000.00
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 1000.00
+
+--- Running Experiment 2/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 41.60
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 193.30
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 1000.00
+
+--- Running Experiment 3/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 3.00
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 3.00
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 30.80
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 61.00
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 1000.00
+
+--- Running Experiment 4/8 ---
+Parameters: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000}
+Step: 10000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 88.80
+Step: 20000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 96.00
+Step: 30000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 40000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.001, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+
+--- Running Experiment 5/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 66.70
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 69.10
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 105.10
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 5000} | Avg Reward: 1000.00
+
+--- Running Experiment 6/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 71.30
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 109.00
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 94.90
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 322.20
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 100, 'start_steps': 1000} | Avg Reward: 190.00
+
+--- Running Experiment 7/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 94.60
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 51.10
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 96.10
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 5000} | Avg Reward: 1000.00
+
+--- Running Experiment 8/8 ---
+Parameters: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000}
+Step: 10000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 75.00
+Step: 20000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 72.30
+Step: 30000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 40000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+Step: 50000 | Config: {'lr': 0.0003, 'batch_size': 512, 'start_steps': 1000} | Avg Reward: 1000.00
+
+Search complete! Results saved to hp_search_results_InvertedPendulum-v4.json
+Done: Mon Jun  8 10:05:54 PM IDT 2026
