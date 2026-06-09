@@ -27,7 +27,9 @@ def main():
 
     print(f"--- Analyzing {len(result_files)} runs for {args.env} ---")
 
-    for file_path in result_files:
+    colors = ["royalblue", "darkorange", "forestgreen", "purple", "brown"]
+
+    for i, file_path in enumerate(result_files):
         with open(file_path, "r") as f:
             data = json.load(f)
             
@@ -43,6 +45,25 @@ def main():
         
         print(f"Seed {seed}: Final Reward = {final_r:.2f}")
 
+        # --- יצירת גרף נפרד לכל ריצה (בדיוק מה שהמרצה ביקש) ---
+        fig, ax = plt.subplots(figsize=(8, 5))
+        color = colors[i % len(colors)]
+        ax.plot(eval_steps, rewards, color=color, linewidth=2.0)
+        ax.set_xlabel("Training Steps", fontsize=13)
+        ax.set_ylabel("Evaluation Reward", fontsize=13)
+        ax.set_title(f"TD3 — {args.env}   |   Run {i+1} (Seed {seed})", fontsize=13)
+        ax.grid(True, alpha=0.3)
+        
+        # סימון קו אדום של התוצאה הסופית
+        ax.axhline(final_r, color="crimson", linestyle="--", linewidth=1.2, alpha=0.7, label=f"Final: {final_r:.1f}")
+        ax.legend(fontsize=11)
+        fig.tight_layout()
+        
+        ind_plot_path = os.path.join(args.results_dir, f"{args.env}_run{i+1}_seed{seed}_learning_curve.png")
+        fig.savefig(ind_plot_path, dpi=150)
+        plt.close(fig)
+        print(f"  Saved individual plot → {ind_plot_path}")
+
     # Calculate statistics
     mean_final = np.mean(finals)
     std_final = np.std(finals)
@@ -51,9 +72,8 @@ def main():
     print(f"Final rewards: {[float(f'{r:.2f}') for r in finals]}")
     print(f"Mean ± Std   : {mean_final:.2f} ± {std_final:.2f}")
 
-    # Plotting
+    # --- יצירת גרף משולב ---
     fig, ax = plt.subplots(figsize=(10, 6))
-    colors  = ["royalblue", "darkorange", "forestgreen", "purple", "brown"]
 
     for i, rewards in enumerate(all_rewards):
         ax.plot(eval_steps, rewards, color=colors[i % len(colors)],
@@ -71,10 +91,10 @@ def main():
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
 
-    plot_path = os.path.join(args.results_dir, f"{args.env}_combined_learning_curves.png")
-    fig.savefig(plot_path, dpi=150)
+    comb_plot_path = os.path.join(args.results_dir, f"{args.env}_combined_learning_curves.png")
+    fig.savefig(comb_plot_path, dpi=150)
     plt.close(fig)
-    print(f"\nPlot saved to → {plot_path}")
+    print(f"\nCombined plot saved to → {comb_plot_path}")
 
 if __name__ == "__main__":
     main()

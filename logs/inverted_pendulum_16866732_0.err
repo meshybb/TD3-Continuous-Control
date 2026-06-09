@@ -1,0 +1,8 @@
+WARNING: You are using pip version 21.3.1; however, version 26.0.1 is available.
+You should consider upgrading via the '/home/dsi/davidpo/projects/RL/RL-ex2/.venv/bin/python -m pip install --upgrade pip' command.
+WARNING: You are using pip version 21.3.1; however, version 26.0.1 is available.
+You should consider upgrading via the '/home/dsi/davidpo/projects/RL/RL-ex2/.venv/bin/python -m pip install --upgrade pip' command.
+/home/dsi/davidpo/projects/RL/RL-ex2/.venv/lib64/python3.9/site-packages/gymnasium/envs/registration.py:519: DeprecationWarning: [33mWARN: The environment InvertedPendulum-v4 is out of date. You should consider upgrading to version `v5`.[0m
+  logger.deprecation(
+/home/dsi/davidpo/projects/RL/RL-ex2/.venv/lib64/python3.9/site-packages/gymnasium/envs/registration.py:519: DeprecationWarning: [33mWARN: The environment InvertedPendulum-v4 is out of date. You should consider upgrading to version `v5`.[0m
+  logger.deprecation(

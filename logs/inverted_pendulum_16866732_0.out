@@ -1,0 +1,2079 @@
+Host: dsiuriofir01
+Job ID: 16866733, Array Task ID: 0
+Seed for this run: 42
+CUDA_VISIBLE_DEVICES: 0
+Start: Tue Jun  9 11:41:11 AM IDT 2026
+Tue Jun  9 11:41:11 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:65:00.0 Off |                    0 |
+| N/A   35C    P0             43W /  300W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[InvertedPendulum-v4] seed= 42 t=        4  ep=   1  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       13  ep=   2  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=       23  ep=   3  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=       26  ep=   4  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=       30  ep=   5  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       33  ep=   6  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=       37  ep=   7  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       48  ep=   8  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=       53  ep=   9  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=       57  ep=  10  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       61  ep=  11  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       67  ep=  12  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=       70  ep=  13  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=       75  ep=  14  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=       85  ep=  15  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=       89  ep=  16  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=       95  ep=  17  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      100  ep=  18  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      103  ep=  19  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      106  ep=  20  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      110  ep=  21  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      115  ep=  22  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      118  ep=  23  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      127  ep=  24  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      130  ep=  25  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      151  ep=  26  ep_reward=    21.00  ep_steps=21
+[InvertedPendulum-v4] seed= 42 t=      173  ep=  27  ep_reward=    22.00  ep_steps=22
+[InvertedPendulum-v4] seed= 42 t=      181  ep=  28  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      185  ep=  29  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      193  ep=  30  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      207  ep=  31  ep_reward=    14.00  ep_steps=14
+[InvertedPendulum-v4] seed= 42 t=      225  ep=  32  ep_reward=    18.00  ep_steps=18
+[InvertedPendulum-v4] seed= 42 t=      240  ep=  33  ep_reward=    15.00  ep_steps=15
+[InvertedPendulum-v4] seed= 42 t=      243  ep=  34  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      248  ep=  35  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      261  ep=  36  ep_reward=    13.00  ep_steps=13
+[InvertedPendulum-v4] seed= 42 t=      270  ep=  37  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      273  ep=  38  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      280  ep=  39  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      283  ep=  40  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      288  ep=  41  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      294  ep=  42  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      297  ep=  43  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      300  ep=  44  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      309  ep=  45  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      313  ep=  46  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      317  ep=  47  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      322  ep=  48  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      328  ep=  49  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      344  ep=  50  ep_reward=    16.00  ep_steps=16
+[InvertedPendulum-v4] seed= 42 t=      347  ep=  51  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      351  ep=  52  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      356  ep=  53  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      360  ep=  54  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      366  ep=  55  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      370  ep=  56  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      376  ep=  57  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      380  ep=  58  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      384  ep=  59  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      388  ep=  60  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      395  ep=  61  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      405  ep=  62  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=      410  ep=  63  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      419  ep=  64  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      428  ep=  65  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      434  ep=  66  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      437  ep=  67  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      442  ep=  68  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      454  ep=  69  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=      457  ep=  70  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      462  ep=  71  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      466  ep=  72  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      470  ep=  73  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      475  ep=  74  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      482  ep=  75  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      487  ep=  76  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      498  ep=  77  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=      504  ep=  78  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      509  ep=  79  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      512  ep=  80  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      515  ep=  81  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      519  ep=  82  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      522  ep=  83  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      526  ep=  84  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      529  ep=  85  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      538  ep=  86  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      544  ep=  87  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      548  ep=  88  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      557  ep=  89  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      564  ep=  90  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      568  ep=  91  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      577  ep=  92  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      582  ep=  93  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      588  ep=  94  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      591  ep=  95  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      596  ep=  96  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      600  ep=  97  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      604  ep=  98  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      607  ep=  99  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      616  ep= 100  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      622  ep= 101  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      625  ep= 102  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      633  ep= 103  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      636  ep= 104  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      640  ep= 105  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      647  ep= 106  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      663  ep= 107  ep_reward=    16.00  ep_steps=16
+[InvertedPendulum-v4] seed= 42 t=      666  ep= 108  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      669  ep= 109  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      679  ep= 110  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=      683  ep= 111  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      691  ep= 112  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      697  ep= 113  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      705  ep= 114  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      709  ep= 115  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      713  ep= 116  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      716  ep= 117  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      727  ep= 118  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=      731  ep= 119  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      734  ep= 120  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      738  ep= 121  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      742  ep= 122  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      754  ep= 123  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=      763  ep= 124  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      767  ep= 125  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      770  ep= 126  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      785  ep= 127  ep_reward=    15.00  ep_steps=15
+[InvertedPendulum-v4] seed= 42 t=      797  ep= 128  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=      805  ep= 129  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      809  ep= 130  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      819  ep= 131  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=      822  ep= 132  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      832  ep= 133  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=      838  ep= 134  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      844  ep= 135  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      852  ep= 136  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      855  ep= 137  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      860  ep= 138  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      864  ep= 139  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      874  ep= 140  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=      878  ep= 141  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      884  ep= 142  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      888  ep= 143  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      894  ep= 144  ep_reward=     6.00  ep_steps=6
+[InvertedPendulum-v4] seed= 42 t=      898  ep= 145  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      902  ep= 146  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      909  ep= 147  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      914  ep= 148  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      917  ep= 149  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      920  ep= 150  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      927  ep= 151  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      931  ep= 152  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      950  ep= 153  ep_reward=    19.00  ep_steps=19
+[InvertedPendulum-v4] seed= 42 t=      954  ep= 154  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=      957  ep= 155  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      966  ep= 156  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=      974  ep= 157  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=      981  ep= 158  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=      984  ep= 159  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=      989  ep= 160  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=      993  ep= 161  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,014  ep= 162  ep_reward=    21.00  ep_steps=21
+[InvertedPendulum-v4] seed= 42 t=    1,018  ep= 163  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,021  ep= 164  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,024  ep= 165  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,027  ep= 166  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,030  ep= 167  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,033  ep= 168  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,036  ep= 169  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,039  ep= 170  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,042  ep= 171  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,045  ep= 172  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,048  ep= 173  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,051  ep= 174  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,054  ep= 175  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,057  ep= 176  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,060  ep= 177  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,063  ep= 178  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,066  ep= 179  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,069  ep= 180  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,072  ep= 181  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,075  ep= 182  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,078  ep= 183  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,081  ep= 184  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,084  ep= 185  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,087  ep= 186  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,090  ep= 187  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,093  ep= 188  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,096  ep= 189  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,099  ep= 190  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,102  ep= 191  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,105  ep= 192  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,108  ep= 193  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,111  ep= 194  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,114  ep= 195  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,117  ep= 196  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,120  ep= 197  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,123  ep= 198  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,126  ep= 199  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,129  ep= 200  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,132  ep= 201  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,135  ep= 202  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,138  ep= 203  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,141  ep= 204  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,144  ep= 205  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,147  ep= 206  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,150  ep= 207  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,153  ep= 208  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,156  ep= 209  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,159  ep= 210  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,162  ep= 211  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,165  ep= 212  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,168  ep= 213  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,171  ep= 214  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,174  ep= 215  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,177  ep= 216  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,180  ep= 217  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,183  ep= 218  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,186  ep= 219  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,189  ep= 220  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,192  ep= 221  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,195  ep= 222  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,198  ep= 223  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,201  ep= 224  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,204  ep= 225  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,207  ep= 226  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,210  ep= 227  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,213  ep= 228  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,216  ep= 229  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,219  ep= 230  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,222  ep= 231  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,225  ep= 232  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,228  ep= 233  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,231  ep= 234  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,234  ep= 235  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,237  ep= 236  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,240  ep= 237  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,243  ep= 238  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,246  ep= 239  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,249  ep= 240  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,252  ep= 241  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,255  ep= 242  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,258  ep= 243  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,261  ep= 244  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,264  ep= 245  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,267  ep= 246  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,270  ep= 247  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,273  ep= 248  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,276  ep= 249  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,279  ep= 250  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,282  ep= 251  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,285  ep= 252  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,288  ep= 253  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,291  ep= 254  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,294  ep= 255  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,297  ep= 256  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,300  ep= 257  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,303  ep= 258  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,306  ep= 259  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,309  ep= 260  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,312  ep= 261  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,315  ep= 262  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,318  ep= 263  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,321  ep= 264  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,324  ep= 265  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,327  ep= 266  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,330  ep= 267  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,333  ep= 268  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,336  ep= 269  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,339  ep= 270  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,342  ep= 271  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,345  ep= 272  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,348  ep= 273  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,351  ep= 274  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,354  ep= 275  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,357  ep= 276  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,360  ep= 277  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,363  ep= 278  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,366  ep= 279  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,369  ep= 280  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,372  ep= 281  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,375  ep= 282  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,378  ep= 283  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,381  ep= 284  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,384  ep= 285  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,387  ep= 286  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,390  ep= 287  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,393  ep= 288  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,396  ep= 289  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,399  ep= 290  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,402  ep= 291  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,405  ep= 292  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,408  ep= 293  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,411  ep= 294  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,414  ep= 295  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,417  ep= 296  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,420  ep= 297  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,423  ep= 298  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,426  ep= 299  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,429  ep= 300  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,432  ep= 301  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,435  ep= 302  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,438  ep= 303  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,441  ep= 304  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,444  ep= 305  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,447  ep= 306  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,450  ep= 307  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,453  ep= 308  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,456  ep= 309  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,459  ep= 310  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,462  ep= 311  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,465  ep= 312  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,468  ep= 313  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,471  ep= 314  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,474  ep= 315  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,477  ep= 316  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,480  ep= 317  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,483  ep= 318  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,486  ep= 319  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,489  ep= 320  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,492  ep= 321  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,495  ep= 322  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,498  ep= 323  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,501  ep= 324  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,504  ep= 325  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,507  ep= 326  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,510  ep= 327  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,513  ep= 328  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,516  ep= 329  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,519  ep= 330  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,522  ep= 331  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,525  ep= 332  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,528  ep= 333  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,531  ep= 334  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,534  ep= 335  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,537  ep= 336  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,540  ep= 337  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,543  ep= 338  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,546  ep= 339  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,549  ep= 340  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,552  ep= 341  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,555  ep= 342  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,558  ep= 343  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,561  ep= 344  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,564  ep= 345  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,567  ep= 346  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,570  ep= 347  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,573  ep= 348  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,576  ep= 349  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,579  ep= 350  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,582  ep= 351  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,585  ep= 352  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,588  ep= 353  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,591  ep= 354  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,594  ep= 355  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,597  ep= 356  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,600  ep= 357  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,603  ep= 358  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,606  ep= 359  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,609  ep= 360  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,612  ep= 361  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,615  ep= 362  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,618  ep= 363  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,621  ep= 364  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,624  ep= 365  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,627  ep= 366  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,630  ep= 367  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,633  ep= 368  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,636  ep= 369  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,639  ep= 370  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,642  ep= 371  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,645  ep= 372  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,648  ep= 373  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,651  ep= 374  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,654  ep= 375  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,657  ep= 376  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,660  ep= 377  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,663  ep= 378  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,666  ep= 379  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,669  ep= 380  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,672  ep= 381  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,675  ep= 382  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,678  ep= 383  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,681  ep= 384  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,684  ep= 385  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,687  ep= 386  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,690  ep= 387  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,693  ep= 388  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,696  ep= 389  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,699  ep= 390  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,702  ep= 391  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,705  ep= 392  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,708  ep= 393  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,711  ep= 394  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,714  ep= 395  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,717  ep= 396  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,720  ep= 397  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,723  ep= 398  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,726  ep= 399  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,729  ep= 400  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,732  ep= 401  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,735  ep= 402  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,738  ep= 403  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,741  ep= 404  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,744  ep= 405  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,747  ep= 406  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,750  ep= 407  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,753  ep= 408  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,756  ep= 409  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,759  ep= 410  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,762  ep= 411  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,765  ep= 412  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,768  ep= 413  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,771  ep= 414  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,774  ep= 415  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,777  ep= 416  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,780  ep= 417  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,783  ep= 418  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,786  ep= 419  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,789  ep= 420  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,792  ep= 421  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,795  ep= 422  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,798  ep= 423  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,801  ep= 424  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,804  ep= 425  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,807  ep= 426  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,810  ep= 427  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,813  ep= 428  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,816  ep= 429  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,819  ep= 430  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,822  ep= 431  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,825  ep= 432  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,828  ep= 433  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,831  ep= 434  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,834  ep= 435  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,837  ep= 436  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,840  ep= 437  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,843  ep= 438  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,846  ep= 439  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,849  ep= 440  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,852  ep= 441  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,855  ep= 442  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,858  ep= 443  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,861  ep= 444  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,864  ep= 445  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,867  ep= 446  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,871  ep= 447  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,874  ep= 448  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,878  ep= 449  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,881  ep= 450  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,884  ep= 451  ep_reward=     3.00  ep_steps=3
+[InvertedPendulum-v4] seed= 42 t=    1,888  ep= 452  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,892  ep= 453  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,896  ep= 454  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,900  ep= 455  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,904  ep= 456  ep_reward=     4.00  ep_steps=4
+[InvertedPendulum-v4] seed= 42 t=    1,909  ep= 457  ep_reward=     5.00  ep_steps=5
+[InvertedPendulum-v4] seed= 42 t=    1,919  ep= 458  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    1,927  ep= 459  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    1,940  ep= 460  ep_reward=    13.00  ep_steps=13
+[InvertedPendulum-v4] seed= 42 t=    1,952  ep= 461  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=    1,961  ep= 462  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=    1,968  ep= 463  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=    1,975  ep= 464  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=    1,983  ep= 465  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    1,991  ep= 466  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    1,999  ep= 467  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    2,007  ep= 468  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    2,014  ep= 469  ep_reward=     7.00  ep_steps=7
+[InvertedPendulum-v4] seed= 42 t=    2,022  ep= 470  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    2,030  ep= 471  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    2,040  ep= 472  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    2,050  ep= 473  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    2,059  ep= 474  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=    2,067  ep= 475  ep_reward=     8.00  ep_steps=8
+[InvertedPendulum-v4] seed= 42 t=    2,077  ep= 476  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    2,086  ep= 477  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=    2,095  ep= 478  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=    2,104  ep= 479  ep_reward=     9.00  ep_steps=9
+[InvertedPendulum-v4] seed= 42 t=    2,115  ep= 480  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=    2,126  ep= 481  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=    2,136  ep= 482  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    2,146  ep= 483  ep_reward=    10.00  ep_steps=10
+[InvertedPendulum-v4] seed= 42 t=    2,157  ep= 484  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=    2,169  ep= 485  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=    2,181  ep= 486  ep_reward=    12.00  ep_steps=12
+[InvertedPendulum-v4] seed= 42 t=    2,194  ep= 487  ep_reward=    13.00  ep_steps=13
+[InvertedPendulum-v4] seed= 42 t=    2,205  ep= 488  ep_reward=    11.00  ep_steps=11
+[InvertedPendulum-v4] seed= 42 t=    2,238  ep= 489  ep_reward=    33.00  ep_steps=33
+[InvertedPendulum-v4] seed= 42 t=    2,279  ep= 490  ep_reward=    41.00  ep_steps=41
+[InvertedPendulum-v4] seed= 42 t=    2,318  ep= 491  ep_reward=    39.00  ep_steps=39
+[InvertedPendulum-v4] seed= 42 t=    2,359  ep= 492  ep_reward=    41.00  ep_steps=41
+[InvertedPendulum-v4] seed= 42 t=    2,400  ep= 493  ep_reward=    41.00  ep_steps=41
+[InvertedPendulum-v4] seed= 42 t=    2,442  ep= 494  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=    2,486  ep= 495  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=    2,528  ep= 496  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=    2,571  ep= 497  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=    2,619  ep= 498  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    2,674  ep= 499  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=    2,732  ep= 500  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    2,788  ep= 501  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=    2,847  ep= 502  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    2,907  ep= 503  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    2,966  ep= 504  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    3,026  ep= 505  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    3,079  ep= 506  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    3,132  ep= 507  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    3,185  ep= 508  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    3,238  ep= 509  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    3,289  ep= 510  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=    3,340  ep= 511  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=    3,390  ep= 512  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    3,443  ep= 513  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    3,493  ep= 514  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    3,542  ep= 515  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    3,591  ep= 516  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    3,640  ep= 517  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    3,690  ep= 518  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    3,739  ep= 519  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    3,788  ep= 520  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    3,836  ep= 521  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    3,883  ep= 522  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=    3,928  ep= 523  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=    3,974  ep= 524  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=    4,022  ep= 525  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    4,068  ep= 526  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=    4,113  ep= 527  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=    4,161  ep= 528  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    4,210  ep= 529  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    4,257  ep= 530  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=    4,307  ep= 531  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    4,354  ep= 532  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=    4,402  ep= 533  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    4,447  ep= 534  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=    4,495  ep= 535  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    4,544  ep= 536  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    4,597  ep= 537  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    4,651  ep= 538  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    4,701  ep= 539  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    4,755  ep= 540  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    4,808  ep= 541  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    4,857  ep= 542  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    4,911  ep= 543  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    4,965  ep= 544  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    5,018  ep= 545  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    5,068  ep= 546  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    5,120  ep= 547  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    5,171  ep= 548  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=    5,224  ep= 549  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    5,276  ep= 550  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    5,325  ep= 551  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    5,374  ep= 552  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    5,424  ep= 553  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    5,471  ep= 554  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=    5,519  ep= 555  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=    5,569  ep= 556  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    5,618  ep= 557  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    5,669  ep= 558  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=    5,719  ep= 559  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    5,771  ep= 560  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    5,823  ep= 561  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    5,877  ep= 562  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    5,928  ep= 563  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=    5,981  ep= 564  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    6,031  ep= 565  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    6,081  ep= 566  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    6,133  ep= 567  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    6,182  ep= 568  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    6,231  ep= 569  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=    6,281  ep= 570  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=    6,334  ep= 571  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    6,388  ep= 572  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,442  ep= 573  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,496  ep= 574  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,549  ep= 575  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=    6,601  ep= 576  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    6,655  ep= 577  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,707  ep= 578  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=    6,765  ep= 579  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    6,819  ep= 580  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,877  ep= 581  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    6,931  ep= 582  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    6,986  ep= 583  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=    7,043  ep= 584  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    7,099  ep= 585  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=    7,159  ep= 586  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    7,215  ep= 587  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=    7,279  ep= 588  ep_reward=    64.00  ep_steps=64
+[InvertedPendulum-v4] seed= 42 t=    7,336  ep= 589  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    7,394  ep= 590  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    7,450  ep= 591  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=    7,508  ep= 592  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    7,568  ep= 593  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    7,631  ep= 594  ep_reward=    63.00  ep_steps=63
+[InvertedPendulum-v4] seed= 42 t=    7,685  ep= 595  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    7,743  ep= 596  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    7,797  ep= 597  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    7,857  ep= 598  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    7,916  ep= 599  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    7,979  ep= 600  ep_reward=    63.00  ep_steps=63
+[InvertedPendulum-v4] seed= 42 t=    8,033  ep= 601  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=    8,092  ep= 602  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    8,148  ep= 603  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=    8,206  ep= 604  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    8,263  ep= 605  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    8,322  ep= 606  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    8,377  ep= 607  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=    8,432  ep= 608  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=    8,489  ep= 609  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    8,546  ep= 610  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    8,605  ep= 611  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    8,670  ep= 612  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=    8,727  ep= 613  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    8,787  ep= 614  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    8,852  ep= 615  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=    8,913  ep= 616  ep_reward=    61.00  ep_steps=61
+[InvertedPendulum-v4] seed= 42 t=    8,972  ep= 617  ep_reward=    59.00  ep_steps=59
+[InvertedPendulum-v4] seed= 42 t=    9,032  ep= 618  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=    9,089  ep= 619  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=    9,163  ep= 620  ep_reward=    74.00  ep_steps=74
+[InvertedPendulum-v4] seed= 42 t=    9,231  ep= 621  ep_reward=    68.00  ep_steps=68
+[InvertedPendulum-v4] seed= 42 t=    9,294  ep= 622  ep_reward=    63.00  ep_steps=63
+[InvertedPendulum-v4] seed= 42 t=    9,363  ep= 623  ep_reward=    69.00  ep_steps=69
+[InvertedPendulum-v4] seed= 42 t=    9,421  ep= 624  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=    9,488  ep= 625  ep_reward=    67.00  ep_steps=67
+[InvertedPendulum-v4] seed= 42 t=    9,552  ep= 626  ep_reward=    64.00  ep_steps=64
+[InvertedPendulum-v4] seed= 42 t=    9,615  ep= 627  ep_reward=    63.00  ep_steps=63
+[InvertedPendulum-v4] seed= 42 t=    9,686  ep= 628  ep_reward=    71.00  ep_steps=71
+[InvertedPendulum-v4] seed= 42 t=    9,757  ep= 629  ep_reward=    71.00  ep_steps=71
+[InvertedPendulum-v4] seed= 42 t=    9,823  ep= 630  ep_reward=    66.00  ep_steps=66
+[InvertedPendulum-v4] seed= 42 t=    9,894  ep= 631  ep_reward=    71.00  ep_steps=71
+[InvertedPendulum-v4] seed= 42 t=    9,958  ep= 632  ep_reward=    64.00  ep_steps=64
+  *** Eval  t=   10,000  avg_reward=    64.40  (10 eps)  elapsed=0.8min ***
+[InvertedPendulum-v4] seed= 42 t=   10,012  ep= 633  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=   10,083  ep= 634  ep_reward=    71.00  ep_steps=71
+[InvertedPendulum-v4] seed= 42 t=   10,148  ep= 635  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=   10,213  ep= 636  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=   10,274  ep= 637  ep_reward=    61.00  ep_steps=61
+[InvertedPendulum-v4] seed= 42 t=   10,344  ep= 638  ep_reward=    70.00  ep_steps=70
+[InvertedPendulum-v4] seed= 42 t=   10,411  ep= 639  ep_reward=    67.00  ep_steps=67
+[InvertedPendulum-v4] seed= 42 t=   10,518  ep= 640  ep_reward=   107.00  ep_steps=107
+[InvertedPendulum-v4] seed= 42 t=   10,573  ep= 641  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   10,613  ep= 642  ep_reward=    40.00  ep_steps=40
+[InvertedPendulum-v4] seed= 42 t=   10,656  ep= 643  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   10,698  ep= 644  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   10,738  ep= 645  ep_reward=    40.00  ep_steps=40
+[InvertedPendulum-v4] seed= 42 t=   10,771  ep= 646  ep_reward=    33.00  ep_steps=33
+[InvertedPendulum-v4] seed= 42 t=   10,803  ep= 647  ep_reward=    32.00  ep_steps=32
+[InvertedPendulum-v4] seed= 42 t=   10,839  ep= 648  ep_reward=    36.00  ep_steps=36
+[InvertedPendulum-v4] seed= 42 t=   10,877  ep= 649  ep_reward=    38.00  ep_steps=38
+[InvertedPendulum-v4] seed= 42 t=   10,913  ep= 650  ep_reward=    36.00  ep_steps=36
+[InvertedPendulum-v4] seed= 42 t=   10,950  ep= 651  ep_reward=    37.00  ep_steps=37
+[InvertedPendulum-v4] seed= 42 t=   10,985  ep= 652  ep_reward=    35.00  ep_steps=35
+[InvertedPendulum-v4] seed= 42 t=   11,024  ep= 653  ep_reward=    39.00  ep_steps=39
+[InvertedPendulum-v4] seed= 42 t=   11,065  ep= 654  ep_reward=    41.00  ep_steps=41
+[InvertedPendulum-v4] seed= 42 t=   11,107  ep= 655  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   11,152  ep= 656  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   11,194  ep= 657  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   11,235  ep= 658  ep_reward=    41.00  ep_steps=41
+[InvertedPendulum-v4] seed= 42 t=   11,283  ep= 659  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   11,326  ep= 660  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   11,374  ep= 661  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   11,423  ep= 662  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   11,472  ep= 663  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   11,518  ep= 664  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   11,568  ep= 665  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   11,618  ep= 666  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   11,670  ep= 667  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=   11,720  ep= 668  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   11,770  ep= 669  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   11,822  ep= 670  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=   11,875  ep= 671  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=   11,924  ep= 672  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   11,973  ep= 673  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   12,025  ep= 674  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=   12,073  ep= 675  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   12,122  ep= 676  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   12,171  ep= 677  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   12,220  ep= 678  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   12,266  ep= 679  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   12,315  ep= 680  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   12,363  ep= 681  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   12,411  ep= 682  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   12,458  ep= 683  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,505  ep= 684  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,552  ep= 685  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,598  ep= 686  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   12,645  ep= 687  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,690  ep= 688  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   12,737  ep= 689  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,785  ep= 690  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   12,832  ep= 691  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   12,878  ep= 692  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   12,926  ep= 693  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   12,972  ep= 694  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,018  ep= 695  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,062  ep= 696  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   13,108  ep= 697  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,155  ep= 698  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   13,204  ep= 699  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   13,250  ep= 700  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,297  ep= 701  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   13,341  ep= 702  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   13,385  ep= 703  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   13,429  ep= 704  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   13,474  ep= 705  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   13,520  ep= 706  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,569  ep= 707  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   13,616  ep= 708  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   13,663  ep= 709  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   13,707  ep= 710  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   13,753  ep= 711  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,798  ep= 712  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   13,843  ep= 713  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   13,889  ep= 714  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   13,934  ep= 715  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   13,979  ep= 716  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,023  ep= 717  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,068  ep= 718  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,111  ep= 719  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,155  ep= 720  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,197  ep= 721  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   14,241  ep= 722  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,284  ep= 723  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,328  ep= 724  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,373  ep= 725  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,418  ep= 726  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,462  ep= 727  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,506  ep= 728  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,549  ep= 729  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,592  ep= 730  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,636  ep= 731  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,679  ep= 732  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,723  ep= 733  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,768  ep= 734  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,810  ep= 735  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   14,854  ep= 736  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   14,897  ep= 737  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   14,942  ep= 738  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   14,986  ep= 739  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,028  ep= 740  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   15,073  ep= 741  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   15,116  ep= 742  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,159  ep= 743  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,202  ep= 744  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,246  ep= 745  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,289  ep= 746  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,331  ep= 747  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   15,375  ep= 748  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,418  ep= 749  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,461  ep= 750  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,505  ep= 751  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,548  ep= 752  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,591  ep= 753  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,635  ep= 754  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,678  ep= 755  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   15,722  ep= 756  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,764  ep= 757  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   15,808  ep= 758  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,850  ep= 759  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   15,892  ep= 760  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   15,936  ep= 761  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   15,980  ep= 762  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,024  ep= 763  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,068  ep= 764  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,111  ep= 765  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,154  ep= 766  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,197  ep= 767  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,240  ep= 768  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,285  ep= 769  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   16,329  ep= 770  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,371  ep= 771  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   16,414  ep= 772  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,459  ep= 773  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   16,504  ep= 774  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   16,546  ep= 775  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   16,590  ep= 776  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,634  ep= 777  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,678  ep= 778  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,722  ep= 779  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   16,765  ep= 780  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   16,807  ep= 781  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   16,849  ep= 782  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   16,894  ep= 783  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   16,936  ep= 784  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   16,980  ep= 785  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,023  ep= 786  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   17,068  ep= 787  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   17,111  ep= 788  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   17,153  ep= 789  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   17,195  ep= 790  ep_reward=    42.00  ep_steps=42
+[InvertedPendulum-v4] seed= 42 t=   17,240  ep= 791  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   17,284  ep= 792  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,328  ep= 793  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,373  ep= 794  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   17,416  ep= 795  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   17,460  ep= 796  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,503  ep= 797  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   17,546  ep= 798  ep_reward=    43.00  ep_steps=43
+[InvertedPendulum-v4] seed= 42 t=   17,590  ep= 799  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,634  ep= 800  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,680  ep= 801  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   17,725  ep= 802  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   17,769  ep= 803  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,814  ep= 804  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   17,858  ep= 805  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   17,906  ep= 806  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   17,956  ep= 807  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   18,006  ep= 808  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   18,056  ep= 809  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   18,107  ep= 810  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=   18,158  ep= 811  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=   18,208  ep= 812  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   18,261  ep= 813  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=   18,310  ep= 814  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   18,358  ep= 815  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   18,406  ep= 816  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   18,453  ep= 817  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   18,503  ep= 818  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   18,552  ep= 819  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   18,600  ep= 820  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   18,647  ep= 821  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   18,694  ep= 822  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   18,740  ep= 823  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   18,787  ep= 824  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   18,834  ep= 825  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   18,882  ep= 826  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   18,928  ep= 827  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   18,974  ep= 828  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,020  ep= 829  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,065  ep= 830  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   19,110  ep= 831  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   19,158  ep= 832  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   19,204  ep= 833  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,249  ep= 834  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   19,297  ep= 835  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   19,343  ep= 836  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,391  ep= 837  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   19,436  ep= 838  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   19,480  ep= 839  ep_reward=    44.00  ep_steps=44
+[InvertedPendulum-v4] seed= 42 t=   19,526  ep= 840  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,572  ep= 841  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,618  ep= 842  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,664  ep= 843  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,710  ep= 844  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,757  ep= 845  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   19,805  ep= 846  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   19,852  ep= 847  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   19,898  ep= 848  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   19,945  ep= 849  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   19,991  ep= 850  ep_reward=    46.00  ep_steps=46
+  *** Eval  t=   20,000  avg_reward=    46.20  (10 eps)  elapsed=1.6min ***
+[InvertedPendulum-v4] seed= 42 t=   20,038  ep= 851  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   20,087  ep= 852  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   20,133  ep= 853  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   20,179  ep= 854  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   20,227  ep= 855  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   20,275  ep= 856  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   20,322  ep= 857  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   20,371  ep= 858  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   20,417  ep= 859  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   20,463  ep= 860  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   20,508  ep= 861  ep_reward=    45.00  ep_steps=45
+[InvertedPendulum-v4] seed= 42 t=   20,557  ep= 862  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   20,605  ep= 863  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   20,651  ep= 864  ep_reward=    46.00  ep_steps=46
+[InvertedPendulum-v4] seed= 42 t=   20,699  ep= 865  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   20,746  ep= 866  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   20,795  ep= 867  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   20,843  ep= 868  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   20,890  ep= 869  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   20,939  ep= 870  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   20,987  ep= 871  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,036  ep= 872  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   21,083  ep= 873  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   21,131  ep= 874  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,180  ep= 875  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   21,228  ep= 876  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,276  ep= 877  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,325  ep= 878  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   21,375  ep= 879  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   21,423  ep= 880  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,471  ep= 881  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,518  ep= 882  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   21,567  ep= 883  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   21,615  ep= 884  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,662  ep= 885  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   21,712  ep= 886  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   21,759  ep= 887  ep_reward=    47.00  ep_steps=47
+[InvertedPendulum-v4] seed= 42 t=   21,808  ep= 888  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   21,856  ep= 889  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   21,906  ep= 890  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   21,956  ep= 891  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,006  ep= 892  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,055  ep= 893  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   22,104  ep= 894  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   22,154  ep= 895  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,203  ep= 896  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   22,254  ep= 897  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=   22,304  ep= 898  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,353  ep= 899  ep_reward=    49.00  ep_steps=49
+[InvertedPendulum-v4] seed= 42 t=   22,405  ep= 900  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=   22,453  ep= 901  ep_reward=    48.00  ep_steps=48
+[InvertedPendulum-v4] seed= 42 t=   22,503  ep= 902  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,553  ep= 903  ep_reward=    50.00  ep_steps=50
+[InvertedPendulum-v4] seed= 42 t=   22,608  ep= 904  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   22,660  ep= 905  ep_reward=    52.00  ep_steps=52
+[InvertedPendulum-v4] seed= 42 t=   22,713  ep= 906  ep_reward=    53.00  ep_steps=53
+[InvertedPendulum-v4] seed= 42 t=   22,768  ep= 907  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   22,822  ep= 908  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=   22,877  ep= 909  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   22,931  ep= 910  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=   22,982  ep= 911  ep_reward=    51.00  ep_steps=51
+[InvertedPendulum-v4] seed= 42 t=   23,038  ep= 912  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=   23,093  ep= 913  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   23,147  ep= 914  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=   23,203  ep= 915  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=   23,263  ep= 916  ep_reward=    60.00  ep_steps=60
+[InvertedPendulum-v4] seed= 42 t=   23,317  ep= 917  ep_reward=    54.00  ep_steps=54
+[InvertedPendulum-v4] seed= 42 t=   23,374  ep= 918  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=   23,429  ep= 919  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   23,486  ep= 920  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=   23,551  ep= 921  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=   23,608  ep= 922  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=   23,664  ep= 923  ep_reward=    56.00  ep_steps=56
+[InvertedPendulum-v4] seed= 42 t=   23,721  ep= 924  ep_reward=    57.00  ep_steps=57
+[InvertedPendulum-v4] seed= 42 t=   23,776  ep= 925  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   23,834  ep= 926  ep_reward=    58.00  ep_steps=58
+[InvertedPendulum-v4] seed= 42 t=   23,889  ep= 927  ep_reward=    55.00  ep_steps=55
+[InvertedPendulum-v4] seed= 42 t=   23,955  ep= 928  ep_reward=    66.00  ep_steps=66
+[InvertedPendulum-v4] seed= 42 t=   24,024  ep= 929  ep_reward=    69.00  ep_steps=69
+[InvertedPendulum-v4] seed= 42 t=   24,089  ep= 930  ep_reward=    65.00  ep_steps=65
+[InvertedPendulum-v4] seed= 42 t=   24,150  ep= 931  ep_reward=    61.00  ep_steps=61
+[InvertedPendulum-v4] seed= 42 t=   24,218  ep= 932  ep_reward=    68.00  ep_steps=68
+[InvertedPendulum-v4] seed= 42 t=   24,294  ep= 933  ep_reward=    76.00  ep_steps=76
+[InvertedPendulum-v4] seed= 42 t=   24,357  ep= 934  ep_reward=    63.00  ep_steps=63
+[InvertedPendulum-v4] seed= 42 t=   24,432  ep= 935  ep_reward=    75.00  ep_steps=75
+[InvertedPendulum-v4] seed= 42 t=   24,511  ep= 936  ep_reward=    79.00  ep_steps=79
+[InvertedPendulum-v4] seed= 42 t=   24,584  ep= 937  ep_reward=    73.00  ep_steps=73
+[InvertedPendulum-v4] seed= 42 t=   24,651  ep= 938  ep_reward=    67.00  ep_steps=67
+[InvertedPendulum-v4] seed= 42 t=   24,771  ep= 939  ep_reward=   120.00  ep_steps=120
+[InvertedPendulum-v4] seed= 42 t=   24,873  ep= 940  ep_reward=   102.00  ep_steps=102
+[InvertedPendulum-v4] seed= 42 t=   24,957  ep= 941  ep_reward=    84.00  ep_steps=84
+[InvertedPendulum-v4] seed= 42 t=   25,084  ep= 942  ep_reward=   127.00  ep_steps=127
+[InvertedPendulum-v4] seed= 42 t=   25,179  ep= 943  ep_reward=    95.00  ep_steps=95
+[InvertedPendulum-v4] seed= 42 t=   25,262  ep= 944  ep_reward=    83.00  ep_steps=83
+[InvertedPendulum-v4] seed= 42 t=   25,353  ep= 945  ep_reward=    91.00  ep_steps=91
+[InvertedPendulum-v4] seed= 42 t=   25,451  ep= 946  ep_reward=    98.00  ep_steps=98
+[InvertedPendulum-v4] seed= 42 t=   25,555  ep= 947  ep_reward=   104.00  ep_steps=104
+[InvertedPendulum-v4] seed= 42 t=   25,713  ep= 948  ep_reward=   158.00  ep_steps=158
+[InvertedPendulum-v4] seed= 42 t=   25,813  ep= 949  ep_reward=   100.00  ep_steps=100
+[InvertedPendulum-v4] seed= 42 t=   25,908  ep= 950  ep_reward=    95.00  ep_steps=95
+[InvertedPendulum-v4] seed= 42 t=   26,026  ep= 951  ep_reward=   118.00  ep_steps=118
+[InvertedPendulum-v4] seed= 42 t=   26,152  ep= 952  ep_reward=   126.00  ep_steps=126
+[InvertedPendulum-v4] seed= 42 t=   26,248  ep= 953  ep_reward=    96.00  ep_steps=96
+[InvertedPendulum-v4] seed= 42 t=   26,356  ep= 954  ep_reward=   108.00  ep_steps=108
+[InvertedPendulum-v4] seed= 42 t=   26,481  ep= 955  ep_reward=   125.00  ep_steps=125
+[InvertedPendulum-v4] seed= 42 t=   26,615  ep= 956  ep_reward=   134.00  ep_steps=134
+[InvertedPendulum-v4] seed= 42 t=   26,752  ep= 957  ep_reward=   137.00  ep_steps=137
+[InvertedPendulum-v4] seed= 42 t=   26,889  ep= 958  ep_reward=   137.00  ep_steps=137
+[InvertedPendulum-v4] seed= 42 t=   26,991  ep= 959  ep_reward=   102.00  ep_steps=102
+[InvertedPendulum-v4] seed= 42 t=   27,143  ep= 960  ep_reward=   152.00  ep_steps=152
+[InvertedPendulum-v4] seed= 42 t=   27,270  ep= 961  ep_reward=   127.00  ep_steps=127
+[InvertedPendulum-v4] seed= 42 t=   27,409  ep= 962  ep_reward=   139.00  ep_steps=139
+[InvertedPendulum-v4] seed= 42 t=   27,606  ep= 963  ep_reward=   197.00  ep_steps=197
+[InvertedPendulum-v4] seed= 42 t=   27,798  ep= 964  ep_reward=   192.00  ep_steps=192
+[InvertedPendulum-v4] seed= 42 t=   27,984  ep= 965  ep_reward=   186.00  ep_steps=186
+[InvertedPendulum-v4] seed= 42 t=   28,198  ep= 966  ep_reward=   214.00  ep_steps=214
+[InvertedPendulum-v4] seed= 42 t=   28,378  ep= 967  ep_reward=   180.00  ep_steps=180
+[InvertedPendulum-v4] seed= 42 t=   28,577  ep= 968  ep_reward=   199.00  ep_steps=199
+[InvertedPendulum-v4] seed= 42 t=   28,791  ep= 969  ep_reward=   214.00  ep_steps=214
+[InvertedPendulum-v4] seed= 42 t=   29,024  ep= 970  ep_reward=   233.00  ep_steps=233
+[InvertedPendulum-v4] seed= 42 t=   29,251  ep= 971  ep_reward=   227.00  ep_steps=227
+[InvertedPendulum-v4] seed= 42 t=   29,557  ep= 972  ep_reward=   306.00  ep_steps=306
+[InvertedPendulum-v4] seed= 42 t=   29,832  ep= 973  ep_reward=   275.00  ep_steps=275
+  *** Eval  t=   30,000  avg_reward=   772.10  (10 eps)  elapsed=2.4min ***
+[InvertedPendulum-v4] seed= 42 t=   30,202  ep= 974  ep_reward=   370.00  ep_steps=370
+[InvertedPendulum-v4] seed= 42 t=   30,769  ep= 975  ep_reward=   567.00  ep_steps=567
+[InvertedPendulum-v4] seed= 42 t=   31,769  ep= 976  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   32,769  ep= 977  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   33,769  ep= 978  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   34,769  ep= 979  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   35,769  ep= 980  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   36,769  ep= 981  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   37,769  ep= 982  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   38,769  ep= 983  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   39,769  ep= 984  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   40,000  avg_reward=  1000.00  (10 eps)  elapsed=3.3min ***
+[InvertedPendulum-v4] seed= 42 t=   40,769  ep= 985  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   41,769  ep= 986  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   42,769  ep= 987  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   43,769  ep= 988  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   44,769  ep= 989  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   45,769  ep= 990  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   46,769  ep= 991  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   47,769  ep= 992  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   48,769  ep= 993  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   49,769  ep= 994  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   50,000  avg_reward=  1000.00  (10 eps)  elapsed=4.1min ***
+[InvertedPendulum-v4] seed= 42 t=   50,769  ep= 995  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   51,769  ep= 996  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   52,769  ep= 997  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   53,769  ep= 998  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   54,769  ep= 999  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   55,769  ep=1000  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   56,769  ep=1001  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   57,769  ep=1002  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   58,769  ep=1003  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   59,769  ep=1004  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   60,000  avg_reward=  1000.00  (10 eps)  elapsed=5.0min ***
+[InvertedPendulum-v4] seed= 42 t=   60,769  ep=1005  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   61,769  ep=1006  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   62,769  ep=1007  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   63,769  ep=1008  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   64,769  ep=1009  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   65,769  ep=1010  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   66,769  ep=1011  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   67,769  ep=1012  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   68,769  ep=1013  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   69,769  ep=1014  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   70,000  avg_reward=  1000.00  (10 eps)  elapsed=5.8min ***
+[InvertedPendulum-v4] seed= 42 t=   70,769  ep=1015  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   71,769  ep=1016  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   72,769  ep=1017  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   73,769  ep=1018  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   74,769  ep=1019  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   75,769  ep=1020  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   76,769  ep=1021  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   77,769  ep=1022  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   78,769  ep=1023  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   79,769  ep=1024  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   80,000  avg_reward=  1000.00  (10 eps)  elapsed=6.6min ***
+[InvertedPendulum-v4] seed= 42 t=   80,769  ep=1025  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   81,769  ep=1026  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   82,769  ep=1027  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   83,769  ep=1028  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   84,769  ep=1029  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   85,769  ep=1030  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   86,769  ep=1031  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   87,769  ep=1032  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   88,769  ep=1033  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   89,769  ep=1034  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=   90,000  avg_reward=  1000.00  (10 eps)  elapsed=7.5min ***
+[InvertedPendulum-v4] seed= 42 t=   90,769  ep=1035  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   91,769  ep=1036  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   92,769  ep=1037  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   93,769  ep=1038  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   94,769  ep=1039  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   95,769  ep=1040  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   96,769  ep=1041  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   97,769  ep=1042  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   98,769  ep=1043  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=   99,769  ep=1044  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  100,000  avg_reward=  1000.00  (10 eps)  elapsed=8.3min ***
+[InvertedPendulum-v4] seed= 42 t=  100,769  ep=1045  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  101,769  ep=1046  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  102,769  ep=1047  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  103,769  ep=1048  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  104,769  ep=1049  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  105,769  ep=1050  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  106,769  ep=1051  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  107,769  ep=1052  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  108,769  ep=1053  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  109,769  ep=1054  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  110,000  avg_reward=  1000.00  (10 eps)  elapsed=9.1min ***
+[InvertedPendulum-v4] seed= 42 t=  110,769  ep=1055  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  111,769  ep=1056  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  112,769  ep=1057  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  113,769  ep=1058  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  114,769  ep=1059  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  115,769  ep=1060  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  116,769  ep=1061  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  117,769  ep=1062  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  118,769  ep=1063  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  119,769  ep=1064  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  120,000  avg_reward=  1000.00  (10 eps)  elapsed=10.0min ***
+[InvertedPendulum-v4] seed= 42 t=  120,769  ep=1065  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  121,769  ep=1066  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  122,769  ep=1067  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  123,769  ep=1068  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  124,769  ep=1069  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  125,769  ep=1070  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  126,769  ep=1071  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  127,769  ep=1072  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  128,769  ep=1073  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  129,769  ep=1074  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  130,000  avg_reward=  1000.00  (10 eps)  elapsed=10.8min ***
+[InvertedPendulum-v4] seed= 42 t=  130,769  ep=1075  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  131,769  ep=1076  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  132,769  ep=1077  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  133,769  ep=1078  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  134,769  ep=1079  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  135,769  ep=1080  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  136,769  ep=1081  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  137,769  ep=1082  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  138,769  ep=1083  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  139,769  ep=1084  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  140,000  avg_reward=  1000.00  (10 eps)  elapsed=11.6min ***
+[InvertedPendulum-v4] seed= 42 t=  140,769  ep=1085  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  141,769  ep=1086  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  142,769  ep=1087  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  143,769  ep=1088  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  144,769  ep=1089  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  145,769  ep=1090  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  146,769  ep=1091  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  147,769  ep=1092  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  148,769  ep=1093  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  149,769  ep=1094  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  150,000  avg_reward=  1000.00  (10 eps)  elapsed=12.4min ***
+[InvertedPendulum-v4] seed= 42 t=  150,769  ep=1095  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  151,769  ep=1096  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  152,769  ep=1097  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  153,769  ep=1098  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  154,769  ep=1099  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  155,769  ep=1100  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  156,769  ep=1101  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  157,769  ep=1102  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  158,769  ep=1103  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  159,769  ep=1104  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  160,000  avg_reward=  1000.00  (10 eps)  elapsed=13.2min ***
+[InvertedPendulum-v4] seed= 42 t=  160,769  ep=1105  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  161,769  ep=1106  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  162,769  ep=1107  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  163,769  ep=1108  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  164,769  ep=1109  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  165,769  ep=1110  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  166,769  ep=1111  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  167,769  ep=1112  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  168,769  ep=1113  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  169,769  ep=1114  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  170,000  avg_reward=  1000.00  (10 eps)  elapsed=14.1min ***
+[InvertedPendulum-v4] seed= 42 t=  170,769  ep=1115  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  171,769  ep=1116  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  172,769  ep=1117  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  173,769  ep=1118  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  174,769  ep=1119  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  175,769  ep=1120  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  176,769  ep=1121  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  177,769  ep=1122  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  178,769  ep=1123  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  179,769  ep=1124  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  180,000  avg_reward=  1000.00  (10 eps)  elapsed=14.9min ***
+[InvertedPendulum-v4] seed= 42 t=  180,769  ep=1125  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  181,769  ep=1126  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  182,769  ep=1127  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  183,769  ep=1128  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  184,769  ep=1129  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  185,769  ep=1130  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  186,769  ep=1131  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  187,769  ep=1132  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  188,769  ep=1133  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  189,769  ep=1134  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  190,000  avg_reward=  1000.00  (10 eps)  elapsed=15.7min ***
+[InvertedPendulum-v4] seed= 42 t=  190,769  ep=1135  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  191,769  ep=1136  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  192,769  ep=1137  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  193,769  ep=1138  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  194,769  ep=1139  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  195,769  ep=1140  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  196,769  ep=1141  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  197,769  ep=1142  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  198,769  ep=1143  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  199,769  ep=1144  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  200,000  avg_reward=  1000.00  (10 eps)  elapsed=16.5min ***
+[InvertedPendulum-v4] seed= 42 t=  200,769  ep=1145  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  201,769  ep=1146  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  202,769  ep=1147  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  203,769  ep=1148  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  204,769  ep=1149  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  205,769  ep=1150  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  206,769  ep=1151  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  207,769  ep=1152  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  208,769  ep=1153  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  209,769  ep=1154  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  210,000  avg_reward=  1000.00  (10 eps)  elapsed=17.3min ***
+[InvertedPendulum-v4] seed= 42 t=  210,769  ep=1155  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  211,769  ep=1156  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  212,769  ep=1157  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  213,769  ep=1158  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  214,769  ep=1159  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  215,769  ep=1160  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  216,769  ep=1161  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  217,769  ep=1162  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  218,769  ep=1163  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  219,769  ep=1164  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  220,000  avg_reward=  1000.00  (10 eps)  elapsed=18.1min ***
+[InvertedPendulum-v4] seed= 42 t=  220,769  ep=1165  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  221,769  ep=1166  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  222,769  ep=1167  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  223,769  ep=1168  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  224,769  ep=1169  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  225,769  ep=1170  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  226,769  ep=1171  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  227,769  ep=1172  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  228,769  ep=1173  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  229,769  ep=1174  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  230,000  avg_reward=  1000.00  (10 eps)  elapsed=19.0min ***
+[InvertedPendulum-v4] seed= 42 t=  230,769  ep=1175  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  231,769  ep=1176  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  232,769  ep=1177  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  233,769  ep=1178  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  234,769  ep=1179  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  235,769  ep=1180  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  236,769  ep=1181  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  237,769  ep=1182  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  238,769  ep=1183  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  239,769  ep=1184  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  240,000  avg_reward=  1000.00  (10 eps)  elapsed=19.8min ***
+[InvertedPendulum-v4] seed= 42 t=  240,769  ep=1185  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  241,769  ep=1186  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  242,769  ep=1187  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  243,769  ep=1188  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  244,769  ep=1189  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  245,769  ep=1190  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  246,769  ep=1191  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  247,769  ep=1192  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  248,769  ep=1193  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  249,769  ep=1194  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  250,000  avg_reward=  1000.00  (10 eps)  elapsed=20.6min ***
+[InvertedPendulum-v4] seed= 42 t=  250,769  ep=1195  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  251,769  ep=1196  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  252,769  ep=1197  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  253,769  ep=1198  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  254,769  ep=1199  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  255,769  ep=1200  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  256,769  ep=1201  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  257,769  ep=1202  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  258,769  ep=1203  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  259,769  ep=1204  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  260,000  avg_reward=  1000.00  (10 eps)  elapsed=21.4min ***
+[InvertedPendulum-v4] seed= 42 t=  260,769  ep=1205  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  261,769  ep=1206  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  262,769  ep=1207  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  263,769  ep=1208  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  264,769  ep=1209  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  265,769  ep=1210  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  266,769  ep=1211  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  267,769  ep=1212  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  268,769  ep=1213  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  269,769  ep=1214  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  270,000  avg_reward=  1000.00  (10 eps)  elapsed=22.2min ***
+[InvertedPendulum-v4] seed= 42 t=  270,769  ep=1215  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  271,769  ep=1216  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  272,769  ep=1217  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  273,769  ep=1218  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  274,769  ep=1219  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  275,769  ep=1220  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  276,769  ep=1221  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  277,769  ep=1222  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  278,452  ep=1223  ep_reward=   683.00  ep_steps=683
+[InvertedPendulum-v4] seed= 42 t=  278,661  ep=1224  ep_reward=   209.00  ep_steps=209
+[InvertedPendulum-v4] seed= 42 t=  278,802  ep=1225  ep_reward=   141.00  ep_steps=141
+[InvertedPendulum-v4] seed= 42 t=  278,977  ep=1226  ep_reward=   175.00  ep_steps=175
+[InvertedPendulum-v4] seed= 42 t=  279,134  ep=1227  ep_reward=   157.00  ep_steps=157
+[InvertedPendulum-v4] seed= 42 t=  279,321  ep=1228  ep_reward=   187.00  ep_steps=187
+[InvertedPendulum-v4] seed= 42 t=  279,475  ep=1229  ep_reward=   154.00  ep_steps=154
+[InvertedPendulum-v4] seed= 42 t=  279,689  ep=1230  ep_reward=   214.00  ep_steps=214
+  *** Eval  t=  280,000  avg_reward=  1000.00  (10 eps)  elapsed=23.0min ***
+[InvertedPendulum-v4] seed= 42 t=  280,138  ep=1231  ep_reward=   449.00  ep_steps=449
+[InvertedPendulum-v4] seed= 42 t=  280,418  ep=1232  ep_reward=   280.00  ep_steps=280
+[InvertedPendulum-v4] seed= 42 t=  280,692  ep=1233  ep_reward=   274.00  ep_steps=274
+[InvertedPendulum-v4] seed= 42 t=  281,027  ep=1234  ep_reward=   335.00  ep_steps=335
+[InvertedPendulum-v4] seed= 42 t=  282,027  ep=1235  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  283,027  ep=1236  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  284,027  ep=1237  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  285,027  ep=1238  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  286,027  ep=1239  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  287,027  ep=1240  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  288,027  ep=1241  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  289,027  ep=1242  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  290,000  avg_reward=  1000.00  (10 eps)  elapsed=23.9min ***
+[InvertedPendulum-v4] seed= 42 t=  290,027  ep=1243  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  291,027  ep=1244  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  292,027  ep=1245  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  293,027  ep=1246  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  294,027  ep=1247  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  295,027  ep=1248  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  296,027  ep=1249  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  297,027  ep=1250  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  298,027  ep=1251  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  299,027  ep=1252  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  300,000  avg_reward=  1000.00  (10 eps)  elapsed=24.7min ***
+[InvertedPendulum-v4] seed= 42 t=  300,027  ep=1253  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  301,027  ep=1254  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  302,027  ep=1255  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  303,027  ep=1256  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  304,027  ep=1257  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  305,027  ep=1258  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  306,027  ep=1259  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  307,027  ep=1260  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  308,027  ep=1261  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  309,027  ep=1262  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  310,000  avg_reward=  1000.00  (10 eps)  elapsed=25.5min ***
+[InvertedPendulum-v4] seed= 42 t=  310,027  ep=1263  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  311,027  ep=1264  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  312,027  ep=1265  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  313,027  ep=1266  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  314,027  ep=1267  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  315,027  ep=1268  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  316,027  ep=1269  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  317,027  ep=1270  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  318,027  ep=1271  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  319,027  ep=1272  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  320,000  avg_reward=  1000.00  (10 eps)  elapsed=26.3min ***
+[InvertedPendulum-v4] seed= 42 t=  320,027  ep=1273  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  321,027  ep=1274  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  322,027  ep=1275  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  323,027  ep=1276  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  324,027  ep=1277  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  325,027  ep=1278  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  326,027  ep=1279  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  327,027  ep=1280  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  328,027  ep=1281  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  329,027  ep=1282  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  330,000  avg_reward=  1000.00  (10 eps)  elapsed=27.2min ***
+[InvertedPendulum-v4] seed= 42 t=  330,027  ep=1283  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  331,027  ep=1284  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  332,027  ep=1285  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  333,027  ep=1286  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  334,027  ep=1287  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  335,027  ep=1288  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  336,027  ep=1289  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  337,027  ep=1290  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  338,027  ep=1291  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  339,027  ep=1292  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  340,000  avg_reward=  1000.00  (10 eps)  elapsed=28.0min ***
+[InvertedPendulum-v4] seed= 42 t=  340,027  ep=1293  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  341,027  ep=1294  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  342,027  ep=1295  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  343,027  ep=1296  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  344,027  ep=1297  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  345,027  ep=1298  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  346,027  ep=1299  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  347,027  ep=1300  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  348,027  ep=1301  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  349,027  ep=1302  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  350,000  avg_reward=  1000.00  (10 eps)  elapsed=28.8min ***
+[InvertedPendulum-v4] seed= 42 t=  350,027  ep=1303  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  351,027  ep=1304  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  352,027  ep=1305  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  353,027  ep=1306  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  354,027  ep=1307  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  355,027  ep=1308  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  356,027  ep=1309  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  357,027  ep=1310  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  358,027  ep=1311  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  359,027  ep=1312  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  360,000  avg_reward=  1000.00  (10 eps)  elapsed=29.7min ***
+[InvertedPendulum-v4] seed= 42 t=  360,027  ep=1313  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  361,027  ep=1314  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  362,027  ep=1315  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  363,027  ep=1316  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  364,027  ep=1317  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  365,027  ep=1318  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  366,027  ep=1319  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  367,027  ep=1320  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  368,027  ep=1321  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  369,027  ep=1322  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  370,000  avg_reward=  1000.00  (10 eps)  elapsed=30.5min ***
+[InvertedPendulum-v4] seed= 42 t=  370,027  ep=1323  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  371,027  ep=1324  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  372,027  ep=1325  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  373,027  ep=1326  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  374,027  ep=1327  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  375,027  ep=1328  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  376,027  ep=1329  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  377,027  ep=1330  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  378,027  ep=1331  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  379,027  ep=1332  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  380,000  avg_reward=  1000.00  (10 eps)  elapsed=31.3min ***
+[InvertedPendulum-v4] seed= 42 t=  380,027  ep=1333  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  381,027  ep=1334  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  382,027  ep=1335  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  383,027  ep=1336  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  384,027  ep=1337  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  385,027  ep=1338  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  386,027  ep=1339  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  387,027  ep=1340  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  388,027  ep=1341  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  389,027  ep=1342  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  390,000  avg_reward=  1000.00  (10 eps)  elapsed=32.2min ***
+[InvertedPendulum-v4] seed= 42 t=  390,027  ep=1343  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  391,027  ep=1344  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  392,027  ep=1345  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  393,027  ep=1346  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  394,027  ep=1347  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  395,027  ep=1348  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  396,027  ep=1349  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  397,027  ep=1350  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  398,027  ep=1351  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  399,027  ep=1352  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  400,000  avg_reward=  1000.00  (10 eps)  elapsed=33.0min ***
+[InvertedPendulum-v4] seed= 42 t=  400,027  ep=1353  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  401,027  ep=1354  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  402,027  ep=1355  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  403,027  ep=1356  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  404,027  ep=1357  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  405,027  ep=1358  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  406,027  ep=1359  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  407,027  ep=1360  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  408,027  ep=1361  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  409,027  ep=1362  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  410,000  avg_reward=  1000.00  (10 eps)  elapsed=33.8min ***
+[InvertedPendulum-v4] seed= 42 t=  410,027  ep=1363  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  411,027  ep=1364  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  412,027  ep=1365  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  413,027  ep=1366  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  414,027  ep=1367  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  415,027  ep=1368  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  416,027  ep=1369  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  417,027  ep=1370  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  418,027  ep=1371  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  419,027  ep=1372  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  420,000  avg_reward=  1000.00  (10 eps)  elapsed=34.6min ***
+[InvertedPendulum-v4] seed= 42 t=  420,027  ep=1373  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  421,027  ep=1374  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  422,027  ep=1375  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  423,027  ep=1376  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  424,027  ep=1377  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  425,027  ep=1378  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  426,027  ep=1379  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  427,027  ep=1380  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  428,027  ep=1381  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  429,027  ep=1382  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  430,000  avg_reward=  1000.00  (10 eps)  elapsed=35.5min ***
+[InvertedPendulum-v4] seed= 42 t=  430,027  ep=1383  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  431,027  ep=1384  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  432,027  ep=1385  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  433,027  ep=1386  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  434,027  ep=1387  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  435,027  ep=1388  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  436,027  ep=1389  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  437,027  ep=1390  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  438,027  ep=1391  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  439,027  ep=1392  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  440,000  avg_reward=  1000.00  (10 eps)  elapsed=36.3min ***
+[InvertedPendulum-v4] seed= 42 t=  440,027  ep=1393  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  441,027  ep=1394  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  442,027  ep=1395  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  443,027  ep=1396  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  444,027  ep=1397  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  445,027  ep=1398  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  446,027  ep=1399  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  447,027  ep=1400  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  448,027  ep=1401  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  449,027  ep=1402  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  450,000  avg_reward=  1000.00  (10 eps)  elapsed=37.1min ***
+[InvertedPendulum-v4] seed= 42 t=  450,027  ep=1403  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  451,027  ep=1404  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  452,027  ep=1405  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  453,027  ep=1406  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  454,027  ep=1407  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  455,027  ep=1408  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  456,027  ep=1409  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  457,027  ep=1410  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  458,027  ep=1411  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  459,027  ep=1412  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  460,000  avg_reward=  1000.00  (10 eps)  elapsed=37.9min ***
+[InvertedPendulum-v4] seed= 42 t=  460,027  ep=1413  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  461,027  ep=1414  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  462,027  ep=1415  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  463,027  ep=1416  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  464,027  ep=1417  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  465,027  ep=1418  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  466,027  ep=1419  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  467,027  ep=1420  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  468,027  ep=1421  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  469,027  ep=1422  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  470,000  avg_reward=  1000.00  (10 eps)  elapsed=38.8min ***
+[InvertedPendulum-v4] seed= 42 t=  470,027  ep=1423  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  471,027  ep=1424  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  472,027  ep=1425  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  473,027  ep=1426  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  474,027  ep=1427  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  475,027  ep=1428  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  476,027  ep=1429  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  477,027  ep=1430  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  478,027  ep=1431  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  479,027  ep=1432  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  480,000  avg_reward=  1000.00  (10 eps)  elapsed=39.6min ***
+[InvertedPendulum-v4] seed= 42 t=  480,027  ep=1433  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  481,027  ep=1434  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  482,027  ep=1435  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  483,027  ep=1436  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  484,027  ep=1437  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  485,027  ep=1438  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  486,027  ep=1439  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  487,027  ep=1440  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  488,027  ep=1441  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  489,027  ep=1442  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  490,000  avg_reward=  1000.00  (10 eps)  elapsed=40.4min ***
+[InvertedPendulum-v4] seed= 42 t=  490,027  ep=1443  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  491,027  ep=1444  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  492,027  ep=1445  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  493,027  ep=1446  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  494,027  ep=1447  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  495,027  ep=1448  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  496,027  ep=1449  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  497,027  ep=1450  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  498,027  ep=1451  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  499,027  ep=1452  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  500,000  avg_reward=  1000.00  (10 eps)  elapsed=41.2min ***
+[InvertedPendulum-v4] seed= 42 t=  500,027  ep=1453  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  501,027  ep=1454  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  502,027  ep=1455  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  503,027  ep=1456  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  504,027  ep=1457  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  505,027  ep=1458  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  506,027  ep=1459  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  507,027  ep=1460  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  508,027  ep=1461  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  509,027  ep=1462  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  510,000  avg_reward=  1000.00  (10 eps)  elapsed=42.0min ***
+[InvertedPendulum-v4] seed= 42 t=  510,027  ep=1463  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  511,027  ep=1464  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  512,027  ep=1465  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  513,027  ep=1466  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  514,027  ep=1467  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  515,027  ep=1468  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  516,027  ep=1469  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  517,027  ep=1470  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  518,027  ep=1471  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  519,027  ep=1472  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  520,000  avg_reward=  1000.00  (10 eps)  elapsed=42.8min ***
+[InvertedPendulum-v4] seed= 42 t=  520,027  ep=1473  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  521,027  ep=1474  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  522,027  ep=1475  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  523,027  ep=1476  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  524,027  ep=1477  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  525,027  ep=1478  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  526,027  ep=1479  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  527,027  ep=1480  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  528,027  ep=1481  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  529,027  ep=1482  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  530,000  avg_reward=  1000.00  (10 eps)  elapsed=43.6min ***
+[InvertedPendulum-v4] seed= 42 t=  530,027  ep=1483  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  531,027  ep=1484  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  532,027  ep=1485  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  533,027  ep=1486  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  534,027  ep=1487  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  535,027  ep=1488  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  536,027  ep=1489  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  537,027  ep=1490  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  538,027  ep=1491  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  539,027  ep=1492  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  540,000  avg_reward=  1000.00  (10 eps)  elapsed=44.4min ***
+[InvertedPendulum-v4] seed= 42 t=  540,027  ep=1493  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  541,027  ep=1494  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  542,027  ep=1495  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  543,027  ep=1496  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  544,027  ep=1497  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  545,027  ep=1498  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  546,027  ep=1499  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  547,027  ep=1500  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  548,027  ep=1501  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  549,027  ep=1502  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  550,000  avg_reward=  1000.00  (10 eps)  elapsed=45.2min ***
+[InvertedPendulum-v4] seed= 42 t=  550,027  ep=1503  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  551,027  ep=1504  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  552,027  ep=1505  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  553,027  ep=1506  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  554,027  ep=1507  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  555,027  ep=1508  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  556,027  ep=1509  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  557,027  ep=1510  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  558,027  ep=1511  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  559,027  ep=1512  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  560,000  avg_reward=  1000.00  (10 eps)  elapsed=46.0min ***
+[InvertedPendulum-v4] seed= 42 t=  560,027  ep=1513  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  561,027  ep=1514  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  562,027  ep=1515  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  563,027  ep=1516  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  564,027  ep=1517  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  565,027  ep=1518  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  566,027  ep=1519  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  567,027  ep=1520  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  568,027  ep=1521  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  569,027  ep=1522  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  570,000  avg_reward=  1000.00  (10 eps)  elapsed=46.7min ***
+[InvertedPendulum-v4] seed= 42 t=  570,027  ep=1523  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  571,027  ep=1524  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  572,027  ep=1525  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  573,027  ep=1526  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  574,027  ep=1527  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  575,027  ep=1528  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  576,027  ep=1529  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  577,027  ep=1530  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  578,027  ep=1531  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  579,027  ep=1532  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  580,000  avg_reward=  1000.00  (10 eps)  elapsed=47.5min ***
+[InvertedPendulum-v4] seed= 42 t=  580,027  ep=1533  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  581,027  ep=1534  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  582,027  ep=1535  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  583,027  ep=1536  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  584,027  ep=1537  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  585,027  ep=1538  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  586,027  ep=1539  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  587,027  ep=1540  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  588,027  ep=1541  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  589,027  ep=1542  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  590,000  avg_reward=  1000.00  (10 eps)  elapsed=48.3min ***
+[InvertedPendulum-v4] seed= 42 t=  590,027  ep=1543  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  591,027  ep=1544  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  592,027  ep=1545  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  593,027  ep=1546  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  594,027  ep=1547  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  595,027  ep=1548  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  596,027  ep=1549  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  597,027  ep=1550  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  598,027  ep=1551  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  599,027  ep=1552  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  600,000  avg_reward=  1000.00  (10 eps)  elapsed=49.1min ***
+[InvertedPendulum-v4] seed= 42 t=  600,027  ep=1553  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  601,027  ep=1554  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  602,027  ep=1555  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  603,027  ep=1556  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  604,027  ep=1557  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  605,027  ep=1558  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  606,027  ep=1559  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  607,027  ep=1560  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  608,027  ep=1561  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  609,027  ep=1562  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  610,000  avg_reward=  1000.00  (10 eps)  elapsed=49.9min ***
+[InvertedPendulum-v4] seed= 42 t=  610,027  ep=1563  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  611,027  ep=1564  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  612,027  ep=1565  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  613,027  ep=1566  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  614,027  ep=1567  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  615,027  ep=1568  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  616,027  ep=1569  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  617,027  ep=1570  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  618,027  ep=1571  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  619,027  ep=1572  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  620,000  avg_reward=  1000.00  (10 eps)  elapsed=50.8min ***
+[InvertedPendulum-v4] seed= 42 t=  620,027  ep=1573  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  621,027  ep=1574  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  622,027  ep=1575  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  623,027  ep=1576  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  624,027  ep=1577  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  625,027  ep=1578  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  626,027  ep=1579  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  627,027  ep=1580  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  628,027  ep=1581  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  629,027  ep=1582  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  630,000  avg_reward=  1000.00  (10 eps)  elapsed=51.6min ***
+[InvertedPendulum-v4] seed= 42 t=  630,027  ep=1583  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  631,027  ep=1584  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  632,027  ep=1585  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  633,027  ep=1586  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  634,027  ep=1587  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  635,027  ep=1588  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  636,027  ep=1589  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  637,027  ep=1590  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  638,027  ep=1591  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  639,027  ep=1592  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  640,000  avg_reward=  1000.00  (10 eps)  elapsed=52.4min ***
+[InvertedPendulum-v4] seed= 42 t=  640,027  ep=1593  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  641,027  ep=1594  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  642,027  ep=1595  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  643,027  ep=1596  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  644,027  ep=1597  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  645,027  ep=1598  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  646,027  ep=1599  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  647,027  ep=1600  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  648,027  ep=1601  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  649,027  ep=1602  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  650,000  avg_reward=  1000.00  (10 eps)  elapsed=53.2min ***
+[InvertedPendulum-v4] seed= 42 t=  650,027  ep=1603  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  651,027  ep=1604  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  652,027  ep=1605  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  653,027  ep=1606  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  654,027  ep=1607  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  655,027  ep=1608  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  656,027  ep=1609  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  657,027  ep=1610  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  658,027  ep=1611  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  659,027  ep=1612  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  660,000  avg_reward=  1000.00  (10 eps)  elapsed=54.1min ***
+[InvertedPendulum-v4] seed= 42 t=  660,027  ep=1613  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  661,027  ep=1614  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  662,027  ep=1615  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  663,027  ep=1616  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  664,027  ep=1617  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  665,027  ep=1618  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  666,027  ep=1619  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  667,027  ep=1620  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  668,027  ep=1621  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  669,027  ep=1622  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  670,000  avg_reward=  1000.00  (10 eps)  elapsed=54.9min ***
+[InvertedPendulum-v4] seed= 42 t=  670,027  ep=1623  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  671,027  ep=1624  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  672,027  ep=1625  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  673,027  ep=1626  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  674,027  ep=1627  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  675,027  ep=1628  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  676,027  ep=1629  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  677,027  ep=1630  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  678,027  ep=1631  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  679,027  ep=1632  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  680,000  avg_reward=  1000.00  (10 eps)  elapsed=55.7min ***
+[InvertedPendulum-v4] seed= 42 t=  680,027  ep=1633  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  681,027  ep=1634  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  682,027  ep=1635  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  683,027  ep=1636  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  684,027  ep=1637  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  685,027  ep=1638  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  686,027  ep=1639  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  687,027  ep=1640  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  688,027  ep=1641  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  689,027  ep=1642  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  690,000  avg_reward=  1000.00  (10 eps)  elapsed=56.5min ***
+[InvertedPendulum-v4] seed= 42 t=  690,027  ep=1643  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  691,027  ep=1644  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  692,027  ep=1645  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  693,027  ep=1646  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  694,027  ep=1647  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  695,027  ep=1648  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  696,027  ep=1649  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  697,027  ep=1650  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  698,027  ep=1651  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  699,027  ep=1652  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  700,000  avg_reward=  1000.00  (10 eps)  elapsed=57.3min ***
+[InvertedPendulum-v4] seed= 42 t=  700,027  ep=1653  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  701,027  ep=1654  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  702,027  ep=1655  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  703,027  ep=1656  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  704,027  ep=1657  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  705,027  ep=1658  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  706,027  ep=1659  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  707,027  ep=1660  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  708,027  ep=1661  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  709,027  ep=1662  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  710,000  avg_reward=  1000.00  (10 eps)  elapsed=58.2min ***
+[InvertedPendulum-v4] seed= 42 t=  710,027  ep=1663  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  711,027  ep=1664  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  712,027  ep=1665  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  713,027  ep=1666  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  714,027  ep=1667  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  715,027  ep=1668  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  716,027  ep=1669  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  717,027  ep=1670  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  718,027  ep=1671  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  719,027  ep=1672  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  720,000  avg_reward=  1000.00  (10 eps)  elapsed=59.0min ***
+[InvertedPendulum-v4] seed= 42 t=  720,027  ep=1673  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  721,027  ep=1674  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  722,027  ep=1675  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  723,027  ep=1676  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  724,027  ep=1677  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  725,027  ep=1678  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  726,027  ep=1679  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  727,027  ep=1680  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  728,027  ep=1681  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  729,027  ep=1682  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  730,000  avg_reward=  1000.00  (10 eps)  elapsed=59.8min ***
+[InvertedPendulum-v4] seed= 42 t=  730,027  ep=1683  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  731,027  ep=1684  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  732,027  ep=1685  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  733,027  ep=1686  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  734,027  ep=1687  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  735,027  ep=1688  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  736,027  ep=1689  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  737,027  ep=1690  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  738,027  ep=1691  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  739,027  ep=1692  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  740,000  avg_reward=  1000.00  (10 eps)  elapsed=60.6min ***
+[InvertedPendulum-v4] seed= 42 t=  740,027  ep=1693  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  741,027  ep=1694  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  742,027  ep=1695  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  743,027  ep=1696  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  744,027  ep=1697  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  745,027  ep=1698  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  746,027  ep=1699  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  747,027  ep=1700  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  748,027  ep=1701  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  749,027  ep=1702  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  750,000  avg_reward=  1000.00  (10 eps)  elapsed=61.4min ***
+[InvertedPendulum-v4] seed= 42 t=  750,027  ep=1703  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  751,027  ep=1704  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  752,027  ep=1705  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  753,027  ep=1706  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  754,027  ep=1707  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  755,027  ep=1708  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  756,027  ep=1709  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  757,027  ep=1710  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  758,027  ep=1711  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  759,027  ep=1712  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  760,000  avg_reward=  1000.00  (10 eps)  elapsed=62.3min ***
+[InvertedPendulum-v4] seed= 42 t=  760,027  ep=1713  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  761,027  ep=1714  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  762,027  ep=1715  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  763,027  ep=1716  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  764,027  ep=1717  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  765,027  ep=1718  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  766,027  ep=1719  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  767,027  ep=1720  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  768,027  ep=1721  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  769,027  ep=1722  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  770,000  avg_reward=  1000.00  (10 eps)  elapsed=63.1min ***
+[InvertedPendulum-v4] seed= 42 t=  770,027  ep=1723  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  771,027  ep=1724  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  772,027  ep=1725  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  773,027  ep=1726  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  774,027  ep=1727  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  775,027  ep=1728  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  776,027  ep=1729  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  777,027  ep=1730  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  778,027  ep=1731  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  779,027  ep=1732  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  780,000  avg_reward=  1000.00  (10 eps)  elapsed=63.9min ***
+[InvertedPendulum-v4] seed= 42 t=  780,027  ep=1733  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  781,027  ep=1734  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  782,027  ep=1735  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  783,027  ep=1736  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  784,027  ep=1737  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  785,027  ep=1738  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  786,027  ep=1739  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  787,027  ep=1740  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  788,027  ep=1741  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  789,027  ep=1742  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  790,000  avg_reward=  1000.00  (10 eps)  elapsed=64.8min ***
+[InvertedPendulum-v4] seed= 42 t=  790,027  ep=1743  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  791,027  ep=1744  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  792,027  ep=1745  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  793,027  ep=1746  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  794,027  ep=1747  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  795,027  ep=1748  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  796,027  ep=1749  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  797,027  ep=1750  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  798,027  ep=1751  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  799,027  ep=1752  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  800,000  avg_reward=  1000.00  (10 eps)  elapsed=65.6min ***
+[InvertedPendulum-v4] seed= 42 t=  800,027  ep=1753  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  801,027  ep=1754  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  802,027  ep=1755  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  803,027  ep=1756  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  804,027  ep=1757  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  805,027  ep=1758  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  806,027  ep=1759  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  807,027  ep=1760  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  808,027  ep=1761  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  809,027  ep=1762  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  810,000  avg_reward=  1000.00  (10 eps)  elapsed=66.4min ***
+[InvertedPendulum-v4] seed= 42 t=  810,027  ep=1763  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  811,027  ep=1764  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  812,027  ep=1765  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  813,027  ep=1766  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  814,027  ep=1767  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  815,027  ep=1768  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  816,027  ep=1769  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  817,027  ep=1770  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  818,027  ep=1771  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  819,027  ep=1772  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  820,000  avg_reward=  1000.00  (10 eps)  elapsed=67.2min ***
+[InvertedPendulum-v4] seed= 42 t=  820,027  ep=1773  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  821,027  ep=1774  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  822,027  ep=1775  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  823,027  ep=1776  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  824,027  ep=1777  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  825,027  ep=1778  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  826,027  ep=1779  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  827,027  ep=1780  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  828,027  ep=1781  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  829,027  ep=1782  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  830,000  avg_reward=  1000.00  (10 eps)  elapsed=68.1min ***
+[InvertedPendulum-v4] seed= 42 t=  830,027  ep=1783  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  831,027  ep=1784  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  832,027  ep=1785  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  833,027  ep=1786  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  834,027  ep=1787  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  835,027  ep=1788  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  836,027  ep=1789  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  837,027  ep=1790  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  838,027  ep=1791  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  839,027  ep=1792  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  840,000  avg_reward=  1000.00  (10 eps)  elapsed=68.9min ***
+[InvertedPendulum-v4] seed= 42 t=  840,027  ep=1793  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  841,027  ep=1794  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  842,027  ep=1795  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  843,027  ep=1796  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  844,027  ep=1797  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  845,027  ep=1798  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  846,027  ep=1799  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  847,027  ep=1800  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  848,027  ep=1801  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  849,027  ep=1802  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  850,000  avg_reward=  1000.00  (10 eps)  elapsed=69.7min ***
+[InvertedPendulum-v4] seed= 42 t=  850,027  ep=1803  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  851,027  ep=1804  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  852,027  ep=1805  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  853,027  ep=1806  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  854,027  ep=1807  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  855,027  ep=1808  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  856,027  ep=1809  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  857,027  ep=1810  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  858,027  ep=1811  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  859,027  ep=1812  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  860,000  avg_reward=  1000.00  (10 eps)  elapsed=70.5min ***
+[InvertedPendulum-v4] seed= 42 t=  860,027  ep=1813  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  861,027  ep=1814  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  862,027  ep=1815  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  863,027  ep=1816  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  864,027  ep=1817  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  865,027  ep=1818  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  866,027  ep=1819  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  867,027  ep=1820  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  868,027  ep=1821  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  869,027  ep=1822  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  870,000  avg_reward=  1000.00  (10 eps)  elapsed=71.3min ***
+[InvertedPendulum-v4] seed= 42 t=  870,027  ep=1823  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  871,027  ep=1824  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  872,027  ep=1825  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  873,027  ep=1826  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  874,027  ep=1827  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  875,027  ep=1828  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  876,027  ep=1829  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  877,027  ep=1830  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  878,027  ep=1831  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  879,027  ep=1832  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  880,000  avg_reward=  1000.00  (10 eps)  elapsed=72.2min ***
+[InvertedPendulum-v4] seed= 42 t=  880,027  ep=1833  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  881,027  ep=1834  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  882,027  ep=1835  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  883,027  ep=1836  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  884,027  ep=1837  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  885,027  ep=1838  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  886,027  ep=1839  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  887,027  ep=1840  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  888,027  ep=1841  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  889,027  ep=1842  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  890,000  avg_reward=  1000.00  (10 eps)  elapsed=72.9min ***
+[InvertedPendulum-v4] seed= 42 t=  890,027  ep=1843  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  891,027  ep=1844  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  892,027  ep=1845  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  893,027  ep=1846  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  894,027  ep=1847  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  895,027  ep=1848  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  896,027  ep=1849  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  897,027  ep=1850  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  898,027  ep=1851  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  899,027  ep=1852  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  900,000  avg_reward=  1000.00  (10 eps)  elapsed=73.7min ***
+[InvertedPendulum-v4] seed= 42 t=  900,027  ep=1853  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  901,027  ep=1854  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  902,027  ep=1855  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  903,027  ep=1856  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  904,027  ep=1857  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  905,027  ep=1858  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  906,027  ep=1859  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  907,027  ep=1860  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  908,027  ep=1861  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  909,027  ep=1862  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  910,000  avg_reward=  1000.00  (10 eps)  elapsed=74.5min ***
+[InvertedPendulum-v4] seed= 42 t=  910,027  ep=1863  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  911,027  ep=1864  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  912,027  ep=1865  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  913,027  ep=1866  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  914,027  ep=1867  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  915,027  ep=1868  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  916,027  ep=1869  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  917,027  ep=1870  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  918,027  ep=1871  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  919,027  ep=1872  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  920,000  avg_reward=  1000.00  (10 eps)  elapsed=75.4min ***
+[InvertedPendulum-v4] seed= 42 t=  920,027  ep=1873  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  921,027  ep=1874  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  922,027  ep=1875  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  923,027  ep=1876  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  924,027  ep=1877  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  925,027  ep=1878  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  926,027  ep=1879  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  927,027  ep=1880  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  928,027  ep=1881  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  929,027  ep=1882  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  930,000  avg_reward=  1000.00  (10 eps)  elapsed=76.2min ***
+[InvertedPendulum-v4] seed= 42 t=  930,027  ep=1883  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  931,027  ep=1884  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  932,027  ep=1885  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  933,027  ep=1886  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  934,027  ep=1887  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  935,027  ep=1888  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  936,027  ep=1889  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  937,027  ep=1890  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  938,027  ep=1891  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  939,027  ep=1892  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  940,000  avg_reward=  1000.00  (10 eps)  elapsed=77.0min ***
+[InvertedPendulum-v4] seed= 42 t=  940,027  ep=1893  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  941,027  ep=1894  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  942,027  ep=1895  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  943,027  ep=1896  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  944,027  ep=1897  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  945,027  ep=1898  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  946,027  ep=1899  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  947,027  ep=1900  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  948,027  ep=1901  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  949,027  ep=1902  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  950,000  avg_reward=  1000.00  (10 eps)  elapsed=77.8min ***
+[InvertedPendulum-v4] seed= 42 t=  950,027  ep=1903  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  951,027  ep=1904  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  952,027  ep=1905  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  953,027  ep=1906  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  954,027  ep=1907  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  955,027  ep=1908  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  956,027  ep=1909  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  957,027  ep=1910  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  958,027  ep=1911  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  959,027  ep=1912  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  960,000  avg_reward=  1000.00  (10 eps)  elapsed=78.7min ***
+[InvertedPendulum-v4] seed= 42 t=  960,027  ep=1913  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  961,027  ep=1914  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  962,027  ep=1915  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  963,027  ep=1916  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  964,027  ep=1917  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  965,027  ep=1918  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  966,027  ep=1919  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  967,027  ep=1920  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  968,027  ep=1921  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  969,027  ep=1922  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  970,000  avg_reward=  1000.00  (10 eps)  elapsed=79.5min ***
+[InvertedPendulum-v4] seed= 42 t=  970,027  ep=1923  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  971,027  ep=1924  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  972,027  ep=1925  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  973,027  ep=1926  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  974,027  ep=1927  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  975,027  ep=1928  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  976,027  ep=1929  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  977,027  ep=1930  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  978,027  ep=1931  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  979,027  ep=1932  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  980,000  avg_reward=  1000.00  (10 eps)  elapsed=80.2min ***
+[InvertedPendulum-v4] seed= 42 t=  980,027  ep=1933  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  981,027  ep=1934  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  982,027  ep=1935  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  983,027  ep=1936  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  984,027  ep=1937  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  985,027  ep=1938  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  986,027  ep=1939  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  987,027  ep=1940  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  988,027  ep=1941  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  989,027  ep=1942  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=  990,000  avg_reward=  1000.00  (10 eps)  elapsed=81.0min ***
+[InvertedPendulum-v4] seed= 42 t=  990,027  ep=1943  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  991,027  ep=1944  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  992,027  ep=1945  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  993,027  ep=1946  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  994,027  ep=1947  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  995,027  ep=1948  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  995,986  ep=1949  ep_reward=   959.00  ep_steps=959
+[InvertedPendulum-v4] seed= 42 t=  996,986  ep=1950  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  997,986  ep=1951  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  998,986  ep=1952  ep_reward=  1000.00  ep_steps=1000
+[InvertedPendulum-v4] seed= 42 t=  999,986  ep=1953  ep_reward=  1000.00  ep_steps=1000
+  *** Eval  t=1,000,000  avg_reward=  1000.00  (10 eps)  elapsed=81.8min ***
+Done: Tue Jun  9 01:03:14 PM IDT 2026

@@ -14,8 +14,8 @@
 
 mkdir -p logs results
 
-# Define seeds 55 68
-SEEDS=(42)
+# Define seeds 
+SEEDS=(42 55 68)
 CURRENT_SEED=${SEEDS[$SLURM_ARRAY_TASK_ID]}
 
 echo "Host: $(hostname)"
