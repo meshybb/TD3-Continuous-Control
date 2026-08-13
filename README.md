@@ -1,98 +1,72 @@
-# למידת חיזוק — מטלת בית
-## שיטות מדיניות עם פעולה רציפה (Policy Methods with Continuous Action)
+# DQN on Demon Attack
 
+Deep Reinforcement Learning agent for **Atari Demon Attack**, implemented and experimentally optimized using PyTorch.
 
-בחרנו ב:
-אלגוריתם : TD3
-סביבות: 
-InvertedPendulum, 
-Half Cheetah
----
+The project explores the design, training, and stabilization of a Deep Q-Network through large-scale simulation experiments.
 
-### מטרה
-מטרת מטלה זו היא לממש את אחד מאלגוריתמי ה-policy gradient עם פעולות רציפות שראינו בכיתה, באמצעות **PyTorch**.
-כיוצקע למטלה זו, ניתן לקרוא את המאמרים של PPO, DDPG, TD3 או SAC (קישורים נמצאים באתר הקורס בלמידה).
+## Highlights
 
-### תיאור המטלה
-עליכם לממש את הסוכן (agent) מאפס ב-PyTorch ולאמן אותו על **שתי** סביבות MuJoCo שייבחרו מתוך הגיליון (spreadsheet) הבא:
-[גיליון אלגוריתמים וסביבות (Algorithm and Environment spreadsheet)]
+* Implemented a **Deep Q-Network (DQN)** for Atari from scratch in PyTorch
+* Added **Double DQN**, **Target Network**, Experience Replay, and Huber Loss
+* Conducted **13+ experimental rounds** of hyperparameter and stability analysis
+* Trained and evaluated across multiple random seeds
+* Executed long-running experiments using **GPU + Slurm**
+* Achieved a peak score of **10,593**, exceeding the 9,711 reference benchmark
 
-https://gymnasium.farama.org/environments/mujoco/
+## Environment
 
-בגיליון זה:
-* כתבו את תעודות הזהות שלכם בשורה של האלגוריתם שבחרתם, במקום פנוי.
-* בחרו שתי סביבות MuJoCo מה-API של gymnasium.
-* מומלץ לרענן את העמוד לפני בחירת האלגוריתם כדי שלא תדרסו בחירות של אחרים.
+**DemonAttackNoFrameskip-v4**
 
-### דרישות מימוש
-1. קראו את המאמר של האלגוריתם הנבחר וממשו את השיטה ב-**PyTorch בלבד**.
-2. **אין להשתמש בשום ספריית RL** (למידת חיזוק).
-3. ניתן לממש את האלגוריתם כפי שמומש במאמר המקורי או כפי שראינו בכיתה.
-4. השתמשו ב-MuJoCo גרסה v4.
-5. אמנו את הסוכן שלכם על **שתי סביבות MuJoCo** וסמנו אותן בגיליון.
-6. **אינכם יכולים להשתמש בהיפר-פרמטרים המדויקים** מהמאמר; שחקו איתם מעט ודחפו את עצמכם לתוצאה הטובה ביותר.
-7. **זו אינה תחרות**, באופן פוטנציאלי כולכם יכולים לקבל את הציון המקסימלי, אתם מתחרים רק בעצמכם...
+The preprocessing pipeline includes:
 
-### דרישות אימון
-1. ניתן לאמן עד למספר מוגבל של **10 מיליון צעדי אימון**. 
-   (קריאה בודדת ל-`env.step(...)` נחשבת כצעד אימון אחד).
-2. במהלך האימון, עליכם לעקוב אחר הביצועים לאורך זמן:
-   * כל **10,000 צעדים**, בצעו הערכה (evaluation).
-   * בכל הערכה, הריצו אפיזודת הערכה אחת או יותר.
-   * תעדו את **התגמול הכולל (total reward)** שהושג במהלך ההערכה.
-3. בספרות, התקן המקובל הוא לבצע הערכה על פני **100 אפיזודות** ולדווח על הציון הממוצע. ניתן להשתמש בפחות אפיזודות הערכה, אך בכל מקרה **עליכם לציין בבירור בדוח כמה אפיזודות הערכה השתמשתם, וכיצד הערכתם את התוצאות**.
-4. עבור **התוצאה הסופית המדווחת**, עליכם לאמן את הסוכן 3 פעמים עבור כל סביבה ולדווח על **התגמולים הסופיים עבור 3 ריצות אימון שונות אלו**.
+* Grayscale conversion
+* 84×84 frame preprocessing
+* 4-frame stacking
+* Frame skipping
+* Reward clipping during training
+* Randomized episode initialization
 
-### דרישות דוח
-ההגשה הסופית שלכם חייבת לכלול **דוח PDF מפורט**.
-**הדוח צריך לתאר את הקוד שלכם, בחירות המימוש והתוצאות.**
-לכל הפחות, הדוח חייב לכלול:
-1. הסביבות שבחרתם.
-2. ההיפר-פרמטרים שהשתמשתם בהם.
-3. תיאור של מה שניסיתם ועבד.
-4. תיאור של מה שניסיתם ולא עבד (לדוגמה: בחירות היפר-פרמטרים שנכשלו וכדומה).
-5. 3 גרפים המראים את **התקדמות הלמידה** עבור כל ריצת אימון: ספציפית, תגמולי ההערכה כפונקציה של זמן האימון, עם נקודה אחת כל **10,000 צעדי אימון**, עד למגבלת האימון שבחרתם.
-6. מספר אפיזודות ההערכה בהן השתמשתם בכל הערכה.
-7. מספר צעדי האימון בהם השתמשתם בכל אימון.
-8. **התגמול הסופי**, מדווח כרשימה של **3 ריצות אימון בלתי תלויות**, והממוצע של ריצות אלו כסקלר בודד.
+## Architecture
 
-### פורמט הגשה
-עליכם להגיש את הדברים הבאים בקובץ zip יחיד:
-* דוח PDF.
-* קוד ה-Python שלכם.
-* סרטון של הסוכן המאומן הטוב ביותר עבור שתי הסביבות.
+Input `84 × 84 × 4`
 
----
+→ Conv Layer
+→ Conv Layer
+→ Fully Connected Layer
+→ Q-values for each action
 
-## ✅ רשימת משימות (Checklist) להגשה ולדוח
+The final implementation uses **Double DQN + Target Network** to improve training stability and reduce Q-value overestimation.
 
-### התארגנות וקוד
-- [ ] קריאת המאמר של האלגוריתם הנבחר (PPO/DDPG/TD3/SAC).
-- [ ] רישום תעודת זהות בגיליון תחת האלגוריתם הנבחר.
-- [ ] בחירת 2 סביבות MuJoCo (גרסה v4) מ-gymnasium וסימונן בגיליון.
-- [ ] מימוש האלגוריתם מאפס ב-PyTorch בלבד (ללא ספריות RL).
-- [ ] התאמת היפר-פרמטרים (לא להשתמש בדיוק באלו מהמאמר).
+## Experiments
 
-### תהליך האימון
-- [ ] הגדרת לולאת אימון (עד 10 מיליון צעדים לכל היותר).
-- [ ] ביצוע הערכה (evaluation) כל 10,000 צעדי אימון.
-- [ ] שמירת התגמול הכולל (total reward) של כל הערכה.
-- [ ] הרצת האימון במלואו **3 פעמים נפרדות** עבור כל אחת משתי הסביבות.
-- [ ] יצירת סרטון של הסוכן בעל הביצועים הטובים ביותר (עבור 2 הסביבות).
+The agent was developed through iterative experimentation with:
 
-### כתיבת הדוח (PDF)
-- [ ] ציון שמות 2 הסביבות שנבחרו.
-- [ ] פירוט ההיפר-פרמטרים שבהם השתמשתם.
-- [ ] תיאור: מה ניסיתם ו**עבד**.
-- [ ] תיאור: מה ניסיתם ו**לא עבד** (היפר-פרמטרים שנכשלו וכו').
-- [ ] הוספת 3 גרפים (אחד לכל ריצת אימון) המראים את התקדמות הלמידה: ציר X = צעדי אימון (נקודה כל 10k), ציר Y = תגמול הערכה.
-- [ ] ציון ברור של מספר אפיזודות ההערכה שבוצעו בכל שלב הערכה (וכיצד חושבה התוצאה).
-- [ ] ציון מספר צעדי האימון הכולל שבוצע בכל ריצה.
-- [ ] דיווח התוצאה הסופית: רשימה של 3 התגמולים (מהריצות הבלתי תלויות) + ציון הממוצע שלהם.
+* Learning rate
+* Replay buffer size
+* Batch size
+* Exploration schedule
+* Target network update frequency
+* Optimizer selection
+* Training duration
 
-### הכנת ההגשה (ZIP)
-- [ ] וידוא שקובץ ה-ZIP כולל את קוד ה-Python.
-- [ ] וידוא שקובץ ה-ZIP כולל את דוח ה-PDF.
-- [ ] וידוא שקובץ ה-ZIP כולל סרטון של הסוכן הטוב ביותר.
+Final experiments were evaluated across **3 independent seeds**.
 
-בהצלחה!
+## Results
+
+| Seed | Peak Score |
+| ---- | ---------: |
+| 42   |     10,593 |
+| 43   |   10,074.5 |
+| 44   |      8,146 |
+
+The experiments demonstrated the importance of target networks, Double DQN, replay-buffer diversity, and exploration scheduling for stable RL training.
+
+## Tech Stack
+
+**Python · PyTorch · Gym · OpenCV · NumPy · Slurm · GPU**
+
+## Key Takeaways
+
+This project provided hands-on experience with:
+
+**Reinforcement Learning · Simulation · Algorithm Design · GPU Experimentation · Hyperparameter Optimization · Statistical Evaluation**
