@@ -77,7 +77,8 @@ Long-running experiments were executed using **Slurm job arrays**, with checkpoi
 
 ![HalfCheetah Learning Curves](results/HalfCheetah-v4_combined_learning_curves.png)
 
-🎥 [Watch trained HalfCheetah agent](videos/HalfCheetah-v4-episode-2.mp4)
+![HalfCheetah TD3 Agent](assets/halfcheetah-demo.gif)
+
 
 ### InvertedPendulum-v4
 
