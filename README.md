@@ -68,3 +68,20 @@ Long-running experiments were executed using **Slurm job arrays**, with checkpoi
 * `results/` — learning curves and experiment results
 * `videos/` — trained agent demonstrations
 * `REPORT.md` — detailed experimental analysis
+
+## Results
+
+### HalfCheetah-v4
+
+**Mean final reward: 12,410.19 ± 721.92**
+
+![HalfCheetah Learning Curves](results/HalfCheetah-v4_combined_learning_curves.png)
+
+🎥 [Watch trained HalfCheetah agent](videos/HalfCheetah-v4-episode-2.mp4)
+
+### InvertedPendulum-v4
+
+**Final reward: 1,000 across all 3 seeds**
+
+🎥 [Watch trained InvertedPendulum agent](videos/InvertedPendulum-v4-episode-2.mp4)
+
