@@ -1,7 +1,11 @@
 # TD3 Continuous Control with MuJoCo
 
 Implementation of **Twin Delayed Deep Deterministic Policy Gradient (TD3) from scratch in PyTorch**, trained and evaluated on continuous-control simulation environments.
+## Trained Agent in Action
 
+Below is the trained TD3 policy controlling the **HalfCheetah-v4** environment:
+
+![HalfCheetah TD3 Agent](results/halfcheetah-demo.GIF)
 ## Overview
 
 This project explores reinforcement learning for continuous control using **TD3**, without external RL libraries.
@@ -77,9 +81,6 @@ Long-running experiments were executed using **Slurm job arrays**, with checkpoi
 
 ![HalfCheetah Learning Curves](results/HalfCheetah-v4_combined_learning_curves.png)
 
-**HalfCheetah-v4 controlled by the trained TD3 policy**
-
-![HalfCheetah TD3 Agent](results/halfcheetah-demo.GIF)
 
 
 ### InvertedPendulum-v4
